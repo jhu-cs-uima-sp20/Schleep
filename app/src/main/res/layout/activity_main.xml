@@ -9,7 +9,7 @@
 
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/floatingActionButton4"
+        android:id="@+id/createAlarmButton"
         android:layout_width="56dp"
         android:layout_height="60dp"
         android:layout_gravity="center"
@@ -55,6 +55,19 @@
 
 
     </androidx.appcompat.widget.Toolbar>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="290dp"
+        android:layout_height="382dp"
+        android:contentDescription="@string/sheepContentDescription"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.247"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar"
+        app:layout_constraintVertical_bias="0.943"
+        app:srcCompat="@drawable/ic_sheeps" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
 

@@ -33,8 +33,9 @@
                         </option>
                         <option name="values">
                           <map>
-                            <entry key="outputName" value="ic_add_circle_outline_black_24dp" />
-                            <entry key="sourceFile" value="C:\Users\vivia" />
+                            <entry key="assetSourceType" value="FILE" />
+                            <entry key="outputName" value="ic_sheeps" />
+                            <entry key="sourceFile" value="C:\Users\vivia\Downloads\sheeps.svg" />
                           </map>
                         </option>
                       </PersistentState>

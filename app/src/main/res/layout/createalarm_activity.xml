@@ -1,6 +1,263 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.schleep.CreateAlarmActivity"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="415dp"
+        android:layout_height="65dp"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="@style/ToolbarTheme"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+
+        <TextView
+            android:id="@+id/create_toolbar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="30sp"
+            android:text="@string/create_alarm" />
+
+        <Button
+            android:id="@+id/save_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_margin="@dimen/fab_margin"
+            app:srcCompat="@drawable/ic_settings_black_24dp"
+            android:text="@string/save"
+            android:background="@color/colorPrimary"/>
+        <Button
+            android:id="@+id/cancel_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_margin="@dimen/fab_margin"
+            app:srcCompat="@drawable/ic_settings_black_24dp"
+            android:text="@string/cancel"
+            android:background="@color/colorPrimary"/>
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="67dp"
+        android:text="@string/time"
+        android:textColor="@color/design_default_color_on_secondary"
+        android:textSize="25sp" />
+
+    <TimePicker
+        android:id="@+id/create_time_picker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="3dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="111dp"
+        android:timePickerMode="spinner" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="34dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="334dp"
+        android:text="@string/name"
+        android:textColor="@color/design_default_color_on_secondary"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/name_alarm_create"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="72dp"
+        android:layout_marginLeft="72dp"
+        android:layout_marginTop="333dp"
+        android:layout_marginEnd="-2dp"
+        android:layout_marginRight="-2dp"
+        android:gravity="end"
+        android:text="@string/name_of_alarm"
+        android:textAlignment="textEnd"
+        android:textAllCaps="false"
+        android:textColor="@color/fadedWords" />
+
+    <TextView
+        android:id="@+id/task"
+        android:layout_width="wrap_content"
+        android:layout_height="34dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginTop="392dp"
+        android:text="@string/task"
+        android:textColor="@color/design_default_color_on_secondary"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/task_button_create"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginBottom="284dp"
+        android:layout_toEndOf="@+id/task"
+        android:layout_toRightOf="@+id/task"
+        android:background="@color/cardview_light_background"
+        android:gravity="end"
+        android:text="@string/none"
+        android:textAlignment="textEnd"
+        android:textAllCaps="false"
+        android:textColor="@color/fadedWords"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/repeat"
+        android:layout_width="wrap_content"
+        android:layout_height="34dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-1dp"
+        android:layout_marginLeft="-1dp"
+        android:layout_marginTop="456dp"
+        android:text="@string/repeat"
+        android:textColor="@color/design_default_color_on_secondary"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/repeat_button_create"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="36dp"
+        android:layout_marginLeft="36dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginRight="1dp"
+        android:layout_marginBottom="221dp"
+        android:layout_toEndOf="@+id/task"
+        android:layout_toRightOf="@+id/task"
+        android:background="@color/cardview_light_background"
+        android:gravity="end"
+        android:text="@string/never"
+        android:textAlignment="textEnd"
+        android:textAllCaps="false"
+        android:textColor="@color/fadedWords"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/Snooze"
+        android:layout_width="wrap_content"
+        android:layout_height="34dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-1dp"
+        android:layout_marginLeft="-1dp"
+        android:layout_marginTop="519dp"
+        android:text="@string/snooze"
+        android:textColor="@color/design_default_color_on_secondary"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/snooze_button_create"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="31dp"
+        android:layout_marginLeft="31dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginRight="2dp"
+        android:layout_marginBottom="153dp"
+        android:layout_toEndOf="@+id/task"
+        android:layout_toRightOf="@+id/task"
+        android:background="@color/cardview_light_background"
+        android:gravity="end"
+        android:text="@string/never"
+        android:textAlignment="textEnd"
+        android:textAllCaps="false"
+        android:textColor="@color/fadedWords"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/sounds"
+        android:layout_width="wrap_content"
+        android:layout_height="34dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="582dp"
+        android:text="@string/sounds"
+        android:textColor="@color/design_default_color_on_secondary"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/sounds_button_create"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="31dp"
+        android:layout_marginLeft="31dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginRight="1dp"
+        android:layout_marginBottom="94dp"
+        android:layout_toEndOf="@+id/task"
+        android:layout_toRightOf="@+id/task"
+        android:background="@color/cardview_light_background"
+        android:gravity="end"
+        android:text="@string/default_sounds"
+        android:textAlignment="textEnd"
+        android:textAllCaps="false"
+        android:textColor="@color/fadedWords"
+        android:textSize="18sp" />
+
+</RelativeLayout>

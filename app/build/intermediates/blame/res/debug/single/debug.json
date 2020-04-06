@@ -12,6 +12,10 @@
         "source": "/Users/jessicanguyen/Schleep/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
     },
     {
+        "merged": "/Users/jessicanguyen/Schleep/app/build/intermediates/res/merged/debug/raw_la_cucaracha.mp3.flat",
+        "source": "/Users/jessicanguyen/Schleep/app/src/main/res/raw/la_cucaracha.mp3"
+    },
+    {
         "merged": "/Users/jessicanguyen/Schleep/app/build/intermediates/res/merged/debug/layout_fragment_second2.xml.flat",
         "source": "/Users/jessicanguyen/Schleep/app/src/main/res/layout/fragment_second2.xml"
     },
@@ -34,6 +38,10 @@
     {
         "merged": "/Users/jessicanguyen/Schleep/app/build/intermediates/res/merged/debug/navigation_nav_graph.xml.flat",
         "source": "/Users/jessicanguyen/Schleep/app/src/main/res/navigation/nav_graph.xml"
+    },
+    {
+        "merged": "/Users/jessicanguyen/Schleep/app/build/intermediates/res/merged/debug/raw_airhorn.mp3.flat",
+        "source": "/Users/jessicanguyen/Schleep/app/src/main/res/raw/airhorn.mp3"
     },
     {
         "merged": "/Users/jessicanguyen/Schleep/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher.png.flat",
@@ -72,6 +80,10 @@
         "source": "/Users/jessicanguyen/Schleep/app/src/main/res/layout/createalarm_activity.xml"
     },
     {
+        "merged": "/Users/jessicanguyen/Schleep/app/build/intermediates/res/merged/debug/drawable_underline.xml.flat",
+        "source": "/Users/jessicanguyen/Schleep/app/src/main/res/drawable/underline.xml"
+    },
+    {
         "merged": "/Users/jessicanguyen/Schleep/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher_round.png.flat",
         "source": "/Users/jessicanguyen/Schleep/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
     },
@@ -84,15 +96,43 @@
         "source": "/Users/jessicanguyen/Schleep/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
+        "merged": "/Users/jessicanguyen/Schleep/app/build/intermediates/res/merged/debug/raw_man_screaming.mp3.flat",
+        "source": "/Users/jessicanguyen/Schleep/app/src/main/res/raw/man_screaming.mp3"
+    },
+    {
+        "merged": "/Users/jessicanguyen/Schleep/app/build/intermediates/res/merged/debug/raw_cuckoo_clock.mp3.flat",
+        "source": "/Users/jessicanguyen/Schleep/app/src/main/res/raw/cuckoo_clock.mp3"
+    },
+    {
         "merged": "/Users/jessicanguyen/Schleep/app/build/intermediates/res/merged/debug/layout_fragment_first2.xml.flat",
         "source": "/Users/jessicanguyen/Schleep/app/src/main/res/layout/fragment_first2.xml"
+    },
+    {
+        "merged": "/Users/jessicanguyen/Schleep/app/build/intermediates/res/merged/debug/drawable_ic_settings_black_24dp.xml.flat",
+        "source": "/Users/jessicanguyen/Schleep/app/src/main/res/drawable/ic_settings_black_24dp.xml"
+    },
+    {
+        "merged": "/Users/jessicanguyen/Schleep/app/build/intermediates/res/merged/debug/raw_iphone_alarm.mp3.flat",
+        "source": "/Users/jessicanguyen/Schleep/app/src/main/res/raw/iphone_alarm.mp3"
     },
     {
         "merged": "/Users/jessicanguyen/Schleep/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher.png.flat",
         "source": "/Users/jessicanguyen/Schleep/app/src/main/res/mipmap-mdpi/ic_launcher.png"
     },
     {
+        "merged": "/Users/jessicanguyen/Schleep/app/build/intermediates/res/merged/debug/raw_morning_flower.mp3.flat",
+        "source": "/Users/jessicanguyen/Schleep/app/src/main/res/raw/morning_flower.mp3"
+    },
+    {
         "merged": "/Users/jessicanguyen/Schleep/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher_round.png.flat",
         "source": "/Users/jessicanguyen/Schleep/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/jessicanguyen/Schleep/app/build/intermediates/res/merged/debug/raw_rain.mp3.flat",
+        "source": "/Users/jessicanguyen/Schleep/app/src/main/res/raw/rain.mp3"
+    },
+    {
+        "merged": "/Users/jessicanguyen/Schleep/app/build/intermediates/res/merged/debug/raw_wii_music.mp3.flat",
+        "source": "/Users/jessicanguyen/Schleep/app/src/main/res/raw/wii_music.mp3"
     }
 ]

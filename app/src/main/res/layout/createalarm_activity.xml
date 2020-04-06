@@ -259,5 +259,7 @@
         android:textAllCaps="false"
         android:textColor="@color/fadedWords"
         android:textSize="18sp" />
+    <!--
+    -->
 
 </RelativeLayout>

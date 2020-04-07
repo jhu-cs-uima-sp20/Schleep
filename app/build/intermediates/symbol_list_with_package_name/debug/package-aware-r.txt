@@ -56,6 +56,7 @@ animator mtrl_fab_hide_motion_spec
 animator mtrl_fab_show_motion_spec
 animator mtrl_fab_transformation_sheet_collapse_spec
 animator mtrl_fab_transformation_sheet_expand_spec
+array days_abbreviated
 attr action
 attr actionBarDivider
 attr actionBarItemBackground
@@ -96,6 +97,7 @@ attr alertDialogButtonGroupStyle
 attr alertDialogCenterButtons
 attr alertDialogStyle
 attr alertDialogTheme
+attr alignmentMode
 attr allowStacking
 attr alpha
 attr alphabeticModifiers
@@ -237,6 +239,8 @@ attr colorSecondary
 attr colorSecondaryVariant
 attr colorSurface
 attr colorSwitchThumbNormal
+attr columnCount
+attr columnOrderPreserved
 attr commitIcon
 attr constraintSet
 attr constraint_referenced_ids
@@ -433,6 +437,9 @@ attr layout_anchorGravity
 attr layout_behavior
 attr layout_collapseMode
 attr layout_collapseParallaxMultiplier
+attr layout_column
+attr layout_columnSpan
+attr layout_columnWeight
 attr layout_constrainedHeight
 attr layout_constrainedWidth
 attr layout_constraintBaseline_creator
@@ -483,9 +490,13 @@ attr layout_goneMarginLeft
 attr layout_goneMarginRight
 attr layout_goneMarginStart
 attr layout_goneMarginTop
+attr layout_gravity
 attr layout_insetEdge
 attr layout_keyline
 attr layout_optimizationLevel
+attr layout_row
+attr layout_rowSpan
+attr layout_rowWeight
 attr layout_scrollFlags
 attr layout_scrollInterpolator
 attr liftOnScroll
@@ -545,6 +556,7 @@ attr navigationViewStyle
 attr nullable
 attr number
 attr numericModifiers
+attr orientation
 attr overlapAnchor
 attr paddingBottomNoButtons
 attr paddingEnd
@@ -580,6 +592,8 @@ attr ratingBarStyleSmall
 attr recyclerViewStyle
 attr reverseLayout
 attr rippleColor
+attr rowCount
+attr rowOrderPreserved
 attr scrimAnimationDuration
 attr scrimBackground
 attr scrimVisibleHeightTrigger
@@ -730,6 +744,7 @@ attr trackTintMode
 attr ttcIndex
 attr uri
 attr useCompatPadding
+attr useDefaultMargins
 attr useMaterialThemeColors
 attr viewInflaterClass
 attr voiceIcon
@@ -839,6 +854,7 @@ color dim_foreground_disabled_material_dark
 color dim_foreground_disabled_material_light
 color dim_foreground_material_dark
 color dim_foreground_material_light
+color divider
 color error_color_material_dark
 color error_color_material_light
 color fadedWords
@@ -1026,6 +1042,8 @@ dimen abc_text_size_subtitle_material_toolbar
 dimen abc_text_size_title_material
 dimen abc_text_size_title_material_toolbar
 dimen action_bar_size
+dimen activity_horizontal_margin
+dimen activity_vertical_margin
 dimen appcompat_dialog_background_inset
 dimen cardview_compat_inset_shadow
 dimen cardview_default_elevation
@@ -1038,6 +1056,7 @@ dimen compat_control_corner_material
 dimen compat_notification_large_icon_max_height
 dimen compat_notification_large_icon_max_width
 dimen default_dimension
+dimen default_gap
 dimen design_appbar_elevation
 dimen design_bottom_navigation_active_item_max_width
 dimen design_bottom_navigation_active_item_min_width
@@ -1087,6 +1106,7 @@ dimen design_textinput_caption_translate_y
 dimen disabled_alpha_material_dark
 dimen disabled_alpha_material_light
 dimen fab_margin
+dimen fab_margin_default
 dimen fastscroll_default_thickness
 dimen fastscroll_margin
 dimen fastscroll_minimum_range
@@ -1100,6 +1120,7 @@ dimen hint_pressed_alpha_material_light
 dimen item_touch_helper_max_drag_scroll_per_frame
 dimen item_touch_helper_swipe_escape_max_velocity
 dimen item_touch_helper_swipe_escape_velocity
+dimen list_padding_vertical_small
 dimen material_emphasis_disabled
 dimen material_emphasis_high_type
 dimen material_emphasis_medium
@@ -1376,6 +1397,7 @@ drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable divider
 drawable ic_add_circle_outline_black_24dp
 drawable ic_calendar_black_24dp
 drawable ic_clear_black_24dp
@@ -1392,6 +1414,7 @@ drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
 drawable ic_settings_black_24dp
 drawable ic_sheeps
+drawable math
 drawable mtrl_dialog_background
 drawable mtrl_dropdown_arrow
 drawable mtrl_ic_arrow_drop_down
@@ -1402,6 +1425,7 @@ drawable mtrl_popupmenu_background
 drawable mtrl_popupmenu_background_dark
 drawable mtrl_tabs_default_indicator
 drawable navigation_empty_icon
+drawable none
 drawable notification_action_background
 drawable notification_bg
 drawable notification_bg_low
@@ -1414,10 +1438,12 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable shout
 drawable test_custom_background
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
 drawable underline
+drawable walk
 font chewy
 id ALT
 id BOTTOM_END
@@ -1430,6 +1456,7 @@ id SHIFT
 id SYM
 id Second2Fragment
 id Snooze
+id Sound
 id TOP_END
 id TOP_START
 id accessibility_action_clickable_span
@@ -1487,9 +1514,17 @@ id action_text
 id actions
 id activity_chooser_view_content
 id add
+id add_alarm_fragment
 id alertTitle
+id alignBounds
+id alignMargins
 id all
 id always
+id ar_am_pm
+id ar_days
+id ar_icon
+id ar_label
+id ar_time
 id async
 id auto
 id barrier
@@ -1519,7 +1554,6 @@ id content
 id contentPanel
 id coordinator
 id createAlarmButton
-id create_time_picker
 id create_toolbar
 id custom
 id customPanel
@@ -1537,7 +1571,9 @@ id dimensions
 id direct
 id disableHome
 id dropdown_menu
+id edit_alarm_frag_container
 id edit_query
+id empty_view
 id end
 id enterAlways
 id enterAlwaysCollapsed
@@ -1562,6 +1598,7 @@ id groups
 id hideable
 id home
 id homeAsUp
+id horizontal
 id icon
 id icon_group
 id ifRoom
@@ -1578,6 +1615,7 @@ id line1
 id line3
 id listMode
 id list_item
+id main_fragment
 id masked
 id message
 id middle
@@ -1638,8 +1676,8 @@ id pin
 id progress_circular
 id progress_horizontal
 id radio
-id repeat
-id repeat_button_create
+id recycler
+id repeat3
 id right
 id right_icon
 id right_side
@@ -1678,9 +1716,6 @@ id snackbar_action
 id snackbar_text
 id snap
 id snapMargins
-id snooze_button_create
-id sounds
-id sounds_button_create
 id spacer
 id split_action_bar
 id spread
@@ -1693,6 +1728,7 @@ id start
 id stretch
 id submenuarrow
 id submit_area
+id switch1
 id tabMode
 id tag_accessibility_actions
 id tag_accessibility_clickable_spans
@@ -1704,6 +1740,9 @@ id tag_unhandled_key_event_manager
 id tag_unhandled_key_listeners
 id task
 id task_button_create
+id task_button_repeat
+id task_button_sound
+id task_button_task
 id test_checkbox_android_button_tint
 id test_checkbox_app_button_tint
 id text
@@ -1720,6 +1759,7 @@ id textinput_helper_text
 id textview_first
 id textview_second
 id time
+id time_picker
 id title
 id titleDividerNoCustom
 id title_template
@@ -1738,6 +1778,7 @@ id uniform
 id unlabeled
 id up
 id useLogo
+id vertical
 id view_offset_helper
 id visible
 id visible_removing_fragment_view_tag
@@ -1805,7 +1846,11 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_add_alarm
+layout activity_edit_alarm
 layout activity_main
+layout activity_main2
+layout alarm_row
 layout content_create_alarm2
 layout createalarm_activity
 layout custom_dialog
@@ -2719,6 +2764,8 @@ styleable FragmentContainerView android_name android_tag
 styleable FragmentNavigator android_name
 styleable GradientColor android_startColor android_endColor android_type android_centerX android_centerY android_gradientRadius android_tileMode android_centerColor android_startX android_startY android_endX android_endY
 styleable GradientColorItem android_color android_offset
+styleable GridLayout alignmentMode columnCount columnOrderPreserved orientation rowCount rowOrderPreserved useDefaultMargins
+styleable GridLayout_Layout android_layout_width android_layout_height android_layout_margin android_layout_marginLeft android_layout_marginTop android_layout_marginRight android_layout_marginBottom layout_column layout_columnSpan layout_columnWeight layout_gravity layout_row layout_rowSpan layout_rowWeight
 styleable LinearConstraintLayout android_orientation
 styleable LinearLayoutCompat android_gravity android_orientation android_baselineAligned android_baselineAlignedChildIndex android_weightSum divider dividerPadding measureWithLargestChild showDividers
 styleable LinearLayoutCompat_Layout android_layout_gravity android_layout_width android_layout_height android_layout_weight

@@ -11,7 +11,7 @@
 9-->/Users/jessicanguyen/Schleep/app/src/main/AndroidManifest.xml
 10
 11    <application
-11-->/Users/jessicanguyen/Schleep/app/src/main/AndroidManifest.xml:5:5-23:19
+11-->/Users/jessicanguyen/Schleep/app/src/main/AndroidManifest.xml:5:5-24:19
 12        android:allowBackup="true"
 12-->/Users/jessicanguyen/Schleep/app/src/main/AndroidManifest.xml:6:9-35
 13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -28,28 +28,31 @@
 19        android:testOnly="true"
 20        android:theme="@style/AppTheme" >
 20-->/Users/jessicanguyen/Schleep/app/src/main/AndroidManifest.xml:11:9-40
-21        <activity
-21-->/Users/jessicanguyen/Schleep/app/src/main/AndroidManifest.xml:12:9-15:68
-22            android:name="com.example.schleep.CreateAlarmActivity"
-22-->/Users/jessicanguyen/Schleep/app/src/main/AndroidManifest.xml:13:13-48
-23            android:label="@string/title_activity_create_alarm"
-23-->/Users/jessicanguyen/Schleep/app/src/main/AndroidManifest.xml:14:13-64
-24            android:theme="@style/AppTheme.NoActionBar" />
-24-->/Users/jessicanguyen/Schleep/app/src/main/AndroidManifest.xml:15:13-56
-25        <activity android:name="com.example.schleep.MainActivity" >
-25-->/Users/jessicanguyen/Schleep/app/src/main/AndroidManifest.xml:16:9-22:20
-25-->/Users/jessicanguyen/Schleep/app/src/main/AndroidManifest.xml:16:19-47
-26            <intent-filter>
-26-->/Users/jessicanguyen/Schleep/app/src/main/AndroidManifest.xml:17:13-21:29
-27                <action android:name="android.intent.action.MAIN" />
-27-->/Users/jessicanguyen/Schleep/app/src/main/AndroidManifest.xml:18:17-69
-27-->/Users/jessicanguyen/Schleep/app/src/main/AndroidManifest.xml:18:25-66
-28
-29                <category android:name="android.intent.category.LAUNCHER" />
-29-->/Users/jessicanguyen/Schleep/app/src/main/AndroidManifest.xml:20:17-77
-29-->/Users/jessicanguyen/Schleep/app/src/main/AndroidManifest.xml:20:27-74
-30            </intent-filter>
-31        </activity>
-32    </application>
-33
-34</manifest>
+21        <activity android:name="com.example.schleep.AddEditAlarmActivity" />
+21-->/Users/jessicanguyen/Schleep/app/src/main/AndroidManifest.xml:12:9-57
+21-->/Users/jessicanguyen/Schleep/app/src/main/AndroidManifest.xml:12:19-55
+22        <activity
+22-->/Users/jessicanguyen/Schleep/app/src/main/AndroidManifest.xml:13:9-16:68
+23            android:name="com.example.schleep.CreateAlarmActivity"
+23-->/Users/jessicanguyen/Schleep/app/src/main/AndroidManifest.xml:14:13-48
+24            android:label="@string/title_activity_create_alarm"
+24-->/Users/jessicanguyen/Schleep/app/src/main/AndroidManifest.xml:15:13-64
+25            android:theme="@style/AppTheme.NoActionBar" />
+25-->/Users/jessicanguyen/Schleep/app/src/main/AndroidManifest.xml:16:13-56
+26        <activity android:name="com.example.schleep.MainActivity" >
+26-->/Users/jessicanguyen/Schleep/app/src/main/AndroidManifest.xml:17:9-23:20
+26-->/Users/jessicanguyen/Schleep/app/src/main/AndroidManifest.xml:17:19-47
+27            <intent-filter>
+27-->/Users/jessicanguyen/Schleep/app/src/main/AndroidManifest.xml:18:13-22:29
+28                <action android:name="android.intent.action.MAIN" />
+28-->/Users/jessicanguyen/Schleep/app/src/main/AndroidManifest.xml:19:17-69
+28-->/Users/jessicanguyen/Schleep/app/src/main/AndroidManifest.xml:19:25-66
+29
+30                <category android:name="android.intent.category.LAUNCHER" />
+30-->/Users/jessicanguyen/Schleep/app/src/main/AndroidManifest.xml:21:17-77
+30-->/Users/jessicanguyen/Schleep/app/src/main/AndroidManifest.xml:21:27-74
+31            </intent-filter>
+32        </activity>
+33    </application>
+34
+35</manifest>

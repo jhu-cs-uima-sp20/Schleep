@@ -28,7 +28,6 @@ public final class AlarmsAdapter extends RecyclerView.Adapter<AlarmsAdapter.View
     public ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
         final Context c = parent.getContext();
         final View v = LayoutInflater.from(c).inflate(R.layout.alarm_row, parent, false);
-
         return new ViewHolder(v);
     }
 
@@ -52,7 +51,18 @@ public final class AlarmsAdapter extends RecyclerView.Adapter<AlarmsAdapter.View
         holder.label.setText(alarm.getLabel());
         holder.days.setText(buildSelectedDays(alarm));
 
-
+        holder.itemView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                final Context c = view.getContext();
+                final Intent launchEditAlarmIntent =
+                        AddEditAlarmActivity.buildAddEditAlarmActivityIntent(
+                                c, AddEditAlarmActivity.EDIT_ALARM
+                        );
+                launchEditAlarmIntent.putExtra(AddEditAlarmActivity.ALARM_EXTRA, alarm);
+                c.startActivity(launchEditAlarmIntent);
+            }
+        });
 
     }
 
@@ -112,3 +122,4 @@ public final class AlarmsAdapter extends RecyclerView.Adapter<AlarmsAdapter.View
     }
 
 }
+

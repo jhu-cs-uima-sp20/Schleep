@@ -9,11 +9,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".AddEditAlarmActivity"/>
         <activity
-            android:name=".CreateAlarmActivity"
-            android:label="@string/title_activity_create_alarm"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:name=".SettingsActivity"
+            android:label="@string/title_activity_settings"></activity>
+        <activity android:name=".AddEditAlarmActivity" />
+
+        <service android:name=".LoadAlarmsService" />
+
+        <receiver android:name=".LoadAlarmsReceiver" />
+
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

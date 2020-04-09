@@ -1,9 +1,10 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/jessicanguyen/Schleep/app/src/main/AndroidManifest.xml:2:1-26:12
-INJECTED from /Users/jessicanguyen/Schleep/app/src/main/AndroidManifest.xml:2:1-26:12
-INJECTED from /Users/jessicanguyen/Schleep/app/src/main/AndroidManifest.xml:2:1-26:12
-INJECTED from /Users/jessicanguyen/Schleep/app/src/main/AndroidManifest.xml:2:1-26:12
+ADDED from /Users/jessicanguyen/Schleep/app/src/main/AndroidManifest.xml:2:1-30:12
+INJECTED from /Users/jessicanguyen/Schleep/app/src/main/AndroidManifest.xml:2:1-30:12
+INJECTED from /Users/jessicanguyen/Schleep/app/src/main/AndroidManifest.xml:2:1-30:12
+INJECTED from /Users/jessicanguyen/Schleep/app/src/main/AndroidManifest.xml:2:1-30:12
+MERGED from [androidx.preference:preference:1.1.0-rc01] /Users/jessicanguyen/.gradle/caches/transforms-2/files-2.1/7fd9d315a0c053358eed08eb8d7cfade/preference-1.1.0-rc01/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.navigation:navigation-ui:2.2.1] /Users/jessicanguyen/.gradle/caches/transforms-2/files-2.1/6aeecca85dd981dd0e1d529276843c57/navigation-ui-2.2.1/AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.material:material:1.1.0] /Users/jessicanguyen/.gradle/caches/transforms-2/files-2.1/eaf17b24d60dc773c7680b20ac141638/material-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/jessicanguyen/.gradle/caches/transforms-2/files-2.1/ea88890b09526096266c9c16859169ae/appcompat-1.1.0/AndroidManifest.xml:17:1-24:12
@@ -45,25 +46,25 @@ MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/jessicanguyen/.g
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/jessicanguyen/.gradle/caches/transforms-2/files-2.1/1e517e060e22e5750a896c56d451ab07/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /Users/jessicanguyen/.gradle/caches/transforms-2/files-2.1/f084663c35e36265d32f84cf27bfe14a/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/jessicanguyen/.gradle/caches/transforms-2/files-2.1/02e272269748a331fcc448332a33a66d/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
-INJECTED from /Users/jessicanguyen/Schleep/app/src/main/AndroidManifest.xml:2:1-26:12
-INJECTED from /Users/jessicanguyen/Schleep/app/src/main/AndroidManifest.xml:2:1-26:12
-INJECTED from /Users/jessicanguyen/Schleep/app/src/main/AndroidManifest.xml:2:1-26:12
+INJECTED from /Users/jessicanguyen/Schleep/app/src/main/AndroidManifest.xml:2:1-30:12
+INJECTED from /Users/jessicanguyen/Schleep/app/src/main/AndroidManifest.xml:2:1-30:12
+INJECTED from /Users/jessicanguyen/Schleep/app/src/main/AndroidManifest.xml:2:1-30:12
 	package
 		ADDED from /Users/jessicanguyen/Schleep/app/src/main/AndroidManifest.xml:3:5-34
 		INJECTED from /Users/jessicanguyen/Schleep/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/jessicanguyen/Schleep/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/jessicanguyen/Schleep/app/src/main/AndroidManifest.xml
-		ADDED from /Users/jessicanguyen/Schleep/app/src/main/AndroidManifest.xml:2:1-26:12
+		ADDED from /Users/jessicanguyen/Schleep/app/src/main/AndroidManifest.xml:2:1-30:12
 		INJECTED from /Users/jessicanguyen/Schleep/app/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /Users/jessicanguyen/Schleep/app/src/main/AndroidManifest.xml
-		ADDED from /Users/jessicanguyen/Schleep/app/src/main/AndroidManifest.xml:2:1-26:12
+		ADDED from /Users/jessicanguyen/Schleep/app/src/main/AndroidManifest.xml:2:1-30:12
 		INJECTED from /Users/jessicanguyen/Schleep/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/jessicanguyen/Schleep/app/src/main/AndroidManifest.xml:2:11-69
 application
-ADDED from /Users/jessicanguyen/Schleep/app/src/main/AndroidManifest.xml:5:5-24:19
+ADDED from /Users/jessicanguyen/Schleep/app/src/main/AndroidManifest.xml:5:5-28:19
 MERGED from [com.google.android.material:material:1.1.0] /Users/jessicanguyen/.gradle/caches/transforms-2/files-2.1/eaf17b24d60dc773c7680b20ac141638/material-1.1.0/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.1.0] /Users/jessicanguyen/.gradle/caches/transforms-2/files-2.1/eaf17b24d60dc773c7680b20ac141638/material-1.1.0/AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/jessicanguyen/.gradle/caches/transforms-2/files-2.1/cb3ee0668a2ccffbec6ced598c9d8e79/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
@@ -86,36 +87,44 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/jess
 		ADDED from /Users/jessicanguyen/Schleep/app/src/main/AndroidManifest.xml:6:9-35
 	android:theme
 		ADDED from /Users/jessicanguyen/Schleep/app/src/main/AndroidManifest.xml:11:9-40
-activity#com.example.schleep.AddEditAlarmActivity
-ADDED from /Users/jessicanguyen/Schleep/app/src/main/AndroidManifest.xml:12:9-57
-	android:name
-		ADDED from /Users/jessicanguyen/Schleep/app/src/main/AndroidManifest.xml:12:19-55
-activity#com.example.schleep.CreateAlarmActivity
-ADDED from /Users/jessicanguyen/Schleep/app/src/main/AndroidManifest.xml:13:9-16:68
+activity#com.example.schleep.SettingsActivity
+ADDED from /Users/jessicanguyen/Schleep/app/src/main/AndroidManifest.xml:12:9-14:72
 	android:label
-		ADDED from /Users/jessicanguyen/Schleep/app/src/main/AndroidManifest.xml:15:13-64
-	android:theme
-		ADDED from /Users/jessicanguyen/Schleep/app/src/main/AndroidManifest.xml:16:13-56
+		ADDED from /Users/jessicanguyen/Schleep/app/src/main/AndroidManifest.xml:14:13-60
 	android:name
-		ADDED from /Users/jessicanguyen/Schleep/app/src/main/AndroidManifest.xml:14:13-48
+		ADDED from /Users/jessicanguyen/Schleep/app/src/main/AndroidManifest.xml:13:13-45
+activity#com.example.schleep.AddEditAlarmActivity
+ADDED from /Users/jessicanguyen/Schleep/app/src/main/AndroidManifest.xml:15:9-58
+	android:name
+		ADDED from /Users/jessicanguyen/Schleep/app/src/main/AndroidManifest.xml:15:19-55
+service#com.example.schleep.LoadAlarmsService
+ADDED from /Users/jessicanguyen/Schleep/app/src/main/AndroidManifest.xml:17:9-54
+	android:name
+		ADDED from /Users/jessicanguyen/Schleep/app/src/main/AndroidManifest.xml:17:18-51
+receiver#com.example.schleep.LoadAlarmsReceiver
+ADDED from /Users/jessicanguyen/Schleep/app/src/main/AndroidManifest.xml:19:9-56
+	android:name
+		ADDED from /Users/jessicanguyen/Schleep/app/src/main/AndroidManifest.xml:19:19-53
 activity#com.example.schleep.MainActivity
-ADDED from /Users/jessicanguyen/Schleep/app/src/main/AndroidManifest.xml:17:9-23:20
+ADDED from /Users/jessicanguyen/Schleep/app/src/main/AndroidManifest.xml:21:9-27:20
 	android:name
-		ADDED from /Users/jessicanguyen/Schleep/app/src/main/AndroidManifest.xml:17:19-47
+		ADDED from /Users/jessicanguyen/Schleep/app/src/main/AndroidManifest.xml:21:19-47
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/jessicanguyen/Schleep/app/src/main/AndroidManifest.xml:18:13-22:29
+ADDED from /Users/jessicanguyen/Schleep/app/src/main/AndroidManifest.xml:22:13-26:29
 action#android.intent.action.MAIN
-ADDED from /Users/jessicanguyen/Schleep/app/src/main/AndroidManifest.xml:19:17-69
+ADDED from /Users/jessicanguyen/Schleep/app/src/main/AndroidManifest.xml:23:17-69
 	android:name
-		ADDED from /Users/jessicanguyen/Schleep/app/src/main/AndroidManifest.xml:19:25-66
+		ADDED from /Users/jessicanguyen/Schleep/app/src/main/AndroidManifest.xml:23:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/jessicanguyen/Schleep/app/src/main/AndroidManifest.xml:21:17-77
+ADDED from /Users/jessicanguyen/Schleep/app/src/main/AndroidManifest.xml:25:17-77
 	android:name
-		ADDED from /Users/jessicanguyen/Schleep/app/src/main/AndroidManifest.xml:21:27-74
+		ADDED from /Users/jessicanguyen/Schleep/app/src/main/AndroidManifest.xml:25:27-74
 uses-sdk
 INJECTED from /Users/jessicanguyen/Schleep/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/jessicanguyen/Schleep/app/src/main/AndroidManifest.xml
 INJECTED from /Users/jessicanguyen/Schleep/app/src/main/AndroidManifest.xml
+MERGED from [androidx.preference:preference:1.1.0-rc01] /Users/jessicanguyen/.gradle/caches/transforms-2/files-2.1/7fd9d315a0c053358eed08eb8d7cfade/preference-1.1.0-rc01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.preference:preference:1.1.0-rc01] /Users/jessicanguyen/.gradle/caches/transforms-2/files-2.1/7fd9d315a0c053358eed08eb8d7cfade/preference-1.1.0-rc01/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.navigation:navigation-ui:2.2.1] /Users/jessicanguyen/.gradle/caches/transforms-2/files-2.1/6aeecca85dd981dd0e1d529276843c57/navigation-ui-2.2.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.navigation:navigation-ui:2.2.1] /Users/jessicanguyen/.gradle/caches/transforms-2/files-2.1/6aeecca85dd981dd0e1d529276843c57/navigation-ui-2.2.1/AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.android.material:material:1.1.0] /Users/jessicanguyen/.gradle/caches/transforms-2/files-2.1/eaf17b24d60dc773c7680b20ac141638/material-1.1.0/AndroidManifest.xml:20:5-44

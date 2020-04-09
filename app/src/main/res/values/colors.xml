@@ -2,7 +2,7 @@
 <resources>
     <color name="colorPrimary">#FFD185</color>
     <color name="colorPrimaryDark">#8190A5</color>
-    <color name="colorAccent">#03DAC5</color>
+    <color name="colorAccent">#fccd49</color>
     <color name="SchleepOrange">#FFD185</color>
     <color name="fadedWords">#7E7D7D</color>
     <color name="divider">#BDBDBD</color>

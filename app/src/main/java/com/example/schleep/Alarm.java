@@ -10,7 +10,8 @@ import androidx.annotation.IntDef;
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 
-public final class Alarm implements Parcelable {
+
+public final class Alarm implements Parcelable{
 
     private Alarm(Parcel in) {
         id = in.readLong();

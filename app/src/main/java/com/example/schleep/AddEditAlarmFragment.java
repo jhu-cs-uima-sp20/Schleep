@@ -43,19 +43,19 @@ public final class AddEditAlarmFragment extends Fragment {
 
         final View v = inflater.inflate(R.layout.createalarm_activity, container, false);
         final Alarm alarm = getAlarm();
-        Button save = (Button) v.findViewById(R.id.save_button);
+        //Button save = (Button) v.findViewById(R.id.save_button);
         mTimePicker = v.findViewById(R.id.time_picker);
         mLabel = (EditText) v.findViewById(R.id.name_alarm_create);
         ViewUtils.setTimePickerTime(mTimePicker, alarm.getTime());
         mLabel.setText(alarm.getLabel());
 
-        save.setOnClickListener(new View.OnClickListener() {
+        /*save.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 save();
             }
-        });
-        //setHasOptionsMenu(true);
+        });*/
+        setHasOptionsMenu(true);
 
 /*
         mTimePicker = (TimePicker) v.findViewById(R.id.edit_alarm_time_picker);
@@ -77,7 +77,7 @@ public final class AddEditAlarmFragment extends Fragment {
         return v;
     }
 
-    /*
+
         @Override
         public void onCreateOptionsMenu(Menu menu, MenuInflater inflater) {
             inflater.inflate(R.menu.edit_alarm_menu, menu);
@@ -97,7 +97,7 @@ public final class AddEditAlarmFragment extends Fragment {
             }
             return super.onOptionsItemSelected(item);
         }
-    */
+
     private Alarm getAlarm() {
         return getArguments().getParcelable(AddEditAlarmActivity.ALARM_EXTRA);
     }
@@ -141,7 +141,7 @@ public final class AddEditAlarmFragment extends Fragment {
         getActivity().finish();
 
     }
-/*
+
     private void delete() {
 
         final Alarm alarm = getAlarm();
@@ -155,7 +155,7 @@ public final class AddEditAlarmFragment extends Fragment {
             public void onClick(DialogInterface dialogInterface, int i) {
 
                 //Cancel any pending notifications for this alarm
-                AlarmReceiver.cancelReminderAlarm(getContext(), alarm);
+                //AlarmReceiver.cancelReminderAlarm(getContext(), alarm);
 
                 final int rowsDeleted = DatabaseHelper.getInstance(getContext()).deleteAlarm(alarm);
                 int messageId;
@@ -175,6 +175,6 @@ public final class AddEditAlarmFragment extends Fragment {
 
     }
 
- */
+
 
 }

@@ -30,8 +30,8 @@ public final class AddEditAlarmActivity extends AppCompatActivity {
         setContentView(R.layout.activity_edit_alarm);
 
         //noinspection ConstantConditions
-       // getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        //getSupportActionBar().setTitle(getToolbarTitle());
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        getSupportActionBar().setTitle(getToolbarTitle());
 
         final Alarm alarm = getAlarm();
 
@@ -64,7 +64,7 @@ public final class AddEditAlarmActivity extends AppCompatActivity {
         final @Mode int mode = getIntent().getIntExtra(MODE_EXTRA, UNKNOWN);
         return mode;
     }
-/*
+
     private String getToolbarTitle() {
         int titleResId;
         switch (getMode()) {
@@ -82,7 +82,7 @@ public final class AddEditAlarmActivity extends AppCompatActivity {
         }
         return getString(titleResId);
     }
-*/
+
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
 

@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\peter\\Documents\\school\\2020 2spring\\User Interfaces\\Schleep\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w480dp-port-v13\\values-w480dp-port-v13.xml",
+            "outputFile": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-w480dp-port-v13/values-w480dp-port-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\peter\\.gradle\\caches\\transforms-2\\files-2.1\\eaf17b24d60dc773c7680b20ac141638\\material-1.1.0\\res\\values-w480dp-port-v13\\values-w480dp-port-v13.xml",
+                    "source": "/Users/noahpark/.gradle/caches/transforms-2/files-2.1/eaf17b24d60dc773c7680b20ac141638/material-1.1.0/res/values-w480dp-port-v13/values-w480dp-port-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",

@@ -6,58 +6,58 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="16"
-8-->C:\Users\peter\Documents\school\2020 2spring\User Interfaces\Schleep\app\src\main\AndroidManifest.xml
+8-->/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/AndroidManifest.xml
 9        android:targetSdkVersion="29" />
-9-->C:\Users\peter\Documents\school\2020 2spring\User Interfaces\Schleep\app\src\main\AndroidManifest.xml
+9-->/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/AndroidManifest.xml
 10
 11    <application
-11-->C:\Users\peter\Documents\school\2020 2spring\User Interfaces\Schleep\app\src\main\AndroidManifest.xml:5:5-28:19
+11-->/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/AndroidManifest.xml:5:5-28:19
 12        android:allowBackup="true"
-12-->C:\Users\peter\Documents\school\2020 2spring\User Interfaces\Schleep\app\src\main\AndroidManifest.xml:6:9-35
+12-->/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/AndroidManifest.xml:6:9-35
 13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-13-->[androidx.core:core:1.1.0] C:\Users\peter\.gradle\caches\transforms-2\files-2.1\da95e0dd41fd0c634661df2a0f122634\core-1.1.0\AndroidManifest.xml:24:18-86
+13-->[androidx.core:core:1.1.0] /Users/noahpark/.gradle/caches/transforms-2/files-2.1/da95e0dd41fd0c634661df2a0f122634/core-1.1.0/AndroidManifest.xml:24:18-86
 14        android:debuggable="true"
 15        android:icon="@mipmap/ic_launcher"
-15-->C:\Users\peter\Documents\school\2020 2spring\User Interfaces\Schleep\app\src\main\AndroidManifest.xml:7:9-43
+15-->/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/AndroidManifest.xml:7:9-43
 16        android:label="@string/app_name"
-16-->C:\Users\peter\Documents\school\2020 2spring\User Interfaces\Schleep\app\src\main\AndroidManifest.xml:8:9-41
+16-->/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/AndroidManifest.xml:8:9-41
 17        android:roundIcon="@mipmap/ic_launcher_round"
-17-->C:\Users\peter\Documents\school\2020 2spring\User Interfaces\Schleep\app\src\main\AndroidManifest.xml:9:9-54
+17-->/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/AndroidManifest.xml:9:9-54
 18        android:supportsRtl="true"
-18-->C:\Users\peter\Documents\school\2020 2spring\User Interfaces\Schleep\app\src\main\AndroidManifest.xml:10:9-35
+18-->/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/AndroidManifest.xml:10:9-35
 19        android:testOnly="true"
 20        android:theme="@style/AppTheme" >
-20-->C:\Users\peter\Documents\school\2020 2spring\User Interfaces\Schleep\app\src\main\AndroidManifest.xml:11:9-40
+20-->/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/AndroidManifest.xml:11:9-40
 21        <activity
-21-->C:\Users\peter\Documents\school\2020 2spring\User Interfaces\Schleep\app\src\main\AndroidManifest.xml:12:9-14:72
+21-->/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/AndroidManifest.xml:12:9-14:72
 22            android:name="com.example.schleep.SettingsActivity"
-22-->C:\Users\peter\Documents\school\2020 2spring\User Interfaces\Schleep\app\src\main\AndroidManifest.xml:13:13-45
+22-->/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/AndroidManifest.xml:13:13-45
 23            android:label="@string/title_activity_settings" />
-23-->C:\Users\peter\Documents\school\2020 2spring\User Interfaces\Schleep\app\src\main\AndroidManifest.xml:14:13-60
+23-->/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/AndroidManifest.xml:14:13-60
 24        <activity android:name="com.example.schleep.AddEditAlarmActivity" />
-24-->C:\Users\peter\Documents\school\2020 2spring\User Interfaces\Schleep\app\src\main\AndroidManifest.xml:15:9-58
-24-->C:\Users\peter\Documents\school\2020 2spring\User Interfaces\Schleep\app\src\main\AndroidManifest.xml:15:19-55
+24-->/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/AndroidManifest.xml:15:9-58
+24-->/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/AndroidManifest.xml:15:19-55
 25
 26        <service android:name="com.example.schleep.LoadAlarmsService" />
-26-->C:\Users\peter\Documents\school\2020 2spring\User Interfaces\Schleep\app\src\main\AndroidManifest.xml:17:9-54
-26-->C:\Users\peter\Documents\school\2020 2spring\User Interfaces\Schleep\app\src\main\AndroidManifest.xml:17:18-51
+26-->/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/AndroidManifest.xml:17:9-54
+26-->/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/AndroidManifest.xml:17:18-51
 27
 28        <receiver android:name="com.example.schleep.LoadAlarmsReceiver" />
-28-->C:\Users\peter\Documents\school\2020 2spring\User Interfaces\Schleep\app\src\main\AndroidManifest.xml:19:9-56
-28-->C:\Users\peter\Documents\school\2020 2spring\User Interfaces\Schleep\app\src\main\AndroidManifest.xml:19:19-53
+28-->/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/AndroidManifest.xml:19:9-56
+28-->/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/AndroidManifest.xml:19:19-53
 29
 30        <activity android:name="com.example.schleep.MainActivity" >
-30-->C:\Users\peter\Documents\school\2020 2spring\User Interfaces\Schleep\app\src\main\AndroidManifest.xml:21:9-27:20
-30-->C:\Users\peter\Documents\school\2020 2spring\User Interfaces\Schleep\app\src\main\AndroidManifest.xml:21:19-47
+30-->/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/AndroidManifest.xml:21:9-27:20
+30-->/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/AndroidManifest.xml:21:19-47
 31            <intent-filter>
-31-->C:\Users\peter\Documents\school\2020 2spring\User Interfaces\Schleep\app\src\main\AndroidManifest.xml:22:13-26:29
+31-->/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/AndroidManifest.xml:22:13-26:29
 32                <action android:name="android.intent.action.MAIN" />
-32-->C:\Users\peter\Documents\school\2020 2spring\User Interfaces\Schleep\app\src\main\AndroidManifest.xml:23:17-69
-32-->C:\Users\peter\Documents\school\2020 2spring\User Interfaces\Schleep\app\src\main\AndroidManifest.xml:23:25-66
+32-->/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/AndroidManifest.xml:23:17-69
+32-->/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/AndroidManifest.xml:23:25-66
 33
 34                <category android:name="android.intent.category.LAUNCHER" />
-34-->C:\Users\peter\Documents\school\2020 2spring\User Interfaces\Schleep\app\src\main\AndroidManifest.xml:25:17-77
-34-->C:\Users\peter\Documents\school\2020 2spring\User Interfaces\Schleep\app\src\main\AndroidManifest.xml:25:27-74
+34-->/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/AndroidManifest.xml:25:17-77
+34-->/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/AndroidManifest.xml:25:27-74
 35            </intent-filter>
 36        </activity>
 37    </application>

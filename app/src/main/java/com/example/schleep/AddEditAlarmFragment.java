@@ -160,8 +160,8 @@ public final class AddEditAlarmFragment extends Fragment {
                 final int rowsDeleted = DatabaseHelper.getInstance(getContext()).deleteAlarm(alarm);
                 int messageId;
                 if(rowsDeleted == 1) {
-                    messageId = R.string.delete_complete;
-                    Toast.makeText(getContext(), messageId, Toast.LENGTH_SHORT).show();
+                    //messageId = R.string.delete_complete;
+                    //Toast.makeText(getContext(), messageId, Toast.LENGTH_SHORT).show();
                     LoadAlarmsService.launchLoadAlarmsService(getContext());
                     getActivity().finish();
                 } else {

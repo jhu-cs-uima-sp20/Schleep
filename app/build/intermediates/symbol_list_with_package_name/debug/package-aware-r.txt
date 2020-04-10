@@ -1954,6 +1954,7 @@ layout expand_button
 layout fragment_first2
 layout fragment_main
 layout fragment_second2
+layout fragment_sounds
 layout image_frame
 layout mtrl_alert_dialog
 layout mtrl_alert_dialog_actions
@@ -2150,6 +2151,7 @@ string previous
 string repeat
 string reply_title
 string save
+string schleep
 string search_menu_title
 string second_fragment_label
 string sheepContentDescription

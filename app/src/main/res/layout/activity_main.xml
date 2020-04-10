@@ -51,7 +51,7 @@
             android:layout_gravity="center"
             android:textSize="30sp"
             android:textColor="#FFFFFF"
-            android:text="Schleep" />
+            android:text="@string/schleep" />
 
         <ImageView
             android:id="@+id/settings_gear"

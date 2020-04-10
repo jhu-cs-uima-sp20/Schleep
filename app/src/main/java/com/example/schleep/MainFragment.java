@@ -76,7 +76,7 @@ public final class MainFragment extends Fragment
         final IntentFilter filter = new IntentFilter(LoadAlarmsService.ACTION_COMPLETE);
         LocalBroadcastManager.getInstance(getContext()).registerReceiver(mReceiver, filter);
         LoadAlarmsService.launchLoadAlarmsService(getContext());
-        Toast.makeText(getContext(), mAdapter.getItemCount() + " items", Toast.LENGTH_SHORT).show();
+        //Toast.makeText(getContext(), mAdapter.getItemCount() + " items", Toast.LENGTH_SHORT).show();
     }
 
     @Override

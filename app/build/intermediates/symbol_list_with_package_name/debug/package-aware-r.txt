@@ -1644,6 +1644,7 @@ id dialog_button
 id dimensions
 id direct
 id disableHome
+id dismiss_btn
 id dropdown_menu
 id edit_alarm_frag_container
 id edit_query
@@ -1685,12 +1686,14 @@ id invisible
 id italic
 id item_touch_helper_previous_elevation
 id labeled
+id landing_page_fragment_container
 id largeLabel
 id left
 id line1
 id line3
 id listMode
 id list_item
+id load_main_activity_btn
 id main_fragment
 id masked
 id message
@@ -1928,6 +1931,7 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_add_alarm
+layout activity_alarm_landing_page
 layout activity_edit_alarm
 layout activity_main
 layout activity_main2
@@ -1951,6 +1955,7 @@ layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
 layout expand_button
+layout fragment_alarm_landing_page
 layout fragment_first2
 layout fragment_main
 layout fragment_second2
@@ -2074,6 +2079,7 @@ string attachment_summary_on
 string attachment_title
 string bottom_sheet_behavior
 string cancel
+string channel_name
 string character_counter_content_description
 string character_counter_overflowed_content_description
 string character_counter_pattern

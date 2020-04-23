@@ -49,6 +49,7 @@ public final class AddEditAlarmFragment extends Fragment {
         ViewUtils.setTimePickerTime(mTimePicker, alarm.getTime());
         mLabel.setText(alarm.getLabel());
 
+
         /*save.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -73,7 +74,8 @@ public final class AddEditAlarmFragment extends Fragment {
         mSun = (CheckBox) v.findViewById(R.id.edit_alarm_sun);
 
         setDayCheckboxes(alarm);
-*/
+ */
+
         return v;
     }
 
@@ -122,6 +124,13 @@ public final class AddEditAlarmFragment extends Fragment {
         alarm.setTime(time.getTimeInMillis());
 
         alarm.setLabel(mLabel.getText().toString());
+        alarm.setDay(Alarm.MON, true);
+        alarm.setDay(Alarm.TUES,true);
+        alarm.setDay(Alarm.WED, true);
+        alarm.setDay(Alarm.THURS, true);
+        alarm.setDay(Alarm.FRI, true);
+        alarm.setDay(Alarm.SAT, true);
+        alarm.setDay(Alarm.SUN, true);
 /*
         alarm.setDay(Alarm.MON, mMon.isChecked());
         alarm.setDay(Alarm.TUES, mTues.isChecked());
@@ -137,7 +146,7 @@ public final class AddEditAlarmFragment extends Fragment {
         //Toast.makeText(getContext(), messageId, Toast.LENGTH_SHORT).show();
 
         //AlarmReceiver.setReminderAlarm(getContext(), alarm);
-
+        AlarmReceiver.setReminderAlarm(getContext(), alarm);
         getActivity().finish();
 
     }

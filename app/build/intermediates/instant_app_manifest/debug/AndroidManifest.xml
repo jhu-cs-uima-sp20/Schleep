@@ -9,6 +9,9 @@
         android:minSdkVersion="16"
         android:targetSdkVersion="29" />
 
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
     <application
         android:allowBackup="true"
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -22,12 +25,6 @@
         <activity
             android:name="com.example.schleep.SettingsActivity"
             android:label="@string/title_activity_settings" />
-        <activity android:name="com.example.schleep.AddEditAlarmActivity" />
-
-        <service android:name="com.example.schleep.LoadAlarmsService" />
-
-        <receiver android:name="com.example.schleep.LoadAlarmsReceiver" />
-
         <activity android:name="com.example.schleep.MainActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -35,6 +32,21 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name="com.example.schleep.AddEditAlarmActivity" />
+        <activity android:name="com.example.schleep.AlarmLandingPageActivity" />
+
+        <service android:name="com.example.schleep.LoadAlarmsService" />
+
+        <receiver android:name="com.example.schleep.LoadAlarmsReceiver" />
+        <receiver android:name="com.example.schleep.AlarmReceiver" />
+        <receiver
+            android:name="com.example.schleep.BootReceiver"
+            android:enabled="true"
+            android:exported="true" >
+            <intent-filter android:priority="999" >
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
     </application>
 
 </manifest>

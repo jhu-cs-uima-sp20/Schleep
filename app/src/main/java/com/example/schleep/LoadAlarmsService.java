@@ -3,6 +3,7 @@ package com.example.schleep;
 import android.app.IntentService;
 import android.content.Context;
 import android.content.Intent;
+import android.util.Log;
 
 import androidx.localbroadcastmanager.content.LocalBroadcastManager;
 
@@ -35,6 +36,7 @@ public final class LoadAlarmsService extends IntentService {
     public static void launchLoadAlarmsService(Context context) {
         final Intent launchLoadAlarmsServiceIntent = new Intent(context, LoadAlarmsService.class);
         context.startService(launchLoadAlarmsServiceIntent);
+        Log.d("Alarm Service"," Alarm Service");
     }
 
 }

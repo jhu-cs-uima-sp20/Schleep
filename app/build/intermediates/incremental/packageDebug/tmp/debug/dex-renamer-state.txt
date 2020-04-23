@@ -1,4 +1,4 @@
-#Fri Apr 10 19:35:53 EDT 2020
-base.0=/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/build/intermediates/dex/debug/out/classes.dex
+#Thu Apr 23 16:19:45 CDT 2020
+base.0=/Users/jessicanguyen/Schleep/app/build/intermediates/dex/debug/out/classes.dex
 path.0=classes.dex
 renamed.0=classes.dex

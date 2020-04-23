@@ -11,6 +11,8 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.EditText;
+import android.widget.LinearLayout;
+import android.widget.TextView;
 import android.widget.TimePicker;
 import android.widget.Toast;
 
@@ -19,12 +21,16 @@ import androidx.appcompat.app.AlertDialog;
 import androidx.fragment.app.Fragment;
 
 
+import com.google.android.material.bottomsheet.BottomSheetDialog;
+
 import java.util.Calendar;
 
-public final class AddEditAlarmFragment extends Fragment {
-
+public final class AddEditAlarmFragment extends Fragment implements BottomSheetDays.BottomSheetListener {
+    BottomSheetDialog bottomSheetDialog;
     private TimePicker mTimePicker;
     private EditText mLabel;
+    private TextView repeat;
+    private Button button1;
     private CheckBox mMon, mTues, mWed, mThurs, mFri, mSat, mSun;
 
     public static AddEditAlarmFragment newInstance(Alarm alarm) {
@@ -48,9 +54,32 @@ public final class AddEditAlarmFragment extends Fragment {
         mLabel = (EditText) v.findViewById(R.id.name_alarm_create);
         ViewUtils.setTimePickerTime(mTimePicker, alarm.getTime());
         mLabel.setText(alarm.getLabel());
+        repeat = v.findViewById(R.id.repeat3);
+        button1 = v.findViewById(R.id.button1);
+
+        repeat.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                BottomSheetDays bottomSheet = new BottomSheetDays ();
+                bottomSheet.show(getParentFragmentManager(), "exampleBottomSheet");
+                /*button1.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        Toast.makeText(getContext(), "BUTTON 1 !!!", Toast.LENGTH_SHORT).show();
+                        //mListener.onButtonClicked("Button 1 clicked");
+                        // dismiss();
+                    }
+                });*/
+                //bottomSheetDialog.show();
+               // ExampleBottomSheetDialog bottomSheet = new ExampleBottomSheetDialog();
+                //bottomSheet.show(getSupportFragmentManager(), "exampleBottomSheet");
+            }
+        });
 
 
-        /*save.setOnClickListener(new View.OnClickListener() {
+
+
+    /*save.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 save();
@@ -78,8 +107,12 @@ public final class AddEditAlarmFragment extends Fragment {
 
         return v;
     }
+    @Override
+    public void onActivityCreated(Bundle savedInstanceState) {
+        super.onActivityCreated(savedInstanceState);
 
 
+    }
         @Override
         public void onCreateOptionsMenu(Menu menu, MenuInflater inflater) {
             inflater.inflate(R.menu.edit_alarm_menu, menu);
@@ -185,5 +218,16 @@ public final class AddEditAlarmFragment extends Fragment {
     }
 
 
-
+    @Override
+    public void onButtonClicked(String text) {
+        Toast.makeText(getContext(), "BUTTON CLICKED!!!", Toast.LENGTH_SHORT).show();
+        button1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(getContext(), "BUTTON 1 !!!", Toast.LENGTH_SHORT).show();
+                //mListener.onButtonClicked("Button 1 clicked");
+                // dismiss();
+            }
+        });
+    }
 }

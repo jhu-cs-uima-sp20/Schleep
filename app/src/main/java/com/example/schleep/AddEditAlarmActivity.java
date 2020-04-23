@@ -12,10 +12,15 @@ import androidx.appcompat.app.AppCompatActivity;
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 
-public final class AddEditAlarmActivity extends AppCompatActivity {
+public final class AddEditAlarmActivity extends AppCompatActivity implements BottomSheetDays.BottomSheetListener  {
 
     public static final String ALARM_EXTRA = "alarm_extra";
     public static final String MODE_EXTRA = "mode_extra";
+
+    @Override
+    public void onButtonClicked(String text) {
+
+    }
 
     @Retention(RetentionPolicy.SOURCE)
     @IntDef({EDIT_ALARM,ADD_ALARM,UNKNOWN})

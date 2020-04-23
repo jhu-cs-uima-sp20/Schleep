@@ -1610,6 +1610,8 @@ id barrier
 id beginning
 id blocking
 id bottom
+id button1
+id button2
 id buttonPanel
 id button_first
 id button_second
@@ -1941,6 +1943,7 @@ layout activity_edit_alarm
 layout activity_main
 layout activity_main2
 layout alarm_row
+layout bottom_sheet_days
 layout content_create_alarm2
 layout createalarm_activity
 layout custom_dialog

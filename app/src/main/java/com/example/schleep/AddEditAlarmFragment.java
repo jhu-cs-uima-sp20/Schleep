@@ -1,5 +1,6 @@
 package com.example.schleep;
 
+import android.app.Dialog;
 import android.content.DialogInterface;
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -25,7 +26,7 @@ import com.google.android.material.bottomsheet.BottomSheetDialog;
 
 import java.util.Calendar;
 
-public final class AddEditAlarmFragment extends Fragment implements BottomSheetDays.BottomSheetListener {
+public final class AddEditAlarmFragment extends Fragment {
     BottomSheetDialog bottomSheetDialog;
     private TimePicker mTimePicker;
     private EditText mLabel;
@@ -55,13 +56,13 @@ public final class AddEditAlarmFragment extends Fragment implements BottomSheetD
         ViewUtils.setTimePickerTime(mTimePicker, alarm.getTime());
         mLabel.setText(alarm.getLabel());
         repeat = v.findViewById(R.id.repeat3);
-        button1 = v.findViewById(R.id.button1);
+        //button1 = v.findViewById(R.id.button1);
 
         repeat.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                BottomSheetDays bottomSheet = new BottomSheetDays ();
-                bottomSheet.show(getParentFragmentManager(), "exampleBottomSheet");
+                //BottomSheetDays bottomSheet = new BottomSheetDays ();
+                //bottomSheet.show(getParentFragmentManager(), "exampleBottomSheet");
                 /*button1.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
@@ -71,7 +72,7 @@ public final class AddEditAlarmFragment extends Fragment implements BottomSheetD
                     }
                 });*/
                 //bottomSheetDialog.show();
-               // ExampleBottomSheetDialog bottomSheet = new ExampleBottomSheetDialog();
+                // ExampleBottomSheetDialog bottomSheet = new ExampleBottomSheetDialog();
                 //bottomSheet.show(getSupportFragmentManager(), "exampleBottomSheet");
             }
         });
@@ -107,31 +108,51 @@ public final class AddEditAlarmFragment extends Fragment implements BottomSheetD
 
         return v;
     }
+
     @Override
     public void onActivityCreated(Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
+        repeat.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                View val = getLayoutInflater().inflate(R.layout.bottom_sheet_days, null);
+                Dialog d = new BottomSheetDialog(getActivity());
+                d.setContentView(val);
+                d.show();
+                //button1 = val.findViewById(R.id.button1);
+                /*button1.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        //Toast.makeText(getContext(), "BUTTON 1 !!!", Toast.LENGTH_SHORT).show();
+                        //mListener.onButtonClicked("Button 1 clicked");
+                        // dismiss();
+                    }
+                });*/
+            }
+        });
 
 
     }
-        @Override
-        public void onCreateOptionsMenu(Menu menu, MenuInflater inflater) {
-            inflater.inflate(R.menu.edit_alarm_menu, menu);
-            super.onCreateOptionsMenu(menu, inflater);
-        }
+
+    @Override
+    public void onCreateOptionsMenu(Menu menu, MenuInflater inflater) {
+        inflater.inflate(R.menu.edit_alarm_menu, menu);
+        super.onCreateOptionsMenu(menu, inflater);
+    }
 
 
-        @Override
-        public boolean onOptionsItemSelected(MenuItem item) {
-            switch (item.getItemId()) {
-                case R.id.action_save:
-                    save();
-                    break;
-                case R.id.action_delete:
-                    delete();
-                    break;
-            }
-            return super.onOptionsItemSelected(item);
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+            case R.id.action_save:
+                save();
+                break;
+            case R.id.action_delete:
+                delete();
+                break;
         }
+        return super.onOptionsItemSelected(item);
+    }
 
     private Alarm getAlarm() {
         return getArguments().getParcelable(AddEditAlarmActivity.ALARM_EXTRA);
@@ -158,7 +179,7 @@ public final class AddEditAlarmFragment extends Fragment implements BottomSheetD
 
         alarm.setLabel(mLabel.getText().toString());
         alarm.setDay(Alarm.MON, true);
-        alarm.setDay(Alarm.TUES,true);
+        alarm.setDay(Alarm.TUES, true);
         alarm.setDay(Alarm.WED, true);
         alarm.setDay(Alarm.THURS, true);
         alarm.setDay(Alarm.FRI, true);
@@ -201,7 +222,7 @@ public final class AddEditAlarmFragment extends Fragment implements BottomSheetD
 
                 final int rowsDeleted = DatabaseHelper.getInstance(getContext()).deleteAlarm(alarm);
                 int messageId;
-                if(rowsDeleted == 1) {
+                if (rowsDeleted == 1) {
                     //messageId = R.string.delete_complete;
                     //Toast.makeText(getContext(), messageId, Toast.LENGTH_SHORT).show();
                     LoadAlarmsService.launchLoadAlarmsService(getContext());
@@ -217,17 +238,4 @@ public final class AddEditAlarmFragment extends Fragment implements BottomSheetD
 
     }
 
-
-    @Override
-    public void onButtonClicked(String text) {
-        Toast.makeText(getContext(), "BUTTON CLICKED!!!", Toast.LENGTH_SHORT).show();
-        button1.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Toast.makeText(getContext(), "BUTTON 1 !!!", Toast.LENGTH_SHORT).show();
-                //mListener.onButtonClicked("Button 1 clicked");
-                // dismiss();
-            }
-        });
-    }
 }

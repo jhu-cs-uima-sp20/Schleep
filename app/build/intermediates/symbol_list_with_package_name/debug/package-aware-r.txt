@@ -1610,8 +1610,6 @@ id barrier
 id beginning
 id blocking
 id bottom
-id button1
-id button2
 id buttonPanel
 id button_first
 id button_second
@@ -1762,6 +1760,14 @@ id pin
 id progress_circular
 id progress_horizontal
 id radio
+id radioButton
+id radioButton2
+id radioButton3
+id radioButton4
+id radioButton5
+id radioButton6
+id radioButton7
+id radioButton8
 id recycler
 id recycler_view
 id repeat3
@@ -1842,6 +1848,7 @@ id textEnd
 id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
+id textView
 id text_input_end_icon
 id text_input_start_icon
 id textinput_counter

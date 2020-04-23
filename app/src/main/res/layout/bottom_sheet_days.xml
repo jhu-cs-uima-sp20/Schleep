@@ -7,21 +7,63 @@
     android:padding="16dp">
 
     <TextView
-        android:layout_width="wrap_content"
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="This is a BottomSheet"
-        android:textSize="25sp" />
+        android:gravity="center_horizontal"
+        android:text="Repeat"
+        android:textSize="24sp"
+        android:textStyle="bold" />
 
-    <Button
-        android:id="@+id/button1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="button 1" />
 
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="button 2" />
+
+
+        <RadioButton
+            android:id="@+id/Never"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Never" />
+
+        <RadioButton
+            android:id="@+id/Sunday"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Every Sunday" />
+
+        <RadioButton
+            android:id="@+id/Monday"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Every Monday" />
+
+        <RadioButton
+            android:id="@+id/Tuesday"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Every Tuesday" />
+
+        <RadioButton
+            android:id="@+id/Wednesday"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Every Wednesday" />
+
+        <RadioButton
+            android:id="@+id/Thursday"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Every Thursday" />
+
+        <RadioButton
+            android:id="@+id/Friday"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Every Friday" />
+
+        <RadioButton
+            android:id="@+id/Saturday"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Every Saturday" />
 
 </LinearLayout>

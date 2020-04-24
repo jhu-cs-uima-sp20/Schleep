@@ -67,55 +67,8 @@ public final class AddEditAlarmFragment extends Fragment {
         Sound = v.findViewById(R.id.Sound);
         Snooze = v.findViewById(R.id.Snooze);
 
-        //button1 = v.findViewById(R.id.button1);
-
-        repeat.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                //BottomSheetDays bottomSheet = new BottomSheetDays ();
-                //bottomSheet.show(getParentFragmentManager(), "exampleBottomSheet");
-                /*button1.setOnClickListener(new View.OnClickListener() {
-                    @Override
-                    public void onClick(View v) {
-                        Toast.makeText(getContext(), "BUTTON 1 !!!", Toast.LENGTH_SHORT).show();
-                        //mListener.onButtonClicked("Button 1 clicked");
-                        // dismiss();
-                    }
-                });*/
-                //bottomSheetDialog.show();
-                // ExampleBottomSheetDialog bottomSheet = new ExampleBottomSheetDialog();
-                //bottomSheet.show(getSupportFragmentManager(), "exampleBottomSheet");
-            }
-        });
-
-
-
-
-    /*save.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                save();
-            }
-        });*/
         setHasOptionsMenu(true);
 
-/*
-        mTimePicker = (TimePicker) v.findViewById(R.id.edit_alarm_time_picker);
-        ViewUtils.setTimePickerTime(mTimePicker, alarm.getTime());
-
-        mLabel = (EditText) v.findViewById(R.id.edit_alarm_label);
-        mLabel.setText(alarm.getLabel());
-
-        mMon = (CheckBox) v.findViewById(R.id.edit_alarm_mon);
-        mTues = (CheckBox) v.findViewById(R.id.edit_alarm_tues);
-        mWed = (CheckBox) v.findViewById(R.id.edit_alarm_wed);
-        mThurs = (CheckBox) v.findViewById(R.id.edit_alarm_thurs);
-        mFri = (CheckBox) v.findViewById(R.id.edit_alarm_fri);
-        mSat = (CheckBox) v.findViewById(R.id.edit_alarm_sat);
-        mSun = (CheckBox) v.findViewById(R.id.edit_alarm_sun);
-
-        setDayCheckboxes(alarm);
- */
 
         return v;
     }
@@ -253,22 +206,6 @@ public final class AddEditAlarmFragment extends Fragment {
                         //  Toast.makeText(getContext(), days_array[7] + " :is checked" , Toast.LENGTH_SHORT).show();
                     }
                 });
-                /*
-                if(never.isChecked()){
-                    for(int i = 0; i < 8; i++){
-                        days_array[i] = false;
-                    }
-                } else{
-                    days_array[1] = selected_days[1];
-                    days_array[2] = selected_days[2];
-                    days_array[3] = selected_days[3];
-                    days_array[4] = selected_days[4];
-                    days_array[5] = selected_days[5];
-                    days_array[6] = selected_days[6];
-                    days_array[7] = selected_days[7];
-                }
-
-                 */
 
             }
         });
@@ -346,15 +283,7 @@ public final class AddEditAlarmFragment extends Fragment {
         alarm.setDay(Alarm.FRI, selected_days[5]);
         alarm.setDay(Alarm.SAT,selected_days[6]);
         alarm.setDay(Alarm.SUN, selected_days[7]);
-/*
-        alarm.setDay(Alarm.MON, mMon.isChecked());
-        alarm.setDay(Alarm.TUES, mTues.isChecked());
-        alarm.setDay(Alarm.WED, mWed.isChecked());
-        alarm.setDay(Alarm.THURS, mThurs.isChecked());
-        alarm.setDay(Alarm.FRI, mFri.isChecked());
-        alarm.setDay(Alarm.SAT, mSat.isChecked());
-        alarm.setDay(Alarm.SUN, mSun.isChecked());
-*/
+
         final int rowsUpdated = DatabaseHelper.getInstance(getContext()).updateAlarm(alarm);
         final int messageId = (rowsUpdated == 1) ? 1 : 0;
 

@@ -31,6 +31,8 @@ public final class AddEditAlarmFragment extends Fragment {
     private TimePicker mTimePicker;
     private EditText mLabel;
     private TextView repeat;
+    private TextView Snooze;
+    private TextView Sound;
     private Button button1;
     private CheckBox mMon, mTues, mWed, mThurs, mFri, mSat, mSun;
 
@@ -56,6 +58,9 @@ public final class AddEditAlarmFragment extends Fragment {
         ViewUtils.setTimePickerTime(mTimePicker, alarm.getTime());
         mLabel.setText(alarm.getLabel());
         repeat = v.findViewById(R.id.repeat3);
+        Sound = v.findViewById(R.id.Sound);
+        Snooze = v.findViewById(R.id.Snooze);
+
         //button1 = v.findViewById(R.id.button1);
 
         repeat.setOnClickListener(new View.OnClickListener() {
@@ -119,15 +124,24 @@ public final class AddEditAlarmFragment extends Fragment {
                 Dialog d = new BottomSheetDialog(getActivity());
                 d.setContentView(val);
                 d.show();
-                //button1 = val.findViewById(R.id.button1);
-                /*button1.setOnClickListener(new View.OnClickListener() {
-                    @Override
-                    public void onClick(View v) {
-                        //Toast.makeText(getContext(), "BUTTON 1 !!!", Toast.LENGTH_SHORT).show();
-                        //mListener.onButtonClicked("Button 1 clicked");
-                        // dismiss();
-                    }
-                });*/
+            }
+        });
+       Sound.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                View val = getLayoutInflater().inflate(R.layout.bottom_sheet_sounds, null);
+                Dialog d = new BottomSheetDialog(getActivity());
+                d.setContentView(val);
+                d.show();
+            }
+        });
+       Snooze.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                View val = getLayoutInflater().inflate(R.layout.bottom_sheet_snooze, null);
+                Dialog d = new BottomSheetDialog(getActivity());
+                d.setContentView(val);
+                d.show();
             }
         });
 

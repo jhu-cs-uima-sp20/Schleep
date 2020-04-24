@@ -112,6 +112,10 @@
         "source": "/Users/jessicanguyen/Schleep/app/src/main/res/xml/root_preferences.xml"
     },
     {
+        "merged": "/Users/jessicanguyen/Schleep/app/build/intermediates/res/merged/debug/layout_bottom_sheet_snooze.xml.flat",
+        "source": "/Users/jessicanguyen/Schleep/app/src/main/res/layout/bottom_sheet_snooze.xml"
+    },
+    {
         "merged": "/Users/jessicanguyen/Schleep/app/build/intermediates/res/merged/debug/drawable_ic_sheeps.png.flat",
         "source": "/Users/jessicanguyen/Schleep/app/src/main/res/drawable/ic_sheeps.png"
     },
@@ -238,5 +242,9 @@
     {
         "merged": "/Users/jessicanguyen/Schleep/app/build/intermediates/res/merged/debug/menu_main_menu.xml.flat",
         "source": "/Users/jessicanguyen/Schleep/app/src/main/res/menu/main_menu.xml"
+    },
+    {
+        "merged": "/Users/jessicanguyen/Schleep/app/build/intermediates/res/merged/debug/layout_bottom_sheet_sounds.xml.flat",
+        "source": "/Users/jessicanguyen/Schleep/app/src/main/res/layout/bottom_sheet_sounds.xml"
     }
 ]

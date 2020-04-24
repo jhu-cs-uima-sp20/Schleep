@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/bs_sounds"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="Sounds"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+<RadioGroup
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/sounds_one"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="None(Vibrate Only)" />
+
+        <RadioButton
+            android:id="@+id/sounds_two"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Airhorn" />
+
+        <RadioButton
+            android:id="@+id/sounds_three"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cuckoo" />
+
+        <RadioButton
+            android:id="@+id/sounds_four"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Screaming" />
+
+        <RadioButton
+            android:id="@+id/sounds_five"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Rain" />
+
+        <RadioButton
+            android:id="@+id/sounds_six"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Game Music" />
+
+        <RadioButton
+            android:id="@+id/sounds_seven"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="20 minutes" />
+
+        <RadioButton
+            android:id="@+id/sounds_eight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Morning Flower" />
+</RadioGroup>
+</LinearLayout>

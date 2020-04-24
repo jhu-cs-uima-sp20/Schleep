@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="Snooze"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+<RadioGroup
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/option_zero"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Never" />
+
+        <RadioButton
+            android:id="@+id/option_one"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1 minute" />
+
+        <RadioButton
+            android:id="@+id/option_three"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3 minutes" />
+
+        <RadioButton
+            android:id="@+id/option_four"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="5 minutes" />
+
+        <RadioButton
+            android:id="@+id/option_five"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="10 minutes" />
+
+        <RadioButton
+            android:id="@+id/option_six"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="20 minutes" />
+
+        <RadioButton
+            android:id="@+id/option_seven"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="20 minutes" />
+
+        <RadioButton
+            android:id="@+id/option_eight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="45 minutes" />
+</RadioGroup>
+</LinearLayout>

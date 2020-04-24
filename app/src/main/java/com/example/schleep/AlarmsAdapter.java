@@ -37,7 +37,7 @@ public final class AlarmsAdapter extends RecyclerView.Adapter<AlarmsAdapter.View
         final Context c = holder.itemView.getContext();
 
         if(mAccentColor == -1) {
-            //mAccentColor = ContextCompat.getColor(c, R.color.accent);
+            mAccentColor = ContextCompat.getColor(c, R.color.accent);
         }
 
         if(mDays == null){
@@ -85,13 +85,13 @@ public final class AlarmsAdapter extends RecyclerView.Adapter<AlarmsAdapter.View
             startIndex = builder.length();
 
             final String dayText = mDays[i];
-            builder.append(dayText);
-            builder.append(" ");
 
-            endIndex = startIndex + dayText.length();
 
             final boolean isSelected = days.valueAt(i);
             if(isSelected) {
+                builder.append(dayText);
+                builder.append(" ");
+                endIndex = startIndex + dayText.length();
                 span = new ForegroundColorSpan(mAccentColor);
                 builder.setSpan(span, startIndex, endIndex, Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
             }

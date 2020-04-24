@@ -15,20 +15,12 @@
         android:textSize="24sp"
         android:textStyle="bold" />
 
-
-
-
         <RadioButton
             android:id="@+id/Never"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Never" />
 
-        <RadioButton
-            android:id="@+id/Sunday"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Every Sunday" />
 
         <RadioButton
             android:id="@+id/Monday"
@@ -65,5 +57,11 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Every Saturday" />
+
+    <RadioButton
+        android:id="@+id/Sunday"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Every Sunday" />
 
 </LinearLayout>

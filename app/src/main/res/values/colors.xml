@@ -5,6 +5,7 @@
     <color name="colorAccent">#fccd49</color>
     <color name="SchleepOrange">#FFD185</color>
     <color name="fadedWords">#7E7D7D</color>
+    <color name="accent">#000000</color>
     <color name="divider">#BDBDBD</color>
     <color name="white">#FFFFFF</color>
 </resources>

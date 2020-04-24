@@ -13,6 +13,7 @@ import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.LinearLayout;
+import android.widget.RadioButton;
 import android.widget.TextView;
 import android.widget.TimePicker;
 import android.widget.Toast;
@@ -33,8 +34,11 @@ public final class AddEditAlarmFragment extends Fragment {
     private TextView repeat;
     private TextView Snooze;
     private TextView Sound;
+
     private Button button1;
     private CheckBox mMon, mTues, mWed, mThurs, mFri, mSat, mSun;
+
+    private boolean[] selected_days;
 
     public static AddEditAlarmFragment newInstance(Alarm alarm) {
 
@@ -54,6 +58,8 @@ public final class AddEditAlarmFragment extends Fragment {
         final Alarm alarm = getAlarm();
         //Button save = (Button) v.findViewById(R.id.save_button);
         mTimePicker = v.findViewById(R.id.time_picker);
+
+        selected_days = new boolean[8];
         mLabel = (EditText) v.findViewById(R.id.name_alarm_create);
         ViewUtils.setTimePickerTime(mTimePicker, alarm.getTime());
         mLabel.setText(alarm.getLabel());
@@ -124,6 +130,146 @@ public final class AddEditAlarmFragment extends Fragment {
                 Dialog d = new BottomSheetDialog(getActivity());
                 d.setContentView(val);
                 d.show();
+                RadioButton never = val.findViewById(R.id.Never);
+                RadioButton mon = val.findViewById(R.id.Monday);
+                RadioButton tue = val.findViewById(R.id.Tuesday);
+                RadioButton wed = val.findViewById(R.id.Wednesday);
+                RadioButton thur = val.findViewById(R.id.Thursday);
+                RadioButton fri = val.findViewById(R.id.Friday);
+                RadioButton sat = val.findViewById(R.id.Saturday);
+                RadioButton sun = val.findViewById(R.id.Sunday);
+
+
+                mon.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        if(!selected_days[1]){
+                            mon.setChecked(true);
+                            selected_days[1] = true;
+
+                          //  Toast.makeText(getContext(), selected_days[1] + " :is checked 1" , Toast.LENGTH_SHORT).show();
+                        }else{
+                            mon.setChecked(false);
+                            selected_days[1] = false;
+                            //Toast.makeText(getContext(), selected_days[1]  + " :is checked 2" , Toast.LENGTH_SHORT).show();
+                        }
+                      //  Toast.makeText(getContext(), days_array[7] + " :is checked" , Toast.LENGTH_SHORT).show();
+                    }
+                });
+
+                tue.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        if(!selected_days[2]){
+                            tue.setChecked(true);
+                            selected_days[2] = true;
+
+                          //  Toast.makeText(getContext(), selected_days[1] + " :is checked 1" , Toast.LENGTH_SHORT).show();
+                        }else{
+                            tue.setChecked(false);
+                            selected_days[2] = false;
+                            //Toast.makeText(getContext(), selected_days[1]  + " :is checked 2" , Toast.LENGTH_SHORT).show();
+                        }
+                        //  Toast.makeText(getContext(), days_array[7] + " :is checked" , Toast.LENGTH_SHORT).show();
+                    }
+                });
+
+                wed.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        if(!selected_days[3]){
+                            wed.setChecked(true);
+                            selected_days[3] = true;
+
+                           // Toast.makeText(getContext(), selected_days[1] + " :is checked 1" , Toast.LENGTH_SHORT).show();
+                        }else{
+                            wed.setChecked(false);
+                            selected_days[3] = false;
+                            //Toast.makeText(getContext(), selected_days[1]  + " :is checked 2" , Toast.LENGTH_SHORT).show();
+                        }
+                        //  Toast.makeText(getContext(), days_array[7] + " :is checked" , Toast.LENGTH_SHORT).show();
+                    }
+                });
+
+                thur.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        if(!selected_days[4]){
+                            thur.setChecked(true);
+                            selected_days[4] = true;
+
+                        //    Toast.makeText(getContext(), selected_days[1] + " :is checked 1" , Toast.LENGTH_SHORT).show();
+                        }else{
+                            thur.setChecked(false);
+                            selected_days[4] = false;
+                            //Toast.makeText(getContext(), selected_days[1]  + " :is checked 2" , Toast.LENGTH_SHORT).show();
+                        }
+                        //  Toast.makeText(getContext(), days_array[7] + " :is checked" , Toast.LENGTH_SHORT).show();
+                    }
+                });
+
+                fri.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        if(!selected_days[5]){
+                            fri.setChecked(true);
+                            selected_days[5] = true;
+                        }else{
+                            fri.setChecked(false);
+                            selected_days[5] = false;
+                            //Toast.makeText(getContext(), selected_days[1]  + " :is checked 2" , Toast.LENGTH_SHORT).show();
+                        }
+                        //  Toast.makeText(getContext(), days_array[7] + " :is checked" , Toast.LENGTH_SHORT).show();
+                    }
+                });
+                sat.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        if(!selected_days[6]){
+                            sat.setChecked(true);
+                            selected_days[6] = true;
+                        }else{
+                            sat.setChecked(false);
+                            selected_days[6] = false;
+                            //Toast.makeText(getContext(), selected_days[1]  + " :is checked 2" , Toast.LENGTH_SHORT).show();
+                        }
+                        //  Toast.makeText(getContext(), days_array[7] + " :is checked" , Toast.LENGTH_SHORT).show();
+                    }
+                });
+
+                sun.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        if(!selected_days[7]){
+                            sun.setChecked(true);
+                            selected_days[7] = true;
+
+                            //Toast.makeText(getContext(), selected_days[1] + " :is checked 1" , Toast.LENGTH_SHORT).show();
+                        }else{
+                            sun.setChecked(false);
+                            selected_days[7] = false;
+                            //Toast.makeText(getContext(), selected_days[1]  + " :is checked 2" , Toast.LENGTH_SHORT).show();
+                        }
+                        //  Toast.makeText(getContext(), days_array[7] + " :is checked" , Toast.LENGTH_SHORT).show();
+                    }
+                });
+                /*
+                if(never.isChecked()){
+                    for(int i = 0; i < 8; i++){
+                        days_array[i] = false;
+                    }
+                } else{
+                    days_array[1] = selected_days[1];
+                    days_array[2] = selected_days[2];
+                    days_array[3] = selected_days[3];
+                    days_array[4] = selected_days[4];
+                    days_array[5] = selected_days[5];
+                    days_array[6] = selected_days[6];
+                    days_array[7] = selected_days[7];
+                }
+
+                 */
+
             }
         });
        Sound.setOnClickListener(new View.OnClickListener() {
@@ -142,6 +288,7 @@ public final class AddEditAlarmFragment extends Fragment {
                 Dialog d = new BottomSheetDialog(getActivity());
                 d.setContentView(val);
                 d.show();
+
             }
         });
 
@@ -192,13 +339,13 @@ public final class AddEditAlarmFragment extends Fragment {
         alarm.setTime(time.getTimeInMillis());
 
         alarm.setLabel(mLabel.getText().toString());
-        alarm.setDay(Alarm.MON, true);
-        alarm.setDay(Alarm.TUES, true);
-        alarm.setDay(Alarm.WED, true);
-        alarm.setDay(Alarm.THURS, true);
-        alarm.setDay(Alarm.FRI, true);
-        alarm.setDay(Alarm.SAT, true);
-        alarm.setDay(Alarm.SUN, true);
+        alarm.setDay(Alarm.MON,selected_days[1]);
+        alarm.setDay(Alarm.TUES, selected_days[2]);
+        alarm.setDay(Alarm.WED,selected_days[3]);
+        alarm.setDay(Alarm.THURS, selected_days[4]);
+        alarm.setDay(Alarm.FRI, selected_days[5]);
+        alarm.setDay(Alarm.SAT,selected_days[6]);
+        alarm.setDay(Alarm.SUN, selected_days[7]);
 /*
         alarm.setDay(Alarm.MON, mMon.isChecked());
         alarm.setDay(Alarm.TUES, mTues.isChecked());

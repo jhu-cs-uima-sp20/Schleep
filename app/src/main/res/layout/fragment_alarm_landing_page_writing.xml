@@ -32,6 +32,8 @@
         android:scaleType="fitCenter"
         android:autoSizeTextType="uniform"
         android:scrollbars="vertical"
+        android:textColor="@color/colorPrimary"
+        android:background="@color/cardview_light_background"
         />
     <EditText
         android:id="@+id/user_writing_text"
@@ -41,7 +43,7 @@
         android:scaleType="fitCenter"
         android:autoSizeTextType="uniform"
         android:scrollbars="vertical"
-
+        android:background="@color/cardview_dark_background"
         />
 
     <LinearLayout

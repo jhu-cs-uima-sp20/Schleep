@@ -8,21 +8,16 @@
         "source": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/res/layout/alarm_row.xml"
     },
     {
+        "merged": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/build/intermediates/res/merged/debug/navigation_nav_graph2.xml.flat",
+        "source": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/res/navigation/nav_graph2.xml"
+    },
+    {
         "merged": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher.png.flat",
         "source": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
     },
     {
-<<<<<<< HEAD
         "merged": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/build/intermediates/res/merged/debug/drawable_underline.xml.flat",
         "source": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/res/drawable/underline.xml"
-=======
-        "merged": "C:\\Users\\vivia\\AndroidStudioProjects\\Schleep\\app\\build\\intermediates\\res\\merged\\debug\\drawable_rounded_edittext.xml.flat",
-        "source": "C:\\Users\\vivia\\AndroidStudioProjects\\Schleep\\app\\src\\main\\res\\drawable\\rounded_edittext.xml"
-    },
-    {
-        "merged": "C:\\Users\\vivia\\AndroidStudioProjects\\Schleep\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_add_circle_outline_black_24dp.xml.flat",
-        "source": "C:\\Users\\vivia\\AndroidStudioProjects\\Schleep\\app\\src\\main\\res\\drawable\\ic_add_circle_outline_black_24dp.xml"
->>>>>>> daae85136f48923fbfd369f27b19a945ccfc58ce
     },
     {
         "merged": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/build/intermediates/res/merged/debug/drawable_rounded_button.xml.flat",
@@ -85,6 +80,10 @@
         "source": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"
     },
     {
+        "merged": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/build/intermediates/res/merged/debug/layout_fragment_first.xml.flat",
+        "source": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/res/layout/fragment_first.xml"
+    },
+    {
         "merged": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/build/intermediates/res/merged/debug/font_chewy.ttf.flat",
         "source": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/res/font/chewy.ttf"
     },
@@ -101,12 +100,20 @@
         "source": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/res/drawable/ic_add_circle_outline_black_24dp.xml"
     },
     {
+        "merged": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/build/intermediates/res/merged/debug/layout_activity_select_task.xml.flat",
+        "source": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/res/layout/activity_select_task.xml"
+    },
+    {
         "merged": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/build/intermediates/res/merged/debug/drawable_ic_alarm_white.xml.flat",
         "source": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/res/drawable/ic_alarm_white.xml"
     },
     {
         "merged": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher.xml.flat",
         "source": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/build/intermediates/res/merged/debug/layout_fragment_second.xml.flat",
+        "source": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/res/layout/fragment_second.xml"
     },
     {
         "merged": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/build/intermediates/res/merged/debug/layout_activity_main.xml.flat",
@@ -157,21 +164,16 @@
         "source": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
     },
     {
+        "merged": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/build/intermediates/res/merged/debug/drawable_buttonshape.xml.flat",
+        "source": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/res/drawable/buttonshape.xml"
+    },
+    {
         "merged": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/build/intermediates/res/merged/debug/drawable_ic_sheeps_old.xml.flat",
         "source": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/res/drawable/ic_sheeps_old.xml"
     },
     {
-<<<<<<< HEAD
         "merged": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/build/intermediates/res/merged/debug/menu_edit_alarm_menu.xml.flat",
         "source": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/res/menu/edit_alarm_menu.xml"
-=======
-        "merged": "C:\\Users\\vivia\\AndroidStudioProjects\\Schleep\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_alarm_landing_page_math.xml.flat",
-        "source": "C:\\Users\\vivia\\AndroidStudioProjects\\Schleep\\app\\src\\main\\res\\layout\\fragment_alarm_landing_page_math.xml"
-    },
-    {
-        "merged": "C:\\Users\\vivia\\AndroidStudioProjects\\Schleep\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\vivia\\AndroidStudioProjects\\Schleep\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
->>>>>>> daae85136f48923fbfd369f27b19a945ccfc58ce
     },
     {
         "merged": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/build/intermediates/res/merged/debug/layout_bottom_sheet_days.xml.flat",
@@ -210,6 +212,10 @@
         "source": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png"
     },
     {
+        "merged": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/build/intermediates/res/merged/debug/drawable_ic_notask.xml.flat",
+        "source": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/res/drawable/ic_notask.xml"
+    },
+    {
         "merged": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/build/intermediates/res/merged/debug/layout_activity_add_alarm.xml.flat",
         "source": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/res/layout/activity_add_alarm.xml"
     },
@@ -238,6 +244,10 @@
         "source": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
+        "merged": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/build/intermediates/res/merged/debug/layout_content_select_task.xml.flat",
+        "source": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/res/layout/content_select_task.xml"
+    },
+    {
         "merged": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/build/intermediates/res/merged/debug/layout_fragment_first2.xml.flat",
         "source": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/res/layout/fragment_first2.xml"
     },
@@ -254,6 +264,10 @@
         "source": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
     },
     {
+        "merged": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/build/intermediates/res/merged/debug/drawable_ic_keyboard.xml.flat",
+        "source": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/res/drawable/ic_keyboard.xml"
+    },
+    {
         "merged": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/build/intermediates/res/merged/debug/navigation_nav_graph.xml.flat",
         "source": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/res/navigation/nav_graph.xml"
     },
@@ -264,6 +278,10 @@
     {
         "merged": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/build/intermediates/res/merged/debug/drawable_ic_save_white_24dp.png.flat",
         "source": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/res/drawable/ic_save_white_24dp.png"
+    },
+    {
+        "merged": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/build/intermediates/res/merged/debug/drawable_ic_math.xml.flat",
+        "source": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/res/drawable/ic_math.xml"
     },
     {
         "merged": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/build/intermediates/res/merged/debug/drawable_ic_settings_black_24dp.xml.flat",

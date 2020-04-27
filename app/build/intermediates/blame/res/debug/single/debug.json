@@ -12,6 +12,10 @@
         "source": "C:\\Users\\vivia\\AndroidStudioProjects\\Schleep\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
     },
     {
+        "merged": "C:\\Users\\vivia\\AndroidStudioProjects\\Schleep\\app\\build\\intermediates\\res\\merged\\debug\\drawable_rounded_edittext.xml.flat",
+        "source": "C:\\Users\\vivia\\AndroidStudioProjects\\Schleep\\app\\src\\main\\res\\drawable\\rounded_edittext.xml"
+    },
+    {
         "merged": "C:\\Users\\vivia\\AndroidStudioProjects\\Schleep\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_add_circle_outline_black_24dp.xml.flat",
         "source": "C:\\Users\\vivia\\AndroidStudioProjects\\Schleep\\app\\src\\main\\res\\drawable\\ic_add_circle_outline_black_24dp.xml"
     },
@@ -150,6 +154,10 @@
     {
         "merged": "C:\\Users\\vivia\\AndroidStudioProjects\\Schleep\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
         "source": "C:\\Users\\vivia\\AndroidStudioProjects\\Schleep\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\vivia\\AndroidStudioProjects\\Schleep\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_alarm_landing_page_math.xml.flat",
+        "source": "C:\\Users\\vivia\\AndroidStudioProjects\\Schleep\\app\\src\\main\\res\\layout\\fragment_alarm_landing_page_math.xml"
     },
     {
         "merged": "C:\\Users\\vivia\\AndroidStudioProjects\\Schleep\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",

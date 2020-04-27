@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Schleep.iml" filepath="$PROJECT_DIR$/Schleep.iml" group="Schleep" />
+      <module fileurl="file://$PROJECT_DIR$/app/Schleep-app.iml" filepath="$PROJECT_DIR$/app/Schleep-app.iml" group="Schleep/app" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="Schleep/app" />
     </modules>
   </component>

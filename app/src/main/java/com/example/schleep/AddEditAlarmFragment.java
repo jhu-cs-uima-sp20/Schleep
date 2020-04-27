@@ -81,14 +81,14 @@ public final class AddEditAlarmFragment extends Fragment {
     @Override
     public void onActivityCreated(Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
-
+/*
         Task.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent selectTask = new Intent(getActivity(), SelectTask.class);
                 startActivity(selectTask);
             }
-        });
+        });*/
 
         repeat.setOnClickListener(new View.OnClickListener() {
             @Override

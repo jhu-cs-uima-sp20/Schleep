@@ -79,6 +79,7 @@ public final class AlarmLandingPageWritingFragment extends Fragment implements S
         else if (decide == 3) {
             prompt.setText(cinderella);
         }
+        final String[] intermediateInput = {""};
         ProgressBar wProgressBar = (ProgressBar) v.findViewById(R.id.progress_bar_writing);
         CountDownTimer wCountdownTimer;
         final int[] counter = {0};
@@ -89,7 +90,7 @@ public final class AlarmLandingPageWritingFragment extends Fragment implements S
                 Log.v("Log_tag", "Tick of Progress" + counter[0] + millisUntilFinished);
                 counter[0]++;
                 wProgressBar.setProgress((int) counter[0] * 100/(30000/1000));
-                if (writingText.getText() != null) {
+                if (!writingText.getText().toString().equals(intermediateInput[0])) {
                     wProgressBar.setProgress(0);
                 }
             }
@@ -100,6 +101,20 @@ public final class AlarmLandingPageWritingFragment extends Fragment implements S
                 //add making sounds here
             }
         };
+        wCountdownTimer.start();
+
+        CountDownTimer checkerCountDownTimer = new CountDownTimer(30000, 5000) {  //this timer is to check every 5 seconds that the user is typing
+            @Override
+            public void onTick(long millisUntilFinished) {
+                intermediateInput[0] = writingText.getText().toString();
+            }
+
+            @Override
+            public void onFinish() {
+                //do nothing
+            }
+        };
+        checkerCountDownTimer.start();
 
         checkWritingButton.setOnClickListener(new View.OnClickListener() {
             @Override

@@ -72,7 +72,34 @@ public final class AddEditAlarmFragment extends Fragment {
         Sound = v.findViewById(R.id.Sound);
         Snooze = v.findViewById(R.id.Snooze);
         Task = v.findViewById(R.id.task);
+        String s = "";
+        TextView rep = v.findViewById(R.id.task_button_repeat);
+        if(alarm.getDay(Alarm.MON)){
+            s += "M ";
+        }
+        if(alarm.getDay(Alarm.TUES)){
+            s += "T ";
+        }
+        if(alarm.getDay(Alarm.WED)){
+            s += "W ";
+        }
+        if(alarm.getDay(Alarm.THURS)){
+            s += "Th ";
+        }
+        if(alarm.getDay(Alarm.FRI)){
+            s += "F ";
+        }
+        if(alarm.getDay(Alarm.SAT)){
+            s += "Sa ";
+        }
+        if(alarm.getDay(Alarm.SUN)){
+            s += "Sa ";
+        }
 
+        if(s.compareTo("") != 0){
+
+            rep.setText(s);
+        }
         setHasOptionsMenu(true);
 
         return v;
@@ -96,6 +123,7 @@ public final class AddEditAlarmFragment extends Fragment {
                 View val = getLayoutInflater().inflate(R.layout.bottom_sheet_days, null);
                 Dialog d = new BottomSheetDialog(getActivity());
                 d.setContentView(val);
+                final Alarm alarm = getAlarm();
                 d.show();
                 RadioButton never = val.findViewById(R.id.Never);
                 RadioButton mon = val.findViewById(R.id.Monday);
@@ -106,10 +134,27 @@ public final class AddEditAlarmFragment extends Fragment {
                 RadioButton sat = val.findViewById(R.id.Saturday);
                 RadioButton sun = val.findViewById(R.id.Sunday);
 
+                selected_days[1] =  alarm.getDay(Alarm.MON);
+                mon.setChecked(selected_days[1]);
+                selected_days[2] =  alarm.getDay(Alarm.TUES);
+                tue.setChecked(selected_days[2]);
+                selected_days[3] =  alarm.getDay(Alarm.WED);
+                wed.setChecked(selected_days[3]);
+                selected_days[4] =  alarm.getDay(Alarm.THURS);
+                thur.setChecked(selected_days[4]);
+                selected_days[5] =  alarm.getDay(Alarm.FRI);
+                fri.setChecked(selected_days[5]);
+                selected_days[6] =  alarm.getDay(Alarm.SAT);
+                sat.setChecked(selected_days[6]);
+                selected_days[7] =  alarm.getDay(Alarm.SUN);
+                sun.setChecked(selected_days[7]);
+
+                //Button b = findVietask_button_repeat
 
                 mon.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
+                        mon.setChecked(selected_days[1]);
                         if(!selected_days[1]){
                             mon.setChecked(true);
                             selected_days[1] = true;

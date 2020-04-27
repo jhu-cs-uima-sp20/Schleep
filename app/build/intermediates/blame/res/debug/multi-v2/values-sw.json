@@ -1,6 +1,7 @@
 {
     "logs": [
         {
+<<<<<<< HEAD
             "outputFile": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw/values-sw.xml",
             "map": [
                 {
@@ -39,6 +40,12 @@
                 },
                 {
                     "source": "/Users/noahpark/.gradle/caches/transforms-2/files-2.1/6aeecca85dd981dd0e1d529276843c57/navigation-ui-2.2.1/res/values-sw/values-sw.xml",
+=======
+            "outputFile": "/Users/jessicanguyen/Schleep/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw/values-sw.xml",
+            "map": [
+                {
+                    "source": "/Users/jessicanguyen/.gradle/caches/transforms-2/files-2.1/6aeecca85dd981dd0e1d529276843c57/navigation-ui-2.2.1/res/values-sw/values-sw.xml",
+>>>>>>> 88609104cbba482fc2e06a3a617cc8d41348b774
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",
@@ -55,7 +62,11 @@
                     }
                 },
                 {
+<<<<<<< HEAD
                     "source": "/Users/noahpark/.gradle/caches/transforms-2/files-2.1/da95e0dd41fd0c634661df2a0f122634/core-1.1.0/res/values-sw/values-sw.xml",
+=======
+                    "source": "/Users/jessicanguyen/.gradle/caches/transforms-2/files-2.1/da95e0dd41fd0c634661df2a0f122634/core-1.1.0/res/values-sw/values-sw.xml",
+>>>>>>> 88609104cbba482fc2e06a3a617cc8d41348b774
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

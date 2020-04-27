@@ -280,6 +280,10 @@
         "source": "C:\\Users\\vivia\\AndroidStudioProjects\\Schleep\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
     },
     {
+        "merged": "C:\\Users\\vivia\\AndroidStudioProjects\\Schleep\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_notask.xml.flat",
+        "source": "C:\\Users\\vivia\\AndroidStudioProjects\\Schleep\\app\\src\\main\\res\\drawable\\ic_notask.xml"
+    },
+    {
         "merged": "C:\\Users\\vivia\\AndroidStudioProjects\\Schleep\\app\\build\\intermediates\\res\\merged\\debug\\raw_airhorn.mp3.flat",
         "source": "C:\\Users\\vivia\\AndroidStudioProjects\\Schleep\\app\\src\\main\\res\\raw\\airhorn.mp3"
     }

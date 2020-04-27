@@ -1487,6 +1487,7 @@ drawable ic_mtrl_checked_circle
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
+drawable ic_notask
 drawable ic_save_white_24dp
 drawable ic_settings_black_24dp
 drawable ic_sheeps
@@ -1761,6 +1762,7 @@ id navigation_header_container
 id never
 id noScroll
 id none
+id none_btn
 id normal
 id notification_background
 id notification_main_column

@@ -2,6 +2,7 @@ package com.example.schleep;
 
 import android.app.Dialog;
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.Menu;
@@ -35,6 +36,9 @@ public final class AddEditAlarmFragment extends Fragment {
     private TextView Snooze;
     private TextView Sound;
 
+    /*Test*/
+    private TextView Task;
+
     private Button button1;
     private CheckBox mMon, mTues, mWed, mThurs, mFri, mSat, mSun;
 
@@ -56,6 +60,7 @@ public final class AddEditAlarmFragment extends Fragment {
 
         final View v = inflater.inflate(R.layout.createalarm_activity, container, false);
         final Alarm alarm = getAlarm();
+        String task = getArguments().getString("task");
         //Button save = (Button) v.findViewById(R.id.save_button);
         mTimePicker = v.findViewById(R.id.time_picker);
 
@@ -66,9 +71,9 @@ public final class AddEditAlarmFragment extends Fragment {
         repeat = v.findViewById(R.id.repeat3);
         Sound = v.findViewById(R.id.Sound);
         Snooze = v.findViewById(R.id.Snooze);
+        Task = v.findViewById(R.id.task);
 
         setHasOptionsMenu(true);
-
 
         return v;
     }
@@ -76,6 +81,15 @@ public final class AddEditAlarmFragment extends Fragment {
     @Override
     public void onActivityCreated(Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
+
+        Task.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent selectTask = new Intent(getActivity(), SelectTask.class);
+                startActivity(selectTask);
+            }
+        });
+
         repeat.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

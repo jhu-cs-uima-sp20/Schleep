@@ -52,4 +52,5 @@
     <string name="attachment_summary_off">Only download attachments when manually requested</string>
     <string name="schleep">Schleep</string>
     <string name="channel_name">Schleep</string>
+    <string name="prompt_instructions">Type the prompt to turn off the alarm:</string>
 </resources>

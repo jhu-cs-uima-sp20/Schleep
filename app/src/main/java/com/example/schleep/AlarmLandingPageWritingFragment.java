@@ -16,6 +16,7 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
@@ -80,23 +81,23 @@ public final class AlarmLandingPageWritingFragment extends Fragment implements S
                 String userInput = writingText.getText().toString();
                 if (userInput == prompt.getText().toString()) {
                     startActivity(new Intent(getContext(), MainActivity.class));
+                    getActivity().finish();
                 }
-
-                //startActivity(new Intent(getContext(), MainActivity.class));
-                vibrator.cancel();
-                getActivity().finish();
+                else {
+                    Toast.makeText(getActivity(), "Incorrect! Try Again!", Toast.LENGTH_SHORT).show();
+                }
             }
         });
         dismiss.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                vibrator.cancel();
+                //vibrator.cancel();
                 getActivity().finish();
             }
         });
         pm=(PowerManager)getActivity().getSystemService(Context.POWER_SERVICE);
 
-        startvibe();
+        //startvibe();
         return v;
     }
 

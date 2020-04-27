@@ -1,17 +1,10 @@
 {
     "logs": [
         {
-<<<<<<< HEAD
-            "outputFile": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-small-v4/values-small-v4.xml",
-            "map": [
-                {
-                    "source": "/Users/noahpark/.gradle/caches/transforms-2/files-2.1/eaf17b24d60dc773c7680b20ac141638/material-1.1.0/res/values-small-v4/values-small-v4.xml",
-=======
             "outputFile": "/Users/jessicanguyen/Schleep/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-small-v4/values-small-v4.xml",
             "map": [
                 {
                     "source": "/Users/jessicanguyen/.gradle/caches/transforms-2/files-2.1/eaf17b24d60dc773c7680b20ac141638/material-1.1.0/res/values-small-v4/values-small-v4.xml",
->>>>>>> e97c7435a4b40d10adc730ca079375d4a49806c7
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",

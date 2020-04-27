@@ -12,8 +12,17 @@
         "source": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
     },
     {
+<<<<<<< HEAD
         "merged": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/build/intermediates/res/merged/debug/drawable_underline.xml.flat",
         "source": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/res/drawable/underline.xml"
+=======
+        "merged": "C:\\Users\\vivia\\AndroidStudioProjects\\Schleep\\app\\build\\intermediates\\res\\merged\\debug\\drawable_rounded_edittext.xml.flat",
+        "source": "C:\\Users\\vivia\\AndroidStudioProjects\\Schleep\\app\\src\\main\\res\\drawable\\rounded_edittext.xml"
+    },
+    {
+        "merged": "C:\\Users\\vivia\\AndroidStudioProjects\\Schleep\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_add_circle_outline_black_24dp.xml.flat",
+        "source": "C:\\Users\\vivia\\AndroidStudioProjects\\Schleep\\app\\src\\main\\res\\drawable\\ic_add_circle_outline_black_24dp.xml"
+>>>>>>> daae85136f48923fbfd369f27b19a945ccfc58ce
     },
     {
         "merged": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/build/intermediates/res/merged/debug/drawable_rounded_button.xml.flat",
@@ -152,8 +161,17 @@
         "source": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/res/drawable/ic_sheeps_old.xml"
     },
     {
+<<<<<<< HEAD
         "merged": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/build/intermediates/res/merged/debug/menu_edit_alarm_menu.xml.flat",
         "source": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/res/menu/edit_alarm_menu.xml"
+=======
+        "merged": "C:\\Users\\vivia\\AndroidStudioProjects\\Schleep\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_alarm_landing_page_math.xml.flat",
+        "source": "C:\\Users\\vivia\\AndroidStudioProjects\\Schleep\\app\\src\\main\\res\\layout\\fragment_alarm_landing_page_math.xml"
+    },
+    {
+        "merged": "C:\\Users\\vivia\\AndroidStudioProjects\\Schleep\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\vivia\\AndroidStudioProjects\\Schleep\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+>>>>>>> daae85136f48923fbfd369f27b19a945ccfc58ce
     },
     {
         "merged": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/build/intermediates/res/merged/debug/layout_bottom_sheet_days.xml.flat",

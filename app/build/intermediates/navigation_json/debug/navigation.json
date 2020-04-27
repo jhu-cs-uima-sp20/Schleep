@@ -3,10 +3,13 @@
     "name": "nav_graph2",
     "navigationXmlIds": [],
     "deepLinks": []
+<<<<<<< HEAD
   },
   {
     "name": "nav_graph",
     "navigationXmlIds": [],
     "deepLinks": []
+=======
+>>>>>>> e97c7435a4b40d10adc730ca079375d4a49806c7
   }
 ]

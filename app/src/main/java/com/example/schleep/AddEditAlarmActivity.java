@@ -47,6 +47,16 @@ public final class AddEditAlarmActivity extends AppCompatActivity  {
 
     }
 
+    public void onActivityResult(int requestCode, int resultCode, Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+        if (requestCode == 1) {
+            if(resultCode == RESULT_OK) {
+                TextView bot = findViewById(R.id.task_button_task);
+                bot.setText(data.getStringExtra("task"));
+            }
+        }
+    }
+    
     private Alarm getAlarm() {
         switch (getMode()) {
             case EDIT_ALARM:

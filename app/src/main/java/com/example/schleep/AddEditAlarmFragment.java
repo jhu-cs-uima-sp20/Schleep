@@ -60,6 +60,7 @@ public final class AddEditAlarmFragment extends Fragment {
 
         final View v = inflater.inflate(R.layout.createalarm_activity, container, false);
         final Alarm alarm = getAlarm();
+        String task = getArguments().getString("task");
         //Button save = (Button) v.findViewById(R.id.save_button);
         mTimePicker = v.findViewById(R.id.time_picker);
 

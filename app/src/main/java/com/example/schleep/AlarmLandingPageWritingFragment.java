@@ -79,6 +79,9 @@ public final class AlarmLandingPageWritingFragment extends Fragment implements S
         else if (decide == 3) {
             prompt.setText(cinderella);
         }
+        else{
+            prompt.setText(beeMovie);
+        }
         final String[] intermediateInput = {""};
         ProgressBar wProgressBar = (ProgressBar) v.findViewById(R.id.progress_bar_writing);
         CountDownTimer wCountdownTimer;
@@ -121,7 +124,7 @@ public final class AlarmLandingPageWritingFragment extends Fragment implements S
             public void onClick(View v) {
                 //check that the edit text content matches the content of the textview
                 String userInput = writingText.getText().toString();
-                if (userInput == prompt.getText().toString()) {
+                if (userInput.equals(prompt.getText().toString())) {
                     startActivity(new Intent(getContext(), MainActivity.class));
                     getActivity().finish();
                 }

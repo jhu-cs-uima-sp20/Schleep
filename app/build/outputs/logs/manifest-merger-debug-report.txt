@@ -1,14 +1,14 @@
 -- Merging decision tree log ---
 intent-filter#action:name:android.intent.action.BOOT_COMPLETED
-INJECTED from C:\Users\vivia\AndroidStudioProjects\Schleep\app\src\main\AndroidManifest.xml:35:13-37:29
+INJECTED from C:\Users\vivia\AndroidStudioProjects\Schleep\app\src\main\AndroidManifest.xml:40:13-42:29
 	android:priority
 		INJECTED from C:\Users\vivia\AndroidStudioProjects\Schleep\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\vivia\AndroidStudioProjects\Schleep\app\src\main\AndroidManifest.xml:35:28-62
+		ADDED from C:\Users\vivia\AndroidStudioProjects\Schleep\app\src\main\AndroidManifest.xml:40:28-62
 manifest
-ADDED from C:\Users\vivia\AndroidStudioProjects\Schleep\app\src\main\AndroidManifest.xml:2:1-42:12
-INJECTED from C:\Users\vivia\AndroidStudioProjects\Schleep\app\src\main\AndroidManifest.xml:2:1-42:12
-INJECTED from C:\Users\vivia\AndroidStudioProjects\Schleep\app\src\main\AndroidManifest.xml:2:1-42:12
-INJECTED from C:\Users\vivia\AndroidStudioProjects\Schleep\app\src\main\AndroidManifest.xml:2:1-42:12
+ADDED from C:\Users\vivia\AndroidStudioProjects\Schleep\app\src\main\AndroidManifest.xml:2:1-46:12
+INJECTED from C:\Users\vivia\AndroidStudioProjects\Schleep\app\src\main\AndroidManifest.xml:2:1-46:12
+INJECTED from C:\Users\vivia\AndroidStudioProjects\Schleep\app\src\main\AndroidManifest.xml:2:1-46:12
+INJECTED from C:\Users\vivia\AndroidStudioProjects\Schleep\app\src\main\AndroidManifest.xml:2:1-46:12
 MERGED from [androidx.preference:preference:1.1.0-rc01] C:\Users\vivia\.gradle\caches\transforms-2\files-2.1\7fd9d315a0c053358eed08eb8d7cfade\preference-1.1.0-rc01\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.navigation:navigation-ui:2.2.1] C:\Users\vivia\.gradle\caches\transforms-2\files-2.1\6aeecca85dd981dd0e1d529276843c57\navigation-ui-2.2.1\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.material:material:1.1.0] C:\Users\vivia\.gradle\caches\transforms-2\files-2.1\eaf17b24d60dc773c7680b20ac141638\material-1.1.0\AndroidManifest.xml:17:1-24:12
@@ -51,33 +51,33 @@ MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] C:\Users\vivia\.gradle\
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\vivia\.gradle\caches\transforms-2\files-2.1\1e517e060e22e5750a896c56d451ab07\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] C:\Users\vivia\.gradle\caches\transforms-2\files-2.1\f084663c35e36265d32f84cf27bfe14a\lifecycle-livedata-core-2.2.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\vivia\.gradle\caches\transforms-2\files-2.1\02e272269748a331fcc448332a33a66d\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
-INJECTED from C:\Users\vivia\AndroidStudioProjects\Schleep\app\src\main\AndroidManifest.xml:2:1-42:12
-INJECTED from C:\Users\vivia\AndroidStudioProjects\Schleep\app\src\main\AndroidManifest.xml:2:1-42:12
-INJECTED from C:\Users\vivia\AndroidStudioProjects\Schleep\app\src\main\AndroidManifest.xml:2:1-42:12
+INJECTED from C:\Users\vivia\AndroidStudioProjects\Schleep\app\src\main\AndroidManifest.xml:2:1-46:12
+INJECTED from C:\Users\vivia\AndroidStudioProjects\Schleep\app\src\main\AndroidManifest.xml:2:1-46:12
+INJECTED from C:\Users\vivia\AndroidStudioProjects\Schleep\app\src\main\AndroidManifest.xml:2:1-46:12
 	package
 		ADDED from C:\Users\vivia\AndroidStudioProjects\Schleep\app\src\main\AndroidManifest.xml:3:5-34
 		INJECTED from C:\Users\vivia\AndroidStudioProjects\Schleep\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\vivia\AndroidStudioProjects\Schleep\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\vivia\AndroidStudioProjects\Schleep\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\vivia\AndroidStudioProjects\Schleep\app\src\main\AndroidManifest.xml:2:1-42:12
+		ADDED from C:\Users\vivia\AndroidStudioProjects\Schleep\app\src\main\AndroidManifest.xml:2:1-46:12
 		INJECTED from C:\Users\vivia\AndroidStudioProjects\Schleep\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Users\vivia\AndroidStudioProjects\Schleep\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\vivia\AndroidStudioProjects\Schleep\app\src\main\AndroidManifest.xml:2:1-42:12
+		ADDED from C:\Users\vivia\AndroidStudioProjects\Schleep\app\src\main\AndroidManifest.xml:2:1-46:12
 		INJECTED from C:\Users\vivia\AndroidStudioProjects\Schleep\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\vivia\AndroidStudioProjects\Schleep\app\src\main\AndroidManifest.xml:2:11-69
 uses-permission#android.permission.VIBRATE
-ADDED from C:\Users\vivia\AndroidStudioProjects\Schleep\app\src\main\AndroidManifest.xml:4:5-66
+ADDED from C:\Users\vivia\AndroidStudioProjects\Schleep\app\src\main\AndroidManifest.xml:5:5-66
 	android:name
-		ADDED from C:\Users\vivia\AndroidStudioProjects\Schleep\app\src\main\AndroidManifest.xml:4:22-63
+		ADDED from C:\Users\vivia\AndroidStudioProjects\Schleep\app\src\main\AndroidManifest.xml:5:22-63
 uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
-ADDED from C:\Users\vivia\AndroidStudioProjects\Schleep\app\src\main\AndroidManifest.xml:5:5-80
+ADDED from C:\Users\vivia\AndroidStudioProjects\Schleep\app\src\main\AndroidManifest.xml:6:5-81
 	android:name
-		ADDED from C:\Users\vivia\AndroidStudioProjects\Schleep\app\src\main\AndroidManifest.xml:5:22-78
+		ADDED from C:\Users\vivia\AndroidStudioProjects\Schleep\app\src\main\AndroidManifest.xml:6:22-78
 application
-ADDED from C:\Users\vivia\AndroidStudioProjects\Schleep\app\src\main\AndroidManifest.xml:7:5-40:19
+ADDED from C:\Users\vivia\AndroidStudioProjects\Schleep\app\src\main\AndroidManifest.xml:8:5-44:19
 MERGED from [com.google.android.material:material:1.1.0] C:\Users\vivia\.gradle\caches\transforms-2\files-2.1\eaf17b24d60dc773c7680b20ac141638\material-1.1.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.1.0] C:\Users\vivia\.gradle\caches\transforms-2\files-2.1\eaf17b24d60dc773c7680b20ac141638\material-1.1.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\vivia\.gradle\caches\transforms-2\files-2.1\cb3ee0668a2ccffbec6ced598c9d8e79\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
@@ -89,65 +89,73 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\vi
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.1.0] C:\Users\vivia\.gradle\caches\transforms-2\files-2.1\da95e0dd41fd0c634661df2a0f122634\core-1.1.0\AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from C:\Users\vivia\AndroidStudioProjects\Schleep\app\src\main\AndroidManifest.xml:12:9-35
+		ADDED from C:\Users\vivia\AndroidStudioProjects\Schleep\app\src\main\AndroidManifest.xml:13:9-35
 	android:label
-		ADDED from C:\Users\vivia\AndroidStudioProjects\Schleep\app\src\main\AndroidManifest.xml:10:9-41
+		ADDED from C:\Users\vivia\AndroidStudioProjects\Schleep\app\src\main\AndroidManifest.xml:11:9-41
 	android:roundIcon
-		ADDED from C:\Users\vivia\AndroidStudioProjects\Schleep\app\src\main\AndroidManifest.xml:11:9-54
+		ADDED from C:\Users\vivia\AndroidStudioProjects\Schleep\app\src\main\AndroidManifest.xml:12:9-54
 	android:icon
-		ADDED from C:\Users\vivia\AndroidStudioProjects\Schleep\app\src\main\AndroidManifest.xml:9:9-43
+		ADDED from C:\Users\vivia\AndroidStudioProjects\Schleep\app\src\main\AndroidManifest.xml:10:9-43
 	android:allowBackup
-		ADDED from C:\Users\vivia\AndroidStudioProjects\Schleep\app\src\main\AndroidManifest.xml:8:9-35
+		ADDED from C:\Users\vivia\AndroidStudioProjects\Schleep\app\src\main\AndroidManifest.xml:9:9-35
 	android:theme
-		ADDED from C:\Users\vivia\AndroidStudioProjects\Schleep\app\src\main\AndroidManifest.xml:13:9-40
-activity#com.example.schleep.SettingsActivity
-ADDED from C:\Users\vivia\AndroidStudioProjects\Schleep\app\src\main\AndroidManifest.xml:14:9-16:72
+		ADDED from C:\Users\vivia\AndroidStudioProjects\Schleep\app\src\main\AndroidManifest.xml:14:9-40
+activity#com.example.schleep.SelectTask
+ADDED from C:\Users\vivia\AndroidStudioProjects\Schleep\app\src\main\AndroidManifest.xml:15:9-18:68
 	android:label
-		ADDED from C:\Users\vivia\AndroidStudioProjects\Schleep\app\src\main\AndroidManifest.xml:16:13-60
+		ADDED from C:\Users\vivia\AndroidStudioProjects\Schleep\app\src\main\AndroidManifest.xml:17:13-63
+	android:theme
+		ADDED from C:\Users\vivia\AndroidStudioProjects\Schleep\app\src\main\AndroidManifest.xml:18:13-56
 	android:name
-		ADDED from C:\Users\vivia\AndroidStudioProjects\Schleep\app\src\main\AndroidManifest.xml:15:13-45
+		ADDED from C:\Users\vivia\AndroidStudioProjects\Schleep\app\src\main\AndroidManifest.xml:16:13-39
+activity#com.example.schleep.SettingsActivity
+ADDED from C:\Users\vivia\AndroidStudioProjects\Schleep\app\src\main\AndroidManifest.xml:19:9-21:63
+	android:label
+		ADDED from C:\Users\vivia\AndroidStudioProjects\Schleep\app\src\main\AndroidManifest.xml:21:13-60
+	android:name
+		ADDED from C:\Users\vivia\AndroidStudioProjects\Schleep\app\src\main\AndroidManifest.xml:20:13-45
 activity#com.example.schleep.MainActivity
-ADDED from C:\Users\vivia\AndroidStudioProjects\Schleep\app\src\main\AndroidManifest.xml:18:9-24:20
+ADDED from C:\Users\vivia\AndroidStudioProjects\Schleep\app\src\main\AndroidManifest.xml:22:9-28:20
 	android:name
-		ADDED from C:\Users\vivia\AndroidStudioProjects\Schleep\app\src\main\AndroidManifest.xml:18:19-47
+		ADDED from C:\Users\vivia\AndroidStudioProjects\Schleep\app\src\main\AndroidManifest.xml:22:19-47
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\vivia\AndroidStudioProjects\Schleep\app\src\main\AndroidManifest.xml:19:13-23:29
+ADDED from C:\Users\vivia\AndroidStudioProjects\Schleep\app\src\main\AndroidManifest.xml:23:13-27:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\vivia\AndroidStudioProjects\Schleep\app\src\main\AndroidManifest.xml:20:17-69
+ADDED from C:\Users\vivia\AndroidStudioProjects\Schleep\app\src\main\AndroidManifest.xml:24:17-69
 	android:name
-		ADDED from C:\Users\vivia\AndroidStudioProjects\Schleep\app\src\main\AndroidManifest.xml:20:25-66
+		ADDED from C:\Users\vivia\AndroidStudioProjects\Schleep\app\src\main\AndroidManifest.xml:24:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\vivia\AndroidStudioProjects\Schleep\app\src\main\AndroidManifest.xml:22:17-77
+ADDED from C:\Users\vivia\AndroidStudioProjects\Schleep\app\src\main\AndroidManifest.xml:26:17-77
 	android:name
-		ADDED from C:\Users\vivia\AndroidStudioProjects\Schleep\app\src\main\AndroidManifest.xml:22:27-74
+		ADDED from C:\Users\vivia\AndroidStudioProjects\Schleep\app\src\main\AndroidManifest.xml:26:27-74
 activity#com.example.schleep.AddEditAlarmActivity
-ADDED from C:\Users\vivia\AndroidStudioProjects\Schleep\app\src\main\AndroidManifest.xml:26:9-58
+ADDED from C:\Users\vivia\AndroidStudioProjects\Schleep\app\src\main\AndroidManifest.xml:29:9-58
 	android:name
-		ADDED from C:\Users\vivia\AndroidStudioProjects\Schleep\app\src\main\AndroidManifest.xml:26:19-55
+		ADDED from C:\Users\vivia\AndroidStudioProjects\Schleep\app\src\main\AndroidManifest.xml:29:19-55
 activity#com.example.schleep.AlarmLandingPageActivity
-ADDED from C:\Users\vivia\AndroidStudioProjects\Schleep\app\src\main\AndroidManifest.xml:27:9-61
+ADDED from C:\Users\vivia\AndroidStudioProjects\Schleep\app\src\main\AndroidManifest.xml:30:9-62
 	android:name
-		ADDED from C:\Users\vivia\AndroidStudioProjects\Schleep\app\src\main\AndroidManifest.xml:27:19-59
+		ADDED from C:\Users\vivia\AndroidStudioProjects\Schleep\app\src\main\AndroidManifest.xml:30:19-59
 service#com.example.schleep.LoadAlarmsService
-ADDED from C:\Users\vivia\AndroidStudioProjects\Schleep\app\src\main\AndroidManifest.xml:30:9-54
+ADDED from C:\Users\vivia\AndroidStudioProjects\Schleep\app\src\main\AndroidManifest.xml:32:9-54
 	android:name
-		ADDED from C:\Users\vivia\AndroidStudioProjects\Schleep\app\src\main\AndroidManifest.xml:30:18-51
+		ADDED from C:\Users\vivia\AndroidStudioProjects\Schleep\app\src\main\AndroidManifest.xml:32:18-51
 receiver#com.example.schleep.LoadAlarmsReceiver
-ADDED from C:\Users\vivia\AndroidStudioProjects\Schleep\app\src\main\AndroidManifest.xml:32:9-56
+ADDED from C:\Users\vivia\AndroidStudioProjects\Schleep\app\src\main\AndroidManifest.xml:34:9-56
 	android:name
-		ADDED from C:\Users\vivia\AndroidStudioProjects\Schleep\app\src\main\AndroidManifest.xml:32:19-53
+		ADDED from C:\Users\vivia\AndroidStudioProjects\Schleep\app\src\main\AndroidManifest.xml:34:19-53
 receiver#com.example.schleep.AlarmReceiver
-ADDED from C:\Users\vivia\AndroidStudioProjects\Schleep\app\src\main\AndroidManifest.xml:33:9-51
+ADDED from C:\Users\vivia\AndroidStudioProjects\Schleep\app\src\main\AndroidManifest.xml:35:9-51
 	android:name
-		ADDED from C:\Users\vivia\AndroidStudioProjects\Schleep\app\src\main\AndroidManifest.xml:33:19-48
+		ADDED from C:\Users\vivia\AndroidStudioProjects\Schleep\app\src\main\AndroidManifest.xml:35:19-48
 receiver#com.example.schleep.BootReceiver
-ADDED from C:\Users\vivia\AndroidStudioProjects\Schleep\app\src\main\AndroidManifest.xml:34:9-38:20
+ADDED from C:\Users\vivia\AndroidStudioProjects\Schleep\app\src\main\AndroidManifest.xml:36:9-43:20
 	android:enabled
-		ADDED from C:\Users\vivia\AndroidStudioProjects\Schleep\app\src\main\AndroidManifest.xml:34:48-70
+		ADDED from C:\Users\vivia\AndroidStudioProjects\Schleep\app\src\main\AndroidManifest.xml:38:13-35
 	android:exported
-		ADDED from C:\Users\vivia\AndroidStudioProjects\Schleep\app\src\main\AndroidManifest.xml:34:71-94
+		ADDED from C:\Users\vivia\AndroidStudioProjects\Schleep\app\src\main\AndroidManifest.xml:39:13-36
 	android:name
-		ADDED from C:\Users\vivia\AndroidStudioProjects\Schleep\app\src\main\AndroidManifest.xml:34:19-47
+		ADDED from C:\Users\vivia\AndroidStudioProjects\Schleep\app\src\main\AndroidManifest.xml:37:13-41
 uses-sdk
 INJECTED from C:\Users\vivia\AndroidStudioProjects\Schleep\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\vivia\AndroidStudioProjects\Schleep\app\src\main\AndroidManifest.xml
@@ -247,6 +255,6 @@ INJECTED from C:\Users\vivia\AndroidStudioProjects\Schleep\app\src\main\AndroidM
 		ADDED from C:\Users\vivia\AndroidStudioProjects\Schleep\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\vivia\AndroidStudioProjects\Schleep\app\src\main\AndroidManifest.xml
 action#android.intent.action.BOOT_COMPLETED
-ADDED from C:\Users\vivia\AndroidStudioProjects\Schleep\app\src\main\AndroidManifest.xml:36:17-78
+ADDED from C:\Users\vivia\AndroidStudioProjects\Schleep\app\src\main\AndroidManifest.xml:41:17-79
 	android:name
-		ADDED from C:\Users\vivia\AndroidStudioProjects\Schleep\app\src\main\AndroidManifest.xml:36:25-76
+		ADDED from C:\Users\vivia\AndroidStudioProjects\Schleep\app\src\main\AndroidManifest.xml:41:25-76

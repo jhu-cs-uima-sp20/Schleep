@@ -4,6 +4,10 @@
         "source": "C:\\Users\\vivia\\AndroidStudioProjects\\Schleep\\app\\src\\main\\res\\layout\\fragment_second2.xml"
     },
     {
+        "merged": "C:\\Users\\vivia\\AndroidStudioProjects\\Schleep\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_keyboard.xml.flat",
+        "source": "C:\\Users\\vivia\\AndroidStudioProjects\\Schleep\\app\\src\\main\\res\\drawable\\ic_keyboard.xml"
+    },
+    {
         "merged": "C:\\Users\\vivia\\AndroidStudioProjects\\Schleep\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
         "source": "C:\\Users\\vivia\\AndroidStudioProjects\\Schleep\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
     },
@@ -16,12 +20,16 @@
         "source": "C:\\Users\\vivia\\AndroidStudioProjects\\Schleep\\app\\src\\main\\res\\layout\\bottom_sheet_snooze.xml"
     },
     {
+        "merged": "C:\\Users\\vivia\\AndroidStudioProjects\\Schleep\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\vivia\\AndroidStudioProjects\\Schleep\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
         "merged": "C:\\Users\\vivia\\AndroidStudioProjects\\Schleep\\app\\build\\intermediates\\res\\merged\\debug\\drawable_underline.xml.flat",
         "source": "C:\\Users\\vivia\\AndroidStudioProjects\\Schleep\\app\\src\\main\\res\\drawable\\underline.xml"
     },
     {
-        "merged": "C:\\Users\\vivia\\AndroidStudioProjects\\Schleep\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\vivia\\AndroidStudioProjects\\Schleep\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+        "merged": "C:\\Users\\vivia\\AndroidStudioProjects\\Schleep\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_second.xml.flat",
+        "source": "C:\\Users\\vivia\\AndroidStudioProjects\\Schleep\\app\\src\\main\\res\\layout\\fragment_second.xml"
     },
     {
         "merged": "C:\\Users\\vivia\\AndroidStudioProjects\\Schleep\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_first2.xml.flat",
@@ -96,6 +104,10 @@
         "source": "C:\\Users\\vivia\\AndroidStudioProjects\\Schleep\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
     },
     {
+        "merged": "C:\\Users\\vivia\\AndroidStudioProjects\\Schleep\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_math.xml.flat",
+        "source": "C:\\Users\\vivia\\AndroidStudioProjects\\Schleep\\app\\src\\main\\res\\drawable\\ic_math.xml"
+    },
+    {
         "merged": "C:\\Users\\vivia\\AndroidStudioProjects\\Schleep\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_sheeps_old.xml.flat",
         "source": "C:\\Users\\vivia\\AndroidStudioProjects\\Schleep\\app\\src\\main\\res\\drawable\\ic_sheeps_old.xml"
     },
@@ -104,8 +116,16 @@
         "source": "C:\\Users\\vivia\\AndroidStudioProjects\\Schleep\\app\\src\\main\\res\\layout\\bottom_sheet_sounds.xml"
     },
     {
+        "merged": "C:\\Users\\vivia\\AndroidStudioProjects\\Schleep\\app\\build\\intermediates\\res\\merged\\debug\\layout_content_select_task.xml.flat",
+        "source": "C:\\Users\\vivia\\AndroidStudioProjects\\Schleep\\app\\src\\main\\res\\layout\\content_select_task.xml"
+    },
+    {
         "merged": "C:\\Users\\vivia\\AndroidStudioProjects\\Schleep\\app\\build\\intermediates\\res\\merged\\debug\\layout_content_create_alarm2.xml.flat",
         "source": "C:\\Users\\vivia\\AndroidStudioProjects\\Schleep\\app\\src\\main\\res\\layout\\content_create_alarm2.xml"
+    },
+    {
+        "merged": "C:\\Users\\vivia\\AndroidStudioProjects\\Schleep\\app\\build\\intermediates\\res\\merged\\debug\\drawable_buttonshape.xml.flat",
+        "source": "C:\\Users\\vivia\\AndroidStudioProjects\\Schleep\\app\\src\\main\\res\\drawable\\buttonshape.xml"
     },
     {
         "merged": "C:\\Users\\vivia\\AndroidStudioProjects\\Schleep\\app\\build\\intermediates\\res\\merged\\debug\\drawable_alarm_background.jpg.flat",
@@ -146,6 +166,14 @@
     {
         "merged": "C:\\Users\\vivia\\AndroidStudioProjects\\Schleep\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_alarm_white.xml.flat",
         "source": "C:\\Users\\vivia\\AndroidStudioProjects\\Schleep\\app\\src\\main\\res\\drawable\\ic_alarm_white.xml"
+    },
+    {
+        "merged": "C:\\Users\\vivia\\AndroidStudioProjects\\Schleep\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_select_task.xml.flat",
+        "source": "C:\\Users\\vivia\\AndroidStudioProjects\\Schleep\\app\\src\\main\\res\\layout\\activity_select_task.xml"
+    },
+    {
+        "merged": "C:\\Users\\vivia\\AndroidStudioProjects\\Schleep\\app\\build\\intermediates\\res\\merged\\debug\\navigation_nav_graph2.xml.flat",
+        "source": "C:\\Users\\vivia\\AndroidStudioProjects\\Schleep\\app\\src\\main\\res\\navigation\\nav_graph2.xml"
     },
     {
         "merged": "C:\\Users\\vivia\\AndroidStudioProjects\\Schleep\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_delete_forever_white_24dp.png.flat",
@@ -206,6 +234,10 @@
     {
         "merged": "C:\\Users\\vivia\\AndroidStudioProjects\\Schleep\\app\\build\\intermediates\\res\\merged\\debug\\drawable_key.png.flat",
         "source": "C:\\Users\\vivia\\AndroidStudioProjects\\Schleep\\app\\src\\main\\res\\drawable\\key.png"
+    },
+    {
+        "merged": "C:\\Users\\vivia\\AndroidStudioProjects\\Schleep\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_first.xml.flat",
+        "source": "C:\\Users\\vivia\\AndroidStudioProjects\\Schleep\\app\\src\\main\\res\\layout\\fragment_first.xml"
     },
     {
         "merged": "C:\\Users\\vivia\\AndroidStudioProjects\\Schleep\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_sheeps.png.flat",

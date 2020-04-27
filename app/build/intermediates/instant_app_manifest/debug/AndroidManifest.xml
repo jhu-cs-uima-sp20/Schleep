@@ -23,6 +23,10 @@
         android:testOnly="true"
         android:theme="@style/AppTheme" >
         <activity
+            android:name="com.example.schleep.SelectTask"
+            android:label="@string/title_activity_select_task"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
             android:name="com.example.schleep.SettingsActivity"
             android:label="@string/title_activity_settings" />
         <activity android:name="com.example.schleep.MainActivity" >

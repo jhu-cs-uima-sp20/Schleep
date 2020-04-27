@@ -12,7 +12,7 @@ android {
         versionCode 1
         versionName "1.0"
         vectorDrawables.useSupportLibrary = true
-        manifestPlaceholders = [bootPriority:"999"]
+        manifestPlaceholders = [bootPriority: "999"]
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
 

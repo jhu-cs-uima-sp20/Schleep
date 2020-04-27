@@ -1,4 +1,4 @@
-#Thu Apr 23 20:04:21 CDT 2020
-base.0=/Users/jessicanguyen/Schleep/app/build/intermediates/dex/debug/out/classes.dex
+#Mon Apr 27 12:18:44 CDT 2020
+base.0=C\:\\Users\\peter\\Documents\\school\\2020 2spring\\User Interfaces\\Schleep\\app\\build\\intermediates\\dex\\debug\\out\\classes.dex
 path.0=classes.dex
 renamed.0=classes.dex

@@ -53,4 +53,5 @@
     <string name="schleep">Schleep</string>
     <string name="channel_name">Schleep</string>
     <string name="prompt_instructions">Type the prompt to turn off the alarm:</string>
+    <string name="title_activity_select_task">SelectTask</string>
 </resources>

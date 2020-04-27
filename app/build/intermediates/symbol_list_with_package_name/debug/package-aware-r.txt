@@ -1459,6 +1459,7 @@ drawable btn_radio_off_mtrl
 drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
+drawable buttonshape
 drawable design_bottom_navigation_item_background
 drawable design_fab_background
 drawable design_ic_visibility
@@ -1474,16 +1475,19 @@ drawable ic_calendar_black_24dp
 drawable ic_clear_black_24dp
 drawable ic_delete_forever_white_24dp
 drawable ic_edit_black_24dp
+drawable ic_keyboard
 drawable ic_keyboard_arrow_left_black_24dp
 drawable ic_keyboard_arrow_right_black_24dp
 drawable ic_launcher_background
 drawable ic_launcher_foreground
+drawable ic_math
 drawable ic_menu_arrow_down_black_24dp
 drawable ic_menu_arrow_up_black_24dp
 drawable ic_mtrl_checked_circle
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
+drawable ic_notask
 drawable ic_save_white_24dp
 drawable ic_settings_black_24dp
 drawable ic_sheeps
@@ -1528,6 +1532,7 @@ id BOTTOM_START
 id CTRL
 id FUNCTION
 id First2Fragment
+id FirstFragment
 id Friday
 id META
 id Monday
@@ -1536,6 +1541,7 @@ id SHIFT
 id SYM
 id Saturday
 id Second2Fragment
+id SecondFragment
 id Snooze
 id Sound
 id Sunday
@@ -1578,7 +1584,9 @@ id accessibility_custom_action_7
 id accessibility_custom_action_8
 id accessibility_custom_action_9
 id action_First2Fragment_to_Second2Fragment
+id action_FirstFragment_to_SecondFragment
 id action_Second2Fragment_to_First2Fragment
+id action_SecondFragment_to_FirstFragment
 id action_bar
 id action_bar_activity_content
 id action_bar_container
@@ -1712,6 +1720,7 @@ id list_item
 id load_main_activity_btn
 id main_fragment
 id masked
+id math_btn
 id message
 id middle
 id mini
@@ -1746,12 +1755,14 @@ id name
 id name_alarm_create
 id nav_controller_view_tag
 id nav_graph
+id nav_graph2
 id nav_host_fragment
 id nav_host_fragment_container
 id navigation_header_container
 id never
 id noScroll
 id none
+id none_btn
 id normal
 id notification_background
 id notification_main_column
@@ -1787,6 +1798,7 @@ id right
 id right_icon
 id right_side
 id rounded
+id save
 id save_non_transition_alpha
 id save_overlay_view
 id scale
@@ -1892,6 +1904,7 @@ id transition_layout_save
 id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
+id typing_btn
 id unchecked
 id uniform
 id unlabeled
@@ -1972,11 +1985,13 @@ layout activity_alarm_landing_page
 layout activity_edit_alarm
 layout activity_main
 layout activity_main2
+layout activity_select_task
 layout alarm_row
 layout bottom_sheet_days
 layout bottom_sheet_snooze
 layout bottom_sheet_sounds
 layout content_create_alarm2
+layout content_select_task
 layout createalarm_activity
 layout custom_dialog
 layout design_bottom_navigation_item
@@ -1997,8 +2012,10 @@ layout design_text_input_start_icon
 layout expand_button
 layout fragment_alarm_landing_page
 layout fragment_alarm_landing_page_writing
+layout fragment_first
 layout fragment_first2
 layout fragment_main
+layout fragment_second
 layout fragment_second2
 layout fragment_sounds
 layout image_frame
@@ -2074,6 +2091,7 @@ menu main_menu
 mipmap ic_launcher
 mipmap ic_launcher_round
 navigation nav_graph
+navigation nav_graph2
 plurals mtrl_badge_content_description
 raw airhorn
 raw cuckoo_clock
@@ -2213,6 +2231,7 @@ string sync_title
 string task
 string time
 string title_activity_create_alarm
+string title_activity_select_task
 string title_activity_settings
 string update_failed
 string v7_preference_off

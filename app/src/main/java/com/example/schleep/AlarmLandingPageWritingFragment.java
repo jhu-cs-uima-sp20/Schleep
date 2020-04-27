@@ -133,7 +133,7 @@ public final class AlarmLandingPageWritingFragment extends Fragment implements S
         dismiss.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //vibrator.cancel();
+                vibrator.cancel();
                 getActivity().finish();
             }
         });

@@ -2,6 +2,7 @@ package com.example.schleep;
 
 import android.content.Context;
 import android.content.Intent;
+import android.content.pm.ActivityInfo;
 import android.hardware.Sensor;
 import android.hardware.SensorEvent;
 import android.hardware.SensorEventListener;
@@ -42,7 +43,6 @@ public final class AlarmLandingPageFragment extends Fragment implements SensorEv
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-
         final View v = inflater.inflate(R.layout.fragment_alarm_landing_page, container, false);
         vibrator = (Vibrator) getActivity().getSystemService(VIBRATOR_SERVICE);
         sensorManager = (SensorManager) getActivity().getSystemService(Context.SENSOR_SERVICE);

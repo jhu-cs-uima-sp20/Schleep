@@ -1666,6 +1666,7 @@ id empty_view
 id end
 id enterAlways
 id enterAlwaysCollapsed
+id enter_writing_btn
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
@@ -1775,6 +1776,7 @@ id password_toggle
 id peekHeight
 id percent
 id pin
+id progress_bar_writing
 id progress_circular
 id progress_horizontal
 id radio
@@ -1821,6 +1823,7 @@ id snackbar_action
 id snackbar_text
 id snap
 id snapMargins
+id snooze_btn_write
 id sounds_eight
 id sounds_five
 id sounds_four
@@ -1894,6 +1897,7 @@ id uniform
 id unlabeled
 id up
 id useLogo
+id user_writing_text
 id vertical
 id view_offset_helper
 id visible
@@ -1901,6 +1905,7 @@ id visible_removing_fragment_view_tag
 id withText
 id wrap
 id wrap_content
+id writing_prompt
 integer abc_config_activityDefaultDur
 integer abc_config_activityShortDur
 integer app_bar_elevation_anim_duration
@@ -1991,6 +1996,7 @@ layout design_text_input_end_icon
 layout design_text_input_start_icon
 layout expand_button
 layout fragment_alarm_landing_page
+layout fragment_alarm_landing_page_writing
 layout fragment_first2
 layout fragment_main
 layout fragment_second2
@@ -2189,6 +2195,7 @@ string path_password_eye_mask_visible
 string path_password_strike_through
 string preference_copied
 string previous
+string prompt_instructions
 string repeat
 string reply_title
 string save

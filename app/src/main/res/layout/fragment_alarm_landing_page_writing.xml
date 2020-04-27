@@ -11,9 +11,16 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingBottom="@dimen/activity_vertical_margin">
 
+    <ProgressBar
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        android:id="@+id/progress_bar_writing"
+        android:max="100"
+        android:progress="0"
+        />
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="35dp"
+        android:layout_height="30dp"
         android:text="@string/prompt_instructions"
         android:textSize="20dp"
         />
@@ -24,6 +31,7 @@
         android:layout_weight="1"
         android:scaleType="fitCenter"
         android:autoSizeTextType="uniform"
+        android:scrollbars="vertical"
         />
     <EditText
         android:id="@+id/user_writing_text"
@@ -32,6 +40,7 @@
         android:layout_weight="1"
         android:scaleType="fitCenter"
         android:autoSizeTextType="uniform"
+        android:scrollbars="vertical"
 
         />
 

@@ -7,14 +7,17 @@ import android.hardware.SensorEvent;
 import android.hardware.SensorEventListener;
 import android.hardware.SensorManager;
 import android.os.Bundle;
+import android.os.CountDownTimer;
 import android.os.PowerManager;
 import android.os.Vibrator;
+import android.text.method.ScrollingMovementMethod;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -63,6 +66,8 @@ public final class AlarmLandingPageWritingFragment extends Fragment implements S
         final Button dismiss = (Button) v.findViewById(R.id.snooze_btn_write);
         final EditText writingText = (EditText) v.findViewById(R.id.user_writing_text);
         final TextView prompt = (TextView) v.findViewById(R.id.writing_prompt);
+        prompt.setMovementMethod(new ScrollingMovementMethod());
+        writingText.setMovementMethod(new ScrollingMovementMethod());
         Random randy = new Random();
         int decide = randy.nextInt(3);
         if (decide == 0) {
@@ -74,6 +79,28 @@ public final class AlarmLandingPageWritingFragment extends Fragment implements S
         else if (decide == 3) {
             prompt.setText(cinderella);
         }
+        ProgressBar wProgressBar = (ProgressBar) v.findViewById(R.id.progress_bar_writing);
+        CountDownTimer wCountdownTimer;
+        final int[] counter = {0};
+        wProgressBar.setProgress(counter[0]);
+        wCountdownTimer = new CountDownTimer(30000, 1000) {
+            @Override
+            public void onTick(long millisUntilFinished) {
+                Log.v("Log_tag", "Tick of Progress" + counter[0] + millisUntilFinished);
+                counter[0]++;
+                wProgressBar.setProgress((int) counter[0] * 100/(30000/1000));
+                if (writingText.getText() != null) {
+                    wProgressBar.setProgress(0);
+                }
+            }
+
+            @Override
+            public void onFinish() {
+                startvibe();
+                //add making sounds here
+            }
+        };
+
         checkWritingButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

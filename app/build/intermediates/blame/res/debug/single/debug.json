@@ -52,6 +52,10 @@
         "source": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/res/layout/bottom_sheet_sounds.xml"
     },
     {
+        "merged": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/build/intermediates/res/merged/debug/layout_fragment_alarm_landing_page_writing.xml.flat",
+        "source": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/res/layout/fragment_alarm_landing_page_writing.xml"
+    },
+    {
         "merged": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/build/intermediates/res/merged/debug/raw_airhorn.mp3.flat",
         "source": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/res/raw/airhorn.mp3"
     },

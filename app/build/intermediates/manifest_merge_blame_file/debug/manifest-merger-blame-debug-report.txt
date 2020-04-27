@@ -32,61 +32,60 @@
 20-->/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/AndroidManifest.xml:11:9-54
 21        android:supportsRtl="true"
 21-->/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/AndroidManifest.xml:12:9-35
-22        android:testOnly="true"
-23        android:theme="@style/AppTheme" >
-23-->/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/AndroidManifest.xml:13:9-40
-24        <activity
-24-->/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/AndroidManifest.xml:14:9-16:72
-25            android:name="com.example.schleep.SettingsActivity"
-25-->/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/AndroidManifest.xml:15:13-45
-26            android:label="@string/title_activity_settings" />
-26-->/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/AndroidManifest.xml:16:13-60
-27        <activity android:name="com.example.schleep.MainActivity" >
-27-->/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/AndroidManifest.xml:18:9-24:20
-27-->/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/AndroidManifest.xml:18:19-47
-28            <intent-filter>
-28-->/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/AndroidManifest.xml:19:13-23:29
-29                <action android:name="android.intent.action.MAIN" />
-29-->/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/AndroidManifest.xml:20:17-69
-29-->/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/AndroidManifest.xml:20:25-66
-30
-31                <category android:name="android.intent.category.LAUNCHER" />
-31-->/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/AndroidManifest.xml:22:17-77
-31-->/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/AndroidManifest.xml:22:27-74
-32            </intent-filter>
-33        </activity>
-34        <activity android:name="com.example.schleep.AddEditAlarmActivity" />
-34-->/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/AndroidManifest.xml:26:9-58
-34-->/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/AndroidManifest.xml:26:19-55
-35        <activity android:name="com.example.schleep.AlarmLandingPageActivity" />
-35-->/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/AndroidManifest.xml:27:9-61
-35-->/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/AndroidManifest.xml:27:19-59
-36
-37        <service android:name="com.example.schleep.LoadAlarmsService" />
-37-->/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/AndroidManifest.xml:30:9-54
-37-->/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/AndroidManifest.xml:30:18-51
-38
-39        <receiver android:name="com.example.schleep.LoadAlarmsReceiver" />
-39-->/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/AndroidManifest.xml:32:9-56
-39-->/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/AndroidManifest.xml:32:19-53
-40        <receiver android:name="com.example.schleep.AlarmReceiver" />
-40-->/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/AndroidManifest.xml:33:9-51
-40-->/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/AndroidManifest.xml:33:19-48
-41        <receiver
-41-->/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/AndroidManifest.xml:34:9-38:20
-42            android:name="com.example.schleep.BootReceiver"
-42-->/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/AndroidManifest.xml:34:19-47
-43            android:enabled="true"
-43-->/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/AndroidManifest.xml:34:48-70
-44            android:exported="true" >
-44-->/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/AndroidManifest.xml:34:71-94
-45            <intent-filter android:priority="999" >
-45-->/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/AndroidManifest.xml:35:28-62
-46                <action android:name="android.intent.action.BOOT_COMPLETED" />
-46-->/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/AndroidManifest.xml:36:17-78
-46-->/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/AndroidManifest.xml:36:25-76
-47            </intent-filter>
-48        </receiver>
-49    </application>
-50
-51</manifest>
+22        android:theme="@style/AppTheme" >
+22-->/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/AndroidManifest.xml:13:9-40
+23        <activity
+23-->/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/AndroidManifest.xml:14:9-16:72
+24            android:name="com.example.schleep.SettingsActivity"
+24-->/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/AndroidManifest.xml:15:13-45
+25            android:label="@string/title_activity_settings" />
+25-->/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/AndroidManifest.xml:16:13-60
+26        <activity android:name="com.example.schleep.MainActivity" >
+26-->/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/AndroidManifest.xml:18:9-24:20
+26-->/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/AndroidManifest.xml:18:19-47
+27            <intent-filter>
+27-->/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/AndroidManifest.xml:19:13-23:29
+28                <action android:name="android.intent.action.MAIN" />
+28-->/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/AndroidManifest.xml:20:17-69
+28-->/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/AndroidManifest.xml:20:25-66
+29
+30                <category android:name="android.intent.category.LAUNCHER" />
+30-->/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/AndroidManifest.xml:22:17-77
+30-->/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/AndroidManifest.xml:22:27-74
+31            </intent-filter>
+32        </activity>
+33        <activity android:name="com.example.schleep.AddEditAlarmActivity" />
+33-->/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/AndroidManifest.xml:26:9-58
+33-->/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/AndroidManifest.xml:26:19-55
+34        <activity android:name="com.example.schleep.AlarmLandingPageActivity" />
+34-->/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/AndroidManifest.xml:27:9-61
+34-->/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/AndroidManifest.xml:27:19-59
+35
+36        <service android:name="com.example.schleep.LoadAlarmsService" />
+36-->/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/AndroidManifest.xml:30:9-54
+36-->/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/AndroidManifest.xml:30:18-51
+37
+38        <receiver android:name="com.example.schleep.LoadAlarmsReceiver" />
+38-->/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/AndroidManifest.xml:32:9-56
+38-->/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/AndroidManifest.xml:32:19-53
+39        <receiver android:name="com.example.schleep.AlarmReceiver" />
+39-->/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/AndroidManifest.xml:33:9-51
+39-->/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/AndroidManifest.xml:33:19-48
+40        <receiver
+40-->/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/AndroidManifest.xml:34:9-38:20
+41            android:name="com.example.schleep.BootReceiver"
+41-->/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/AndroidManifest.xml:34:19-47
+42            android:enabled="true"
+42-->/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/AndroidManifest.xml:34:48-70
+43            android:exported="true" >
+43-->/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/AndroidManifest.xml:34:71-94
+44            <intent-filter android:priority="999" >
+44-->/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/AndroidManifest.xml:35:28-62
+45                <action android:name="android.intent.action.BOOT_COMPLETED" />
+45-->/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/AndroidManifest.xml:36:17-78
+45-->/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/AndroidManifest.xml:36:25-76
+46            </intent-filter>
+47        </receiver>
+48    </application>
+49
+50</manifest>

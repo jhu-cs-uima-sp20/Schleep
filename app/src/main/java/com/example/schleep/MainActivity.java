@@ -15,12 +15,26 @@ public class MainActivity extends AppCompatActivity {
   static Map<Long, String> map;
   static Map<Long, String> math_map_dif;
   static Map<Long, String> math_map_ques;
+  static String curr_task;
+  static String curr_diff;
+  static String curr_ques;
   static String password;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         //setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main2);
+        if(curr_task == null){
+
+            curr_task = "none";
+        }
+        if(curr_diff == null){
+
+            curr_diff = "easy";
+        }
+        if(curr_ques== null){
+            curr_ques = "one";
+        }
         if (map == null) {
         map = new HashMap<>();
         }

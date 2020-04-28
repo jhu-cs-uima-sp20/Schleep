@@ -249,15 +249,18 @@ public class SelectTask extends AppCompatActivity {
               //  Toast.makeText(getApplicationContext(),"Task saved!",Toast.LENGTH_SHORT).show();
                 if(typingTaskSelected)
                 {
+                    MainActivity.curr_task = "typing";
 
                     setVar("typing");
                 }
                 else if (mathTaskSelected)
                 {
-
+                    MainActivity.curr_task = "math";
+                    MainActivity.curr_ques = questions;
                     setVar("math");
                 }
                 else {
+                    MainActivity.curr_task = "none";
 
                     setVar("none");
                 }
@@ -273,7 +276,7 @@ public class SelectTask extends AppCompatActivity {
     public void setVar(String task) {
         this.task = task;
     }
-
+/*
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         // handle arrow click here
@@ -289,6 +292,22 @@ public class SelectTask extends AppCompatActivity {
 
         return super.onOptionsItemSelected(item);
     }
+
+*/
+@Override
+public boolean onSupportNavigateUp(){
+    Intent i = new Intent();
+    i.putExtra("task", task);
+    i.putExtra("difficulty", difficulty);
+    i.putExtra("question", questions);
+
+    //setResult(RESULT_OK, i);
+    finish();
+
+    return true;
+
+
+}
 
 
 }

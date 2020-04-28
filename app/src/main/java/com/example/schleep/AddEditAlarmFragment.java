@@ -19,6 +19,7 @@ import android.widget.TextView;
 import android.widget.TimePicker;
 import android.widget.Toast;
 
+import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AlertDialog;
 import androidx.fragment.app.Fragment;
@@ -72,6 +73,7 @@ public final class AddEditAlarmFragment extends Fragment {
         Sound = v.findViewById(R.id.Sound);
         Snooze = v.findViewById(R.id.Snooze);
         Task = v.findViewById(R.id.task_button_task);
+        Task.setText(MainActivity.curr_task);
         String s = "";
         TextView rep = v.findViewById(R.id.task_button_repeat);
         if (alarm.getDay(Alarm.MON)) {
@@ -104,16 +106,22 @@ public final class AddEditAlarmFragment extends Fragment {
 
         return v;
     }
-
+    @Override
+    public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
+        super.onViewCreated(view, savedInstanceState);
+        Task.setText(MainActivity.curr_task);
+    }
     @Override
     public void onActivityCreated(Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
 
+        Task.setText(MainActivity.curr_task);
         Task.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent selectTask = new Intent(getActivity(), SelectTask.class);
-                getActivity().startActivityForResult(selectTask, 1);
+                startActivity(selectTask);
+                //getActivity().startActivityForResult(selectTask, 1);
             }
         });
 
@@ -342,6 +350,9 @@ public final class AddEditAlarmFragment extends Fragment {
         alarm.setDay(Alarm.FRI, selected_days[5]);
         alarm.setDay(Alarm.SAT, selected_days[6]);
         alarm.setDay(Alarm.SUN, selected_days[7]);
+        MainActivity.map.put(alarm.getId(), MainActivity.curr_task);
+        //MainActivity.math_map_dif.put(alarm.getId(), data.getStringExtra("difficulty"));
+        //MainActivity.math_map_ques.put(alarm.getId(), data.getStringExtra("question"));
 
         final int rowsUpdated = DatabaseHelper.getInstance(getContext()).updateAlarm(alarm);
         final int messageId = (rowsUpdated == 1) ? 1 : 0;

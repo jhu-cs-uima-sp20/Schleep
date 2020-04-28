@@ -48,6 +48,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
             android:layout_weight="1"
+            android:gravity="center"
             android:background="@drawable/rounded_edittext"
             android:ems="10"
             android:hint="Enter Integer Answer"
@@ -88,11 +89,14 @@
 
     </LinearLayout>
 
-    <ImageView
-        android:id="@+id/prompt_text"
-        android:layout_width="40dp"
+    <ImageButton
+        android:id="@+id/key_button"
+        android:layout_width="44dp"
         android:layout_height="5dp"
         android:layout_weight="1"
+        android:adjustViewBounds="true"
+        android:background="@color/colorPrimary"
+        android:scaleType="fitCenter"
         app:srcCompat="@drawable/key" />
 
 </LinearLayout>

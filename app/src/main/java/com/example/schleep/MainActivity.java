@@ -13,6 +13,7 @@ import java.util.Map;
 
 public class MainActivity extends AppCompatActivity {
   static Map<Long, String> map;
+  static String password;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         //setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);

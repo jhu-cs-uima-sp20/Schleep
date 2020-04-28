@@ -2,6 +2,7 @@ package com.example.schleep;
 
 import android.content.pm.ActivityInfo;
 import android.os.Bundle;
+import android.widget.EditText;
 
 import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
@@ -23,6 +24,9 @@ public class SettingsActivity extends AppCompatActivity {
             actionBar.setDisplayHomeAsUpEnabled(true);
         }
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
+        //final EditText passwordEditText = (EditText) findViewById(R.id.);
+        //password = passwordEditText.getText().toString();
     }
     @Override
     public boolean onSupportNavigateUp(){

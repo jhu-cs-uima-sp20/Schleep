@@ -14,17 +14,22 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageButton;
 import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.annotation.Nullable;
+import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentManager;
+import androidx.fragment.app.FragmentTransaction;
 
 import org.w3c.dom.Text;
 
 import java.util.Random;
 
 import static android.content.Context.VIBRATOR_SERVICE;
+import static com.example.schleep.MainActivity.password;
 
 public final class AlarmLandingPageFragmentMath extends Fragment implements SensorEventListener {
     private  long lastTime;
@@ -58,6 +63,7 @@ public final class AlarmLandingPageFragmentMath extends Fragment implements Sens
         final Button dismiss = (Button) v.findViewById(R.id.dismiss_btn);
         final EditText inputText = (EditText) v.findViewById(R.id.input);
         final TextView textView = (TextView) v.findViewById(R.id.question);
+        final ImageButton keyBtn = (ImageButton) v.findViewById(R.id.key_button);
         //do math stuff here!
         int[] answer = {0};
         String expr = getExpr(answer);
@@ -95,6 +101,18 @@ public final class AlarmLandingPageFragmentMath extends Fragment implements Sens
             public void onClick(View v) {
                 //vibrator.cancel();
                 getActivity().finish();
+            }
+        });
+
+        keyBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                PasswordFragment fragment2 = new PasswordFragment();
+                FragmentManager fragmentManager = getFragmentManager();
+                FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
+                fragmentTransaction.replace(R.id.container, fragment2);
+                fragmentTransaction.addToBackStack(null);
+                fragmentTransaction.commit();
             }
         });
         pm=(PowerManager)getActivity().getSystemService(Context.POWER_SERVICE);

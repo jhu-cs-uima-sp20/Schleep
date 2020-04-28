@@ -1716,6 +1716,7 @@ id input
 id invisible
 id italic
 id item_touch_helper_previous_elevation
+id key_button
 id labeled
 id landing_page_fragment_container
 id largeLabel
@@ -1806,7 +1807,6 @@ id pin
 id progress_bar_writing
 id progress_circular
 id progress_horizontal
-id prompt_text
 id question
 id radio
 id recycler
@@ -2038,6 +2038,7 @@ layout fragment_alarm_landing_page_writing
 layout fragment_first
 layout fragment_first2
 layout fragment_main
+layout fragment_password
 layout fragment_second
 layout fragment_second2
 layout fragment_sounds

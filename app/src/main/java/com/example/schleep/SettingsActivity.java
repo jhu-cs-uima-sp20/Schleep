@@ -9,6 +9,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.preference.PreferenceFragmentCompat;
 
 public class SettingsActivity extends AppCompatActivity {
+    EditText ed;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,12 +25,18 @@ public class SettingsActivity extends AppCompatActivity {
             actionBar.setDisplayHomeAsUpEnabled(true);
         }
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        ed = findViewById(R.id.user_emergency_key);
+
 
         //final EditText passwordEditText = (EditText) findViewById(R.id.);
         //password = passwordEditText.getText().toString();
     }
+
     @Override
-    public boolean onSupportNavigateUp(){
+    public boolean onSupportNavigateUp() {
+        if (ed != null && ed.toString().compareTo("") != 0) {
+            MainActivity.password = ed.toString();
+        }
         finish();
         return true;
     }

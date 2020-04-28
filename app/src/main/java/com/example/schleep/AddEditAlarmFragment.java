@@ -13,6 +13,7 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.RadioButton;
 import android.widget.TextView;
@@ -37,6 +38,7 @@ public final class AddEditAlarmFragment extends Fragment {
     private TextView Snooze;
     private TextView Sound;
     private String task;
+    TextView rep;
 
     /*Test*/
     private TextView Task;
@@ -75,7 +77,7 @@ public final class AddEditAlarmFragment extends Fragment {
         Task = v.findViewById(R.id.task_button_task);
         Task.setText(MainActivity.curr_task);
         String s = "";
-        TextView rep = v.findViewById(R.id.task_button_repeat);
+        rep = v.findViewById(R.id.task_button_repeat);
         if (alarm.getDay(Alarm.MON)) {
             s += "M ";
         }
@@ -106,11 +108,13 @@ public final class AddEditAlarmFragment extends Fragment {
 
         return v;
     }
+
     @Override
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
         Task.setText(MainActivity.curr_task);
     }
+
     @Override
     public void onActivityCreated(Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
@@ -133,6 +137,43 @@ public final class AddEditAlarmFragment extends Fragment {
                 d.setContentView(val);
                 final Alarm alarm = getAlarm();
                 d.show();
+                ImageView close = val.findViewById(R.id.Close);
+                close.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        String s = "";
+                        if (selected_days[1]) {
+                            s += "M ";
+                        }
+                        if (selected_days[2]) {
+                            s += "T ";
+                        }
+                        if (selected_days[3]) {
+                            s += "W ";
+                        }
+                        if (selected_days[4]) {
+                            s += "Th ";
+                        }
+                        if (selected_days[5]) {
+                            s += "F ";
+                        }
+                        if (selected_days[6]) {
+                            s += "Sa ";
+                        }
+                        if (selected_days[7]) {
+                            s += "Sa ";
+                        }
+
+                        if (s.compareTo("") != 0) {
+                            if(rep != null) {
+                                rep.setText(s);
+                           }
+                        }
+
+                        d.dismiss();
+
+                    }
+                });
                 RadioButton never = val.findViewById(R.id.Never);
                 RadioButton mon = val.findViewById(R.id.Monday);
                 RadioButton tue = val.findViewById(R.id.Tuesday);

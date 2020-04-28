@@ -1532,10 +1532,13 @@ id ALT
 id BOTTOM_END
 id BOTTOM_START
 id CTRL
+id Close
 id FUNCTION
 id First2Fragment
 id FirstFragment
 id Friday
+id KeyText
+id KeyType
 id META
 id Monday
 id Never
@@ -1648,6 +1651,7 @@ id chronometer
 id clear_text
 id clip_horizontal
 id clip_vertical
+id close_key
 id collapseActionView
 id confirm_button
 id container
@@ -1711,13 +1715,14 @@ id icon_group
 id ifRoom
 id image
 id imageView
-id imageView2
 id info
 id input
 id invisible
 id italic
 id item_touch_helper_previous_elevation
+id key
 id key_button
+id key_enter
 id labeled
 id landing_page_fragment_container
 id largeLabel
@@ -2009,6 +2014,7 @@ layout activity_main2
 layout activity_select_task
 layout alarm_row
 layout bottom_sheet_days
+layout bottom_sheet_key
 layout bottom_sheet_math
 layout bottom_sheet_snooze
 layout bottom_sheet_sounds

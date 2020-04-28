@@ -69,6 +69,7 @@ public final class AddEditAlarmActivity extends AppCompatActivity  {
             case EDIT_ALARM:
                 return getIntent().getParcelableExtra(ALARM_EXTRA);
             case ADD_ALARM:
+                MainActivity.curr_task = "None";
                 final long id = DatabaseHelper.getInstance(this).addAlarm();
                 LoadAlarmsService.launchLoadAlarmsService(this);
                 return new Alarm(id);

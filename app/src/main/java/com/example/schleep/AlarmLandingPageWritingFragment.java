@@ -69,7 +69,8 @@ public final class AlarmLandingPageWritingFragment extends Fragment implements S
         prompt.setMovementMethod(new ScrollingMovementMethod());
         writingText.setMovementMethod(new ScrollingMovementMethod());
         Random randy = new Random();
-        int decide = randy.nextInt(3);
+        //int decide = randy.nextInt(3);
+        int decide = 0;
         if (decide == 0) {
             prompt.setText(beeMovie);
         }

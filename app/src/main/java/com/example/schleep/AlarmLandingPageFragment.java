@@ -1,5 +1,6 @@
 package com.example.schleep;
 
+import android.app.Dialog;
 import android.content.Context;
 import android.content.Intent;
 import android.content.pm.ActivityInfo;
@@ -7,6 +8,7 @@ import android.hardware.Sensor;
 import android.hardware.SensorEvent;
 import android.hardware.SensorEventListener;
 import android.hardware.SensorManager;
+import android.media.Image;
 import android.os.Bundle;
 import android.os.PowerManager;
 import android.os.Vibrator;
@@ -14,9 +16,14 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.EditText;
+import android.widget.ImageView;
+import android.widget.Toast;
 
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
+
+import com.google.android.material.bottomsheet.BottomSheetDialog;
 
 import static android.content.Context.VIBRATOR_SERVICE;
 
@@ -65,6 +72,48 @@ public final class AlarmLandingPageFragment extends Fragment implements SensorEv
             }
         });
         pm=(PowerManager)getActivity().getSystemService(Context.POWER_SERVICE);
+        ImageView key = v.findViewById(R.id.key);
+        key.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                View val = getLayoutInflater().inflate(R.layout.bottom_sheet_key, null);
+                Dialog d = new BottomSheetDialog(getActivity());
+
+                d.show();
+                ImageView close = val.findViewById(R.id.close_key);
+                close.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+
+                        d.dismiss();
+
+                    }
+                });
+                EditText ed_close = val.findViewWithTag(R.id.Close);
+                Button enter = val.findViewById(R.id.key_enter);
+                enter.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+
+                        String stt = ed_close.getText().toString();
+                        int i = stt.compareTo(MainActivity.password);
+                        if(i == 0){
+                            startActivity(new Intent(getContext(), MainActivity.class));
+                            vibrator.cancel();
+                            getActivity().finish();
+                        } else {
+
+                            Toast.makeText(getContext(), "Incorrect key, try again ", Toast.LENGTH_SHORT).show();
+                        }
+                    }
+
+                    });
+
+            }
+
+            });
+
+
 
         startvibe();
         return v;

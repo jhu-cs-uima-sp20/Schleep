@@ -59,7 +59,6 @@ public final class MainFragment extends Fragment
             startActivity(settings_intent);
         });
 
-
         final FloatingActionButton fab = v.findViewById(R.id.fab);
         fab.setOnClickListener(view -> {
             //AlarmUtils.checkAlarmPermissions(getActivity());
@@ -103,7 +102,8 @@ public final class MainFragment extends Fragment
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
             case R.id.settings_gear:
-
+                Intent settings_intent =  new Intent(getActivity(), SettingsActivity.class);
+                startActivity(settings_intent);
                 break;
         }
         return super.onOptionsItemSelected(item);

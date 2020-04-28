@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 #Mon Apr 27 21:47:56 EDT 2020
+=======
+#Mon Apr 27 23:13:24 CDT 2020
+>>>>>>> f0e020cd7b3c319070f9d66ddbb677c71fbbcff4
 base.0=/Users/jessicanguyen/Schleep/app/build/intermediates/dex/debug/out/classes.dex
 path.1=classes.dex
 renamed.1=classes2.dex

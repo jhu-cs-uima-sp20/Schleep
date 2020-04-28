@@ -72,8 +72,17 @@
         "source": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/res/layout/fragment_sounds.xml"
     },
     {
+<<<<<<< HEAD
         "merged": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/build/intermediates/res/merged/debug/raw_la_cucaracha.mp3.flat",
         "source": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/res/raw/la_cucaracha.mp3"
+=======
+        "merged": "/Users/jessicanguyen/Schleep/app/build/intermediates/res/merged/debug/drawable_walk2.png.flat",
+        "source": "/Users/jessicanguyen/Schleep/app/src/main/res/drawable/walk2.png"
+    },
+    {
+        "merged": "/Users/jessicanguyen/Schleep/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/jessicanguyen/Schleep/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png"
+>>>>>>> f0e020cd7b3c319070f9d66ddbb677c71fbbcff4
     },
     {
         "merged": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher_round.png.flat",
@@ -180,8 +189,17 @@
         "source": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/res/layout/bottom_sheet_days.xml"
     },
     {
+<<<<<<< HEAD
         "merged": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/build/intermediates/res/merged/debug/raw_wii_music.mp3.flat",
         "source": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/res/raw/wii_music.mp3"
+=======
+        "merged": "/Users/jessicanguyen/Schleep/app/build/intermediates/res/merged/debug/layout_bottom_sheet_typing.xml.flat",
+        "source": "/Users/jessicanguyen/Schleep/app/src/main/res/layout/bottom_sheet_typing.xml"
+    },
+    {
+        "merged": "/Users/jessicanguyen/Schleep/app/build/intermediates/res/merged/debug/drawable_math.png.flat",
+        "source": "/Users/jessicanguyen/Schleep/app/src/main/res/drawable/math.png"
+>>>>>>> f0e020cd7b3c319070f9d66ddbb677c71fbbcff4
     },
     {
         "merged": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/build/intermediates/res/merged/debug/drawable_ic_launcher_background.xml.flat",
@@ -220,8 +238,17 @@
         "source": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/res/layout/activity_add_alarm.xml"
     },
     {
+<<<<<<< HEAD
         "merged": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/build/intermediates/res/merged/debug/xml_root_preferences.xml.flat",
         "source": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/res/xml/root_preferences.xml"
+=======
+        "merged": "/Users/jessicanguyen/Schleep/app/build/intermediates/res/merged/debug/layout_bottom_sheet_math.xml.flat",
+        "source": "/Users/jessicanguyen/Schleep/app/src/main/res/layout/bottom_sheet_math.xml"
+    },
+    {
+        "merged": "/Users/jessicanguyen/Schleep/app/build/intermediates/res/merged/debug/layout_activity_main2.xml.flat",
+        "source": "/Users/jessicanguyen/Schleep/app/src/main/res/layout/activity_main2.xml"
+>>>>>>> f0e020cd7b3c319070f9d66ddbb677c71fbbcff4
     },
     {
         "merged": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher.png.flat",

@@ -1526,6 +1526,7 @@ drawable tooltip_frame_dark
 drawable tooltip_frame_light
 drawable underline
 drawable walk
+drawable walk2
 font chewy
 id ALT
 id BOTTOM_END
@@ -1628,7 +1629,9 @@ id barrier
 id beginning
 id blocking
 id bottom
-id bs_sounds
+id bs_math
+id bs_questions
+id bs_typing
 id buttonPanel
 id button_first
 id button_second
@@ -1725,6 +1728,15 @@ id load_main_activity_btn
 id main_fragment
 id masked
 id math_btn
+id math_difficulty
+id math_easy
+id math_five
+id math_hard
+id math_med
+id math_pro
+id math_seven
+id math_ten
+id math_three
 id message
 id middle
 id mini
@@ -1808,6 +1820,7 @@ id save
 id save_non_transition_alpha
 id save_overlay_view
 id scale
+id scream_btn
 id screen
 id scroll
 id scrollIndicatorDown
@@ -1845,11 +1858,7 @@ id snooze_btn_write
 id sounds_eight
 id sounds_five
 id sounds_four
-id sounds_one
 id sounds_seven
-id sounds_six
-id sounds_three
-id sounds_two
 id spacer
 id spinner
 id split_action_bar
@@ -1911,6 +1920,10 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id typing_btn
+id typing_easy
+id typing_hard
+id typing_med
+id typing_pro
 id unchecked
 id uniform
 id unlabeled
@@ -1921,6 +1934,7 @@ id vertical
 id view_offset_helper
 id visible
 id visible_removing_fragment_view_tag
+id walking_btn
 id withText
 id wrap
 id wrap_content
@@ -1994,8 +2008,10 @@ layout activity_main2
 layout activity_select_task
 layout alarm_row
 layout bottom_sheet_days
+layout bottom_sheet_math
 layout bottom_sheet_snooze
 layout bottom_sheet_sounds
+layout bottom_sheet_typing
 layout content_create_alarm2
 layout content_select_task
 layout createalarm_activity

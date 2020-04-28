@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+        <TextView
+            android:id="@+id/bs_typing"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="Typing"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+<RadioGroup
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/typing_easy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Easy (10 words)" />
+
+        <RadioButton
+            android:id="@+id/typing_med"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Medium (20 words)" />
+
+        <RadioButton
+            android:id="@+id/typing_hard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hard (30 words)" />
+
+        <RadioButton
+            android:id="@+id/typing_pro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pro (50 words)" />
+
+</RadioGroup>
+</LinearLayout>

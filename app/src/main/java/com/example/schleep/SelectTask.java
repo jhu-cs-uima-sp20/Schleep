@@ -1,8 +1,10 @@
 package com.example.schleep;
 
+import android.app.Dialog;
 import android.content.Intent;
 import android.os.Bundle;
 
+import com.google.android.material.bottomsheet.BottomSheetDialog;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.snackbar.Snackbar;
 
@@ -45,7 +47,7 @@ public class SelectTask extends AppCompatActivity {
             public void onClick(View v)
             {
                 //change boolean value
-                Toast.makeText(getApplicationContext(),"No task selected!",Toast.LENGTH_SHORT).show();
+               // Toast.makeText(getApplicationContext(),"No task selected!",Toast.LENGTH_SHORT).show();
                 noTaskSelected = true;
                 mathTaskSelected = false;
                 typingTaskSelected = false;
@@ -57,11 +59,16 @@ public class SelectTask extends AppCompatActivity {
             @Override
             public void onClick(View v)
             {
+                View val = getLayoutInflater().inflate(R.layout.bottom_sheet_math, null);
+                Dialog d = new BottomSheetDialog(SelectTask.this);
+                d.setContentView(val);
+                d.show();
                 //change boolean value
-                Toast.makeText(getApplicationContext(),"Math task selected!",Toast.LENGTH_SHORT).show();
+                //Toast.makeText(getApplicationContext(),"Math task selected!",Toast.LENGTH_SHORT).show();
                 noTaskSelected = false;
                 mathTaskSelected = true;
                 typingTaskSelected = false;
+
             }
         });
 
@@ -70,11 +77,18 @@ public class SelectTask extends AppCompatActivity {
             @Override
             public void onClick(View v)
             {
+                View val = getLayoutInflater().inflate(R.layout.bottom_sheet_typing, null);
+                Dialog d = new BottomSheetDialog(SelectTask.this);
+                d.setContentView(val);
+                d.show();
                 //change boolean value
-                Toast.makeText(getApplicationContext(),"Typing task selected!",Toast.LENGTH_SHORT).show();
+                //Toast.makeText(getApplicationContext(),"Typing task selected!",Toast.LENGTH_SHORT).show();
                 noTaskSelected = false;
                 mathTaskSelected = false;
                 typingTaskSelected = true;
+
+
+
             }
         });
 

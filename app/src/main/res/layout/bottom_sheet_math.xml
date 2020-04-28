@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+
+    <TextView
+        android:id="@+id/bs_math"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="Math"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/math_difficulty"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="Difficulty"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/math_easy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Easy (Ex: 8 + 5)" />
+
+        <RadioButton
+            android:id="@+id/math_med"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Medium (Ex: 123 + 26)" />
+
+        <RadioButton
+            android:id="@+id/math_hard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hard (12*53 + 32)" />
+
+        <RadioButton
+            android:id="@+id/math_pro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pro (5123*12*19 + 12*19)" />
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/bs_questions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="Number of Questions"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/math_three"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1" />
+
+        <RadioButton
+            android:id="@+id/math_five"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="5" />
+
+        <RadioButton
+            android:id="@+id/math_seven"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="7" />
+
+        <RadioButton
+            android:id="@+id/math_ten"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="10" />
+
+    </RadioGroup>
+
+</LinearLayout>

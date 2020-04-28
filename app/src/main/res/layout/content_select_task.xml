@@ -8,6 +8,43 @@
 
 
     <Button
+        android:id="@+id/scream_btn"
+        android:layout_width="150dp"
+        android:layout_height="135dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginRight="40dp"
+        android:background="@drawable/buttonshape"
+        android:drawableTop="@drawable/shout"
+        android:paddingTop="15dp"
+        android:paddingBottom="10dp"
+        android:scaleType="fitCenter"
+        android:text="Shout"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toTopOf="@+id/math_btn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/walking_btn"
+        android:layout_width="150dp"
+        android:layout_height="135dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginRight="40dp"
+        android:background="@drawable/buttonshape"
+        android:drawableTop="@drawable/walk2"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:text="Walking"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toTopOf="@+id/typing_btn"
+        app:layout_constraintEnd_toStartOf="@+id/scream_btn"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
         android:id="@+id/typing_btn"
         android:layout_width="150dp"
         android:layout_height="135dp"

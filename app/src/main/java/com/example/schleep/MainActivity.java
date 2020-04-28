@@ -13,6 +13,8 @@ import java.util.Map;
 
 public class MainActivity extends AppCompatActivity {
   static Map<Long, String> map;
+  static Map<Long, String> math_map_dif;
+  static Map<Long, String> math_map_ques;
   static String password;
     @Override
     protected void onCreate(Bundle savedInstanceState) {

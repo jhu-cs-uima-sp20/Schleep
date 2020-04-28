@@ -57,7 +57,9 @@ public final class AddEditAlarmActivity extends AppCompatActivity  {
                 TextView bot = findViewById(R.id.task_button_task);
                 bot.setText(data.getStringExtra("task"));
                 MainActivity.map.put(alarm.getId(), data.getStringExtra("task"));
-                Toast.makeText(getApplicationContext(),  " val: " + data.getStringExtra("difficulty"),Toast.LENGTH_SHORT).show();
+                MainActivity.math_map_dif.put(alarm.getId(), data.getStringExtra("difficulty"));
+                MainActivity.math_map_ques.put(alarm.getId(), data.getStringExtra("question"));
+               // Toast.makeText(getApplicationContext(),  " val: " + data.getStringExtra("difficulty"),Toast.LENGTH_SHORT).show();
             }
         }
     }

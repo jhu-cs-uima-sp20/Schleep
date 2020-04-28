@@ -1,4 +1,9 @@
+<<<<<<< HEAD
 #Tue Apr 28 01:17:19 EDT 2020
 base.0=/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/build/intermediates/dex/debug/out/classes.dex
+=======
+#Tue Apr 28 00:52:54 CDT 2020
+base.0=/Users/jessicanguyen/Schleep/app/build/intermediates/dex/debug/out/classes.dex
+>>>>>>> a696efac5411a6fde2012c6090d6fd8e8361902f
 path.0=classes.dex
 renamed.0=classes.dex

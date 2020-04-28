@@ -13,6 +13,8 @@ import java.util.Map;
 
 public class MainActivity extends AppCompatActivity {
   static Map<Long, String> map;
+  static Map<Long, String> math_map_dif;
+  static Map<Long, String> math_map_ques;
   static String password;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,7 +23,13 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main2);
         if (map == null) {
         map = new HashMap<>();
-    }
+        }
+        if (math_map_dif == null) {
+            math_map_dif = new HashMap<>();
+        }
+        if (math_map_ques == null) {
+            math_map_ques = new HashMap<>();
+        }
     }
 
 

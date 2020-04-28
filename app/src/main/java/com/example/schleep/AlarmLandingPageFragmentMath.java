@@ -48,8 +48,10 @@ public final class AlarmLandingPageFragmentMath extends Fragment implements Sens
     public SensorManager sensorManager;
     public Sensor accelerormeterSensor;
     private PowerManager pm;
+    int correct = 0;
     private PowerManager.WakeLock wl;
     private Vibrator vibrator;
+    int num;
 
     @Nullable
     @Override
@@ -65,8 +67,10 @@ public final class AlarmLandingPageFragmentMath extends Fragment implements Sens
         final TextView textView = (TextView) v.findViewById(R.id.question);
         final ImageButton keyBtn = (ImageButton) v.findViewById(R.id.key_button);
         //do math stuff here!
+        num = Integer.parseInt(AlarmReceiver.math_ques);
         int[] answer = {0};
         String expr = getExpr(answer);
+        correct = 0;
         textView.setText(expr);
 
         enterBtn.setOnClickListener(new View.OnClickListener() {
@@ -77,13 +81,21 @@ public final class AlarmLandingPageFragmentMath extends Fragment implements Sens
                     Toast toast= Toast.makeText(getActivity(),"Invalid Integer",Toast.LENGTH_SHORT);
                     toast.show();
                 }*/
+               // Toast.makeText(getActivity(),"Questions: " + AlarmReceiver.math_ques + "" ,Toast.LENGTH_SHORT).show();
 
                 // check if answer is correct
                 try {
                     if (answer[0] == Integer.parseInt(inputText.getText().toString())) {
-                        startActivity(new Intent(getContext(), MainActivity.class));
-                        //vibrator.cancel();
-                        getActivity().finish();
+                        count++;
+                        if(count == num) {
+                            getActivity().finish();
+                            startActivity(new Intent(getContext(), MainActivity.class));
+                            //vibrator.cancel();
+                        } else {
+                            String exp = getExpr(answer);
+                            textView.setText(exp);
+                        }
+                        //getActivity().finish();
                     } else {
                         Toast toast = Toast.makeText(getActivity(), "Incorrect", Toast.LENGTH_SHORT);
                         toast.show();

@@ -5,6 +5,7 @@ import android.content.Intent;
 import android.content.pm.ActivityInfo;
 import android.os.Bundle;
 import android.view.MenuItem;
+import android.widget.TextView;
 
 import androidx.annotation.IntDef;
 import androidx.annotation.Nullable;
@@ -49,10 +50,12 @@ public final class AddEditAlarmActivity extends AppCompatActivity  {
 
     public void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
+        final Alarm alarm = getAlarm();
         if (requestCode == 1) {
             if(resultCode == RESULT_OK) {
                 TextView bot = findViewById(R.id.task_button_task);
                 bot.setText(data.getStringExtra("task"));
+                MainActivity.map.put(alarm.getId(), data.getStringExtra("task"));
             }
         }
     }

@@ -7,13 +7,18 @@ import android.content.IntentFilter;
 import android.content.pm.ActivityInfo;
 import android.os.Build;
 import android.os.Bundle;
-public class MainActivity extends AppCompatActivity {
 
+import java.util.HashMap;
+import java.util.Map;
+
+public class MainActivity extends AppCompatActivity {
+  static Map<Long, String> map;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         //setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main2);
+        map = new HashMap<>();
     }
 
 }

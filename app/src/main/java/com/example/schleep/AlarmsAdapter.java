@@ -2,8 +2,12 @@ package com.example.schleep;
 
 import android.content.Context;
 import android.content.Intent;
+
+import androidx.annotation.RequiresApi;
 import androidx.core.content.ContextCompat;
 import androidx.recyclerview.widget.RecyclerView;
+
+import android.os.Build;
 import android.text.Spannable;
 import android.text.SpannableStringBuilder;
 import android.text.Spanned;
@@ -12,6 +16,7 @@ import android.util.SparseBooleanArray;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -31,6 +36,7 @@ public final class AlarmsAdapter extends RecyclerView.Adapter<AlarmsAdapter.View
         return new ViewHolder(v);
     }
 
+    @RequiresApi(api = Build.VERSION_CODES.N)
     @Override
     public void onBindViewHolder(ViewHolder holder, int position) {
 
@@ -50,7 +56,15 @@ public final class AlarmsAdapter extends RecyclerView.Adapter<AlarmsAdapter.View
         holder.amPm.setText(AlarmUtils.getAmPm(alarm.getTime()));
         holder.label.setText(alarm.getLabel());
         holder.days.setText(buildSelectedDays(alarm));
-
+        String s = MainActivity.map.getOrDefault(alarm.getId(),"none");
+        if(s == null){
+            s = "none";
+        }
+        if(s.compareTo("math") == 0) {
+            holder.im.setImageResource(R.drawable.ic_math);
+        } else if(s.compareTo("typing") == 0){
+            holder.im.setImageResource(R.drawable.ic_keyboard);
+        }
         holder.itemView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -109,7 +123,7 @@ public final class AlarmsAdapter extends RecyclerView.Adapter<AlarmsAdapter.View
     static final class ViewHolder extends RecyclerView.ViewHolder {
 
         final TextView time, amPm, label, days;
-
+        final ImageView im;
         ViewHolder(View itemView) {
             super(itemView);
 
@@ -117,6 +131,7 @@ public final class AlarmsAdapter extends RecyclerView.Adapter<AlarmsAdapter.View
             amPm = itemView.findViewById(R.id.ar_am_pm);
             label = itemView.findViewById(R.id.ar_label);
             days = itemView.findViewById(R.id.ar_days);
+            im = itemView.findViewById(R.id.ar_icon);
 
         }
     }

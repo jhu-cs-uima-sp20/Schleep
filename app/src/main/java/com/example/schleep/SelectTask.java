@@ -88,13 +88,16 @@ public class SelectTask extends AppCompatActivity {
                 Toast.makeText(getApplicationContext(),"Task saved!",Toast.LENGTH_SHORT).show();
                 if(typingTaskSelected)
                 {
+
                     setVar("typing");
                 }
                 else if (mathTaskSelected)
                 {
+
                     setVar("math");
                 }
                 else {
+
                     setVar("none");
                 }
             }

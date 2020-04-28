@@ -26,12 +26,13 @@
             android:layout_width="100dp"
             android:layout_height="match_parent"
             android:text="Emergency Key:"/>
+
         <EditText
             android:id="@+id/user_emergency_key"
             android:layout_width="250dp"
             android:layout_height="match_parent"
             android:text="Enter Key"
-            android:textColor="@color/colorAccent"/>
+            android:textColor="@color/colorAccent" />
     </LinearLayout>
 
     

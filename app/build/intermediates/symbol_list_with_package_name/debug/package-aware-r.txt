@@ -1675,6 +1675,7 @@ id dropdown_menu
 id editText
 id edit_alarm_frag_container
 id edit_query
+id emergency_key_text
 id empty_view
 id end
 id enterAlways
@@ -1841,7 +1842,6 @@ id seekbar
 id seekbar_value
 id select_dialog_listview
 id selected
-id settings
 id settings_gear
 id shortcut
 id showCustom
@@ -1929,6 +1929,7 @@ id uniform
 id unlabeled
 id up
 id useLogo
+id user_emergency_key
 id user_writing_text
 id vertical
 id view_offset_helper

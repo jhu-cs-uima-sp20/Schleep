@@ -1734,10 +1734,10 @@ int id math_easy 0x7f0a00cb
 int id math_five 0x7f0a00cc
 int id math_hard 0x7f0a00cd
 int id math_med 0x7f0a00ce
-int id math_pro 0x7f0a00cf
-int id math_seven 0x7f0a00d0
-int id math_ten 0x7f0a00d1
-int id math_three 0x7f0a00d2
+int id math_one 0x7f0a00cf
+int id math_pro 0x7f0a00d0
+int id math_seven 0x7f0a00d1
+int id math_ten 0x7f0a00d2
 int id message 0x7f0a00d3
 int id middle 0x7f0a00d4
 int id mini 0x7f0a00d5

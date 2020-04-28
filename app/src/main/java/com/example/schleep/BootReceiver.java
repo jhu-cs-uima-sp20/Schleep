@@ -25,7 +25,6 @@ public class BootReceiver extends BroadcastReceiver {
             Executors.newSingleThreadExecutor().execute(() -> {
                 final List<Alarm> alarms = DatabaseHelper.getInstance(context).getAlarms();
                 setReminderAlarms(context, alarms);
-                Log.d("BOOT","RECEIVER");
             });
         }
     }

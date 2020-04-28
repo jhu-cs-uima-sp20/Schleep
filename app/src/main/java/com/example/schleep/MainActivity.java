@@ -18,8 +18,11 @@ public class MainActivity extends AppCompatActivity {
         //setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main2);
+        if (map == null) {
         map = new HashMap<>();
     }
+    }
+
 
 }
 

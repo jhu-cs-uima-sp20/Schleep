@@ -10,11 +10,13 @@ import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 import android.media.RingtoneManager;
+import android.os.Build;
 import android.os.Bundle;
 import android.util.Log;
 import android.util.SparseBooleanArray;
 
 import androidx.annotation.NonNull;
+import androidx.annotation.RequiresApi;
 import androidx.core.app.NotificationCompat;
 import androidx.core.content.ContextCompat;
 
@@ -33,10 +35,11 @@ public final class AlarmReceiver extends BroadcastReceiver {
 
     private static final String TAG = AlarmReceiver.class.getSimpleName();
     private static final String CHANNEL_ID = "alarm_channel";
-
+    static String selected_task = "none";
     private static final String BUNDLE_EXTRA = "bundle_extra";
     private static final String ALARM_KEY = "alarm_key";
 
+    @RequiresApi(api = Build.VERSION_CODES.N)
     @Override
     public void onReceive(Context context, Intent intent) {
 
@@ -73,10 +76,10 @@ public final class AlarmReceiver extends BroadcastReceiver {
 
     //Convenience method for setting a notification
     public static void setReminderAlarm(Context context, Alarm alarm) {
-        Log.d("-------SET","  --------SET");
+
         //Check whether the alarm is set to run on any days
         if(!AlarmUtils.isAlarmActive(alarm)) {
-            Log.d("CANCEL","  CANCEL");
+
             //If alarm not set to run on any days, cancel any existing notifications for this alarm
             cancelReminderAlarm(context, alarm);
             return;
@@ -204,8 +207,12 @@ public final class AlarmReceiver extends BroadcastReceiver {
         }
     }
 
+    @RequiresApi(api = Build.VERSION_CODES.N)
     private static PendingIntent launchAlarmLandingPage(Context ctx, Alarm alarm) {
-        Log.d("------LAUNCH------","------LAUNCH------");
+        selected_task = MainActivity.map.getOrDefault(alarm.getId(), "none");
+        if(selected_task == null){
+            selected_task = "none";
+        }
         return PendingIntent.getActivity(
                 ctx, alarm.notificationId(), launchIntent(ctx), FLAG_UPDATE_CURRENT
         );

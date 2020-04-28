@@ -35,11 +35,22 @@ public final class AlarmLandingPageActivity extends AppCompatActivity {
         */
 //landing_page_fragment_container
         FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
+        if(AlarmReceiver.selected_task.compareTo("math") == 0) {
 // Replace the contents of the container with the new fragment
-        ft.replace(R.id.landing_page_fragment_container, new AlarmLandingPageFragmentMath());
+            ft.replace(R.id.landing_page_fragment_container, new AlarmLandingPageFragmentMath());
+            ft.commit();
+        }
+        else if(AlarmReceiver.selected_task.compareTo("typing") == 0) {
+// Replace the contents of the container with the new fragment
+            ft.replace(R.id.landing_page_fragment_container, new AlarmLandingPageWritingFragment());
+            ft.commit();
+        } else{
+            ft.replace(R.id.landing_page_fragment_container, new AlarmLandingPageFragment());
+            ft.commit();
+        }
 // or ft.add(R.id.your_placeholder, new FooFragment());
 // Complete the changes added above
-        ft.commit();
+
     }
 
     public static Intent launchIntent(Context context) {

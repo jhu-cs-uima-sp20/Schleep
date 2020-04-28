@@ -6,6 +6,7 @@ import android.content.pm.ActivityInfo;
 import android.os.Bundle;
 import android.view.MenuItem;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.annotation.IntDef;
 import androidx.annotation.Nullable;
@@ -56,6 +57,7 @@ public final class AddEditAlarmActivity extends AppCompatActivity  {
                 TextView bot = findViewById(R.id.task_button_task);
                 bot.setText(data.getStringExtra("task"));
                 MainActivity.map.put(alarm.getId(), data.getStringExtra("task"));
+                Toast.makeText(getApplicationContext(),  " val: " + data.getStringExtra("difficulty"),Toast.LENGTH_SHORT).show();
             }
         }
     }

@@ -20,6 +20,7 @@
         "source": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/res/drawable/underline.xml"
     },
     {
+<<<<<<< HEAD
         "merged": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/build/intermediates/res/merged/debug/drawable_rounded_button.xml.flat",
         "source": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/res/drawable/rounded_button.xml"
     },
@@ -30,14 +31,31 @@
     {
         "merged": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/build/intermediates/res/merged/debug/drawable_key.png.flat",
         "source": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/res/drawable/key.png"
+=======
+        "merged": "/Users/jessicanguyen/Schleep/app/build/intermediates/res/merged/debug/layout_content_create_alarm2.xml.flat",
+        "source": "/Users/jessicanguyen/Schleep/app/src/main/res/layout/content_create_alarm2.xml"
+    },
+    {
+        "merged": "/Users/jessicanguyen/Schleep/app/build/intermediates/res/merged/debug/layout_fragment_second2.xml.flat",
+        "source": "/Users/jessicanguyen/Schleep/app/src/main/res/layout/fragment_second2.xml"
+>>>>>>> a215f25f8fdc47da2de99045a949476a33212167
     },
     {
         "merged": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/build/intermediates/res/merged/debug/layout_settings_activity.xml.flat",
         "source": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/res/layout/settings_activity.xml"
     },
     {
+<<<<<<< HEAD
         "merged": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/build/intermediates/res/merged/debug/raw_iphone_alarm.mp3.flat",
         "source": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/res/raw/iphone_alarm.mp3"
+=======
+        "merged": "/Users/jessicanguyen/Schleep/app/build/intermediates/res/merged/debug/raw_airhorn.mp3.flat",
+        "source": "/Users/jessicanguyen/Schleep/app/src/main/res/raw/airhorn.mp3"
+    },
+    {
+        "merged": "/Users/jessicanguyen/Schleep/app/build/intermediates/res/merged/debug/drawable_walk.png.flat",
+        "source": "/Users/jessicanguyen/Schleep/app/src/main/res/drawable/walk.png"
+>>>>>>> a215f25f8fdc47da2de99045a949476a33212167
     },
     {
         "merged": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/build/intermediates/res/merged/debug/layout_bottom_sheet_snooze.xml.flat",

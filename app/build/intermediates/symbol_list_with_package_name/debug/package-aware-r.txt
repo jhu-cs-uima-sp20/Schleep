@@ -1735,10 +1735,10 @@ id math_easy
 id math_five
 id math_hard
 id math_med
+id math_one
 id math_pro
 id math_seven
 id math_ten
-id math_three
 id message
 id middle
 id mini

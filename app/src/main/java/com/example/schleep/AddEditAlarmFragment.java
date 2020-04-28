@@ -74,29 +74,29 @@ public final class AddEditAlarmFragment extends Fragment {
         Task = v.findViewById(R.id.task_button_task);
         String s = "";
         TextView rep = v.findViewById(R.id.task_button_repeat);
-        if(alarm.getDay(Alarm.MON)){
+        if (alarm.getDay(Alarm.MON)) {
             s += "M ";
         }
-        if(alarm.getDay(Alarm.TUES)){
+        if (alarm.getDay(Alarm.TUES)) {
             s += "T ";
         }
-        if(alarm.getDay(Alarm.WED)){
+        if (alarm.getDay(Alarm.WED)) {
             s += "W ";
         }
-        if(alarm.getDay(Alarm.THURS)){
+        if (alarm.getDay(Alarm.THURS)) {
             s += "Th ";
         }
-        if(alarm.getDay(Alarm.FRI)){
+        if (alarm.getDay(Alarm.FRI)) {
             s += "F ";
         }
-        if(alarm.getDay(Alarm.SAT)){
+        if (alarm.getDay(Alarm.SAT)) {
             s += "Sa ";
         }
-        if(alarm.getDay(Alarm.SUN)){
+        if (alarm.getDay(Alarm.SUN)) {
             s += "Sa ";
         }
 
-        if(s.compareTo("") != 0){
+        if (s.compareTo("") != 0) {
 
             rep.setText(s);
         }
@@ -108,7 +108,7 @@ public final class AddEditAlarmFragment extends Fragment {
     @Override
     public void onActivityCreated(Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
-        
+
         Task.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -134,19 +134,19 @@ public final class AddEditAlarmFragment extends Fragment {
                 RadioButton sat = val.findViewById(R.id.Saturday);
                 RadioButton sun = val.findViewById(R.id.Sunday);
 
-                selected_days[1] =  alarm.getDay(Alarm.MON);
+                selected_days[1] = alarm.getDay(Alarm.MON);
                 mon.setChecked(selected_days[1]);
-                selected_days[2] =  alarm.getDay(Alarm.TUES);
+                selected_days[2] = alarm.getDay(Alarm.TUES);
                 tue.setChecked(selected_days[2]);
-                selected_days[3] =  alarm.getDay(Alarm.WED);
+                selected_days[3] = alarm.getDay(Alarm.WED);
                 wed.setChecked(selected_days[3]);
-                selected_days[4] =  alarm.getDay(Alarm.THURS);
+                selected_days[4] = alarm.getDay(Alarm.THURS);
                 thur.setChecked(selected_days[4]);
-                selected_days[5] =  alarm.getDay(Alarm.FRI);
+                selected_days[5] = alarm.getDay(Alarm.FRI);
                 fri.setChecked(selected_days[5]);
-                selected_days[6] =  alarm.getDay(Alarm.SAT);
+                selected_days[6] = alarm.getDay(Alarm.SAT);
                 sat.setChecked(selected_days[6]);
-                selected_days[7] =  alarm.getDay(Alarm.SUN);
+                selected_days[7] = alarm.getDay(Alarm.SUN);
                 sun.setChecked(selected_days[7]);
 
                 //Button b = findVietask_button_repeat
@@ -155,29 +155,29 @@ public final class AddEditAlarmFragment extends Fragment {
                     @Override
                     public void onClick(View v) {
                         mon.setChecked(selected_days[1]);
-                        if(!selected_days[1]){
+                        if (!selected_days[1]) {
                             mon.setChecked(true);
                             selected_days[1] = true;
 
-                          //  Toast.makeText(getContext(), selected_days[1] + " :is checked 1" , Toast.LENGTH_SHORT).show();
-                        }else{
+                            //  Toast.makeText(getContext(), selected_days[1] + " :is checked 1" , Toast.LENGTH_SHORT).show();
+                        } else {
                             mon.setChecked(false);
                             selected_days[1] = false;
                             //Toast.makeText(getContext(), selected_days[1]  + " :is checked 2" , Toast.LENGTH_SHORT).show();
                         }
-                      //  Toast.makeText(getContext(), days_array[7] + " :is checked" , Toast.LENGTH_SHORT).show();
+                        //  Toast.makeText(getContext(), days_array[7] + " :is checked" , Toast.LENGTH_SHORT).show();
                     }
                 });
 
                 tue.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        if(!selected_days[2]){
+                        if (!selected_days[2]) {
                             tue.setChecked(true);
                             selected_days[2] = true;
 
-                          //  Toast.makeText(getContext(), selected_days[1] + " :is checked 1" , Toast.LENGTH_SHORT).show();
-                        }else{
+                            //  Toast.makeText(getContext(), selected_days[1] + " :is checked 1" , Toast.LENGTH_SHORT).show();
+                        } else {
                             tue.setChecked(false);
                             selected_days[2] = false;
                             //Toast.makeText(getContext(), selected_days[1]  + " :is checked 2" , Toast.LENGTH_SHORT).show();
@@ -189,12 +189,12 @@ public final class AddEditAlarmFragment extends Fragment {
                 wed.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        if(!selected_days[3]){
+                        if (!selected_days[3]) {
                             wed.setChecked(true);
                             selected_days[3] = true;
 
-                           // Toast.makeText(getContext(), selected_days[1] + " :is checked 1" , Toast.LENGTH_SHORT).show();
-                        }else{
+                            // Toast.makeText(getContext(), selected_days[1] + " :is checked 1" , Toast.LENGTH_SHORT).show();
+                        } else {
                             wed.setChecked(false);
                             selected_days[3] = false;
                             //Toast.makeText(getContext(), selected_days[1]  + " :is checked 2" , Toast.LENGTH_SHORT).show();
@@ -206,12 +206,12 @@ public final class AddEditAlarmFragment extends Fragment {
                 thur.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        if(!selected_days[4]){
+                        if (!selected_days[4]) {
                             thur.setChecked(true);
                             selected_days[4] = true;
 
-                        //    Toast.makeText(getContext(), selected_days[1] + " :is checked 1" , Toast.LENGTH_SHORT).show();
-                        }else{
+                            //    Toast.makeText(getContext(), selected_days[1] + " :is checked 1" , Toast.LENGTH_SHORT).show();
+                        } else {
                             thur.setChecked(false);
                             selected_days[4] = false;
                             //Toast.makeText(getContext(), selected_days[1]  + " :is checked 2" , Toast.LENGTH_SHORT).show();
@@ -223,10 +223,10 @@ public final class AddEditAlarmFragment extends Fragment {
                 fri.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        if(!selected_days[5]){
+                        if (!selected_days[5]) {
                             fri.setChecked(true);
                             selected_days[5] = true;
-                        }else{
+                        } else {
                             fri.setChecked(false);
                             selected_days[5] = false;
                             //Toast.makeText(getContext(), selected_days[1]  + " :is checked 2" , Toast.LENGTH_SHORT).show();
@@ -237,10 +237,10 @@ public final class AddEditAlarmFragment extends Fragment {
                 sat.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        if(!selected_days[6]){
+                        if (!selected_days[6]) {
                             sat.setChecked(true);
                             selected_days[6] = true;
-                        }else{
+                        } else {
                             sat.setChecked(false);
                             selected_days[6] = false;
                             //Toast.makeText(getContext(), selected_days[1]  + " :is checked 2" , Toast.LENGTH_SHORT).show();
@@ -252,12 +252,12 @@ public final class AddEditAlarmFragment extends Fragment {
                 sun.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        if(!selected_days[7]){
+                        if (!selected_days[7]) {
                             sun.setChecked(true);
                             selected_days[7] = true;
 
                             //Toast.makeText(getContext(), selected_days[1] + " :is checked 1" , Toast.LENGTH_SHORT).show();
-                        }else{
+                        } else {
                             sun.setChecked(false);
                             selected_days[7] = false;
                             //Toast.makeText(getContext(), selected_days[1]  + " :is checked 2" , Toast.LENGTH_SHORT).show();
@@ -268,7 +268,7 @@ public final class AddEditAlarmFragment extends Fragment {
 
             }
         });
-       Sound.setOnClickListener(new View.OnClickListener() {
+        Sound.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 View val = getLayoutInflater().inflate(R.layout.bottom_sheet_sounds, null);
@@ -277,7 +277,7 @@ public final class AddEditAlarmFragment extends Fragment {
                 d.show();
             }
         });
-       Snooze.setOnClickListener(new View.OnClickListener() {
+        Snooze.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 View val = getLayoutInflater().inflate(R.layout.bottom_sheet_snooze, null);
@@ -335,12 +335,12 @@ public final class AddEditAlarmFragment extends Fragment {
         alarm.setTime(time.getTimeInMillis());
 
         alarm.setLabel(mLabel.getText().toString());
-        alarm.setDay(Alarm.MON,selected_days[1]);
+        alarm.setDay(Alarm.MON, selected_days[1]);
         alarm.setDay(Alarm.TUES, selected_days[2]);
-        alarm.setDay(Alarm.WED,selected_days[3]);
+        alarm.setDay(Alarm.WED, selected_days[3]);
         alarm.setDay(Alarm.THURS, selected_days[4]);
         alarm.setDay(Alarm.FRI, selected_days[5]);
-        alarm.setDay(Alarm.SAT,selected_days[6]);
+        alarm.setDay(Alarm.SAT, selected_days[6]);
         alarm.setDay(Alarm.SUN, selected_days[7]);
 
         final int rowsUpdated = DatabaseHelper.getInstance(getContext()).updateAlarm(alarm);

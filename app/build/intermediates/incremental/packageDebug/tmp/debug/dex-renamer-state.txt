@@ -1,9 +1,7 @@
-<<<<<<< HEAD
-#Mon Apr 27 19:30:24 EDT 2020
-base.0=/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/build/intermediates/dex/debug/out/classes.dex
-=======
-#Mon Apr 27 17:47:48 CDT 2020
-base.0=/Users/jessicanguyen/Schleep/app/build/intermediates/dex/debug/out/classes.dex
->>>>>>> 88609104cbba482fc2e06a3a617cc8d41348b774
+#Mon Apr 27 20:12:38 EDT 2020
+base.0=C\:\\Users\\jessicanguyen\\Schleep\\app\\build\\intermediates\\dex\\debug\\out\\classes.dex
+path.1=classes.dex
+renamed.1=classes2.dex
 path.0=classes.dex
 renamed.0=classes.dex
+base.1=C\:\\Users\\vivia\\AndroidStudioProjects\\Schleep\\app\\build\\intermediates\\dex\\debug\\out\\classes.dex

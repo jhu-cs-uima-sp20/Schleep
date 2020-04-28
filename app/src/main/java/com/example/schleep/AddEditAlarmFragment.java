@@ -62,7 +62,6 @@ public final class AddEditAlarmFragment extends Fragment {
         final View v = inflater.inflate(R.layout.createalarm_activity, container, false);
         final Alarm alarm = getAlarm();
         String task = getArguments().getString("task");
-        //Button save = (Button) v.findViewById(R.id.save_button);
         mTimePicker = v.findViewById(R.id.time_picker);
 
         selected_days = new boolean[8];
@@ -72,7 +71,7 @@ public final class AddEditAlarmFragment extends Fragment {
         repeat = v.findViewById(R.id.repeat3);
         Sound = v.findViewById(R.id.Sound);
         Snooze = v.findViewById(R.id.Snooze);
-        Task = v.findViewById(R.id.task);
+        Task = v.findViewById(R.id.task_button_task);
         String s = "";
         TextView rep = v.findViewById(R.id.task_button_repeat);
         if(alarm.getDay(Alarm.MON)){

@@ -1,310 +1,325 @@
 [
     {
-        "merged": "/Users/jessicanguyen/Schleep/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher.png.flat",
-        "source": "/Users/jessicanguyen/Schleep/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+        "merged": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/build/intermediates/res/merged/debug/drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/res/drawable-v24/ic_launcher_foreground.xml"
     },
     {
-        "merged": "/Users/jessicanguyen/Schleep/app/build/intermediates/res/merged/debug/layout_activity_edit_alarm.xml.flat",
-        "source": "/Users/jessicanguyen/Schleep/app/src/main/res/layout/activity_edit_alarm.xml"
+        "merged": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/build/intermediates/res/merged/debug/layout_alarm_row.xml.flat",
+        "source": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/res/layout/alarm_row.xml"
     },
     {
-        "merged": "/Users/jessicanguyen/Schleep/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher_round.png.flat",
-        "source": "/Users/jessicanguyen/Schleep/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
+        "merged": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/build/intermediates/res/merged/debug/navigation_nav_graph2.xml.flat",
+        "source": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/res/navigation/nav_graph2.xml"
     },
     {
-        "merged": "/Users/jessicanguyen/Schleep/app/build/intermediates/res/merged/debug/layout_fragment_sounds.xml.flat",
-        "source": "/Users/jessicanguyen/Schleep/app/src/main/res/layout/fragment_sounds.xml"
+        "merged": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
     },
     {
-        "merged": "/Users/jessicanguyen/Schleep/app/build/intermediates/res/merged/debug/raw_la_cucaracha.mp3.flat",
-        "source": "/Users/jessicanguyen/Schleep/app/src/main/res/raw/la_cucaracha.mp3"
+        "merged": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/build/intermediates/res/merged/debug/drawable_underline.xml.flat",
+        "source": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/res/drawable/underline.xml"
     },
     {
-        "merged": "/Users/jessicanguyen/Schleep/app/build/intermediates/res/merged/debug/layout_fragment_second2.xml.flat",
-        "source": "/Users/jessicanguyen/Schleep/app/src/main/res/layout/fragment_second2.xml"
+        "merged": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/build/intermediates/res/merged/debug/drawable_rounded_button.xml.flat",
+        "source": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/res/drawable/rounded_button.xml"
     },
     {
-        "merged": "/Users/jessicanguyen/Schleep/app/build/intermediates/res/merged/debug/layout_content_create_alarm2.xml.flat",
-        "source": "/Users/jessicanguyen/Schleep/app/src/main/res/layout/content_create_alarm2.xml"
+        "merged": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/build/intermediates/res/merged/debug/layout_activity_main2.xml.flat",
+        "source": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/res/layout/activity_main2.xml"
     },
     {
-        "merged": "/Users/jessicanguyen/Schleep/app/build/intermediates/res/merged/debug/raw_airhorn.mp3.flat",
-        "source": "/Users/jessicanguyen/Schleep/app/src/main/res/raw/airhorn.mp3"
+        "merged": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/build/intermediates/res/merged/debug/drawable_key.png.flat",
+        "source": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/res/drawable/key.png"
     },
     {
-        "merged": "/Users/jessicanguyen/Schleep/app/build/intermediates/res/merged/debug/layout_activity_alarm_landing_page.xml.flat",
-        "source": "/Users/jessicanguyen/Schleep/app/src/main/res/layout/activity_alarm_landing_page.xml"
+        "merged": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/build/intermediates/res/merged/debug/layout_settings_activity.xml.flat",
+        "source": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/res/layout/settings_activity.xml"
     },
     {
-        "merged": "/Users/jessicanguyen/Schleep/app/build/intermediates/res/merged/debug/drawable_walk.png.flat",
-        "source": "/Users/jessicanguyen/Schleep/app/src/main/res/drawable/walk.png"
+        "merged": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/build/intermediates/res/merged/debug/raw_iphone_alarm.mp3.flat",
+        "source": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/res/raw/iphone_alarm.mp3"
     },
     {
-        "merged": "/Users/jessicanguyen/Schleep/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher.png.flat",
-        "source": "/Users/jessicanguyen/Schleep/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+        "merged": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/build/intermediates/res/merged/debug/layout_bottom_sheet_snooze.xml.flat",
+        "source": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/res/layout/bottom_sheet_snooze.xml"
     },
     {
-        "merged": "/Users/jessicanguyen/Schleep/app/build/intermediates/res/merged/debug/layout_fragment_first.xml.flat",
-        "source": "/Users/jessicanguyen/Schleep/app/src/main/res/layout/fragment_first.xml"
+        "merged": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/build/intermediates/res/merged/debug/drawable_none.png.flat",
+        "source": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/res/drawable/none.png"
     },
     {
-        "merged": "/Users/jessicanguyen/Schleep/app/build/intermediates/res/merged/debug/layout_alarm_row.xml.flat",
-        "source": "/Users/jessicanguyen/Schleep/app/src/main/res/layout/alarm_row.xml"
+        "merged": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/build/intermediates/res/merged/debug/layout_content_create_alarm2.xml.flat",
+        "source": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/res/layout/content_create_alarm2.xml"
     },
     {
-        "merged": "/Users/jessicanguyen/Schleep/app/build/intermediates/res/merged/debug/drawable_ic_launcher_background.xml.flat",
-        "source": "/Users/jessicanguyen/Schleep/app/src/main/res/drawable/ic_launcher_background.xml"
+        "merged": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/build/intermediates/res/merged/debug/layout_bottom_sheet_sounds.xml.flat",
+        "source": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/res/layout/bottom_sheet_sounds.xml"
     },
     {
-        "merged": "/Users/jessicanguyen/Schleep/app/build/intermediates/res/merged/debug/layout_createalarm_activity.xml.flat",
-        "source": "/Users/jessicanguyen/Schleep/app/src/main/res/layout/createalarm_activity.xml"
+        "merged": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/build/intermediates/res/merged/debug/layout_fragment_alarm_landing_page_math.xml.flat",
+        "source": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/res/layout/fragment_alarm_landing_page_math.xml"
     },
     {
-        "merged": "/Users/jessicanguyen/Schleep/app/build/intermediates/res/merged/debug/drawable_alarm_background.jpg.flat",
-        "source": "/Users/jessicanguyen/Schleep/app/src/main/res/drawable/alarm_background.jpg"
+        "merged": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/build/intermediates/res/merged/debug/layout_fragment_alarm_landing_page_writing.xml.flat",
+        "source": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/res/layout/fragment_alarm_landing_page_writing.xml"
     },
     {
-        "merged": "/Users/jessicanguyen/Schleep/app/build/intermediates/res/merged/debug/drawable_ic_math.xml.flat",
-        "source": "/Users/jessicanguyen/Schleep/app/src/main/res/drawable/ic_math.xml"
+        "merged": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/build/intermediates/res/merged/debug/raw_airhorn.mp3.flat",
+        "source": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/res/raw/airhorn.mp3"
     },
     {
-        "merged": "/Users/jessicanguyen/Schleep/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher_round.png.flat",
-        "source": "/Users/jessicanguyen/Schleep/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
+        "merged": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/build/intermediates/res/merged/debug/layout_fragment_sounds.xml.flat",
+        "source": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/res/layout/fragment_sounds.xml"
     },
     {
+<<<<<<< HEAD
+        "merged": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/build/intermediates/res/merged/debug/raw_la_cucaracha.mp3.flat",
+        "source": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/res/raw/la_cucaracha.mp3"
+=======
         "merged": "/Users/jessicanguyen/Schleep/app/build/intermediates/res/merged/debug/drawable_walk2.png.flat",
         "source": "/Users/jessicanguyen/Schleep/app/src/main/res/drawable/walk2.png"
     },
     {
         "merged": "/Users/jessicanguyen/Schleep/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher_round.png.flat",
         "source": "/Users/jessicanguyen/Schleep/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png"
+>>>>>>> f0e020cd7b3c319070f9d66ddbb677c71fbbcff4
     },
     {
-        "merged": "/Users/jessicanguyen/Schleep/app/build/intermediates/res/merged/debug/raw_cuckoo_clock.mp3.flat",
-        "source": "/Users/jessicanguyen/Schleep/app/src/main/res/raw/cuckoo_clock.mp3"
+        "merged": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"
     },
     {
-        "merged": "/Users/jessicanguyen/Schleep/app/build/intermediates/res/merged/debug/drawable_ic_keyboard.xml.flat",
-        "source": "/Users/jessicanguyen/Schleep/app/src/main/res/drawable/ic_keyboard.xml"
+        "merged": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/build/intermediates/res/merged/debug/layout_fragment_first.xml.flat",
+        "source": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/res/layout/fragment_first.xml"
     },
     {
-        "merged": "/Users/jessicanguyen/Schleep/app/build/intermediates/res/merged/debug/layout_fragment_first2.xml.flat",
-        "source": "/Users/jessicanguyen/Schleep/app/src/main/res/layout/fragment_first2.xml"
+        "merged": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/build/intermediates/res/merged/debug/font_chewy.ttf.flat",
+        "source": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/res/font/chewy.ttf"
     },
     {
-        "merged": "/Users/jessicanguyen/Schleep/app/build/intermediates/res/merged/debug/drawable_ic_settings_black_24dp.xml.flat",
-        "source": "/Users/jessicanguyen/Schleep/app/src/main/res/drawable/ic_settings_black_24dp.xml"
+        "merged": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/build/intermediates/res/merged/debug/drawable_ic_sheeps.png.flat",
+        "source": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/res/drawable/ic_sheeps.png"
     },
     {
-        "merged": "/Users/jessicanguyen/Schleep/app/build/intermediates/res/merged/debug/raw_iphone_alarm.mp3.flat",
-        "source": "/Users/jessicanguyen/Schleep/app/src/main/res/raw/iphone_alarm.mp3"
+        "merged": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/build/intermediates/res/merged/debug/layout_fragment_second2.xml.flat",
+        "source": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/res/layout/fragment_second2.xml"
     },
     {
-        "merged": "/Users/jessicanguyen/Schleep/app/build/intermediates/res/merged/debug/layout_activity_add_alarm.xml.flat",
-        "source": "/Users/jessicanguyen/Schleep/app/src/main/res/layout/activity_add_alarm.xml"
+        "merged": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/build/intermediates/res/merged/debug/drawable_ic_add_circle_outline_black_24dp.xml.flat",
+        "source": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/res/drawable/ic_add_circle_outline_black_24dp.xml"
     },
     {
-        "merged": "/Users/jessicanguyen/Schleep/app/build/intermediates/res/merged/debug/drawable_none.png.flat",
-        "source": "/Users/jessicanguyen/Schleep/app/src/main/res/drawable/none.png"
+        "merged": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/build/intermediates/res/merged/debug/layout_activity_select_task.xml.flat",
+        "source": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/res/layout/activity_select_task.xml"
     },
     {
-        "merged": "/Users/jessicanguyen/Schleep/app/build/intermediates/res/merged/debug/drawable_divider.xml.flat",
-        "source": "/Users/jessicanguyen/Schleep/app/src/main/res/drawable/divider.xml"
+        "merged": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/build/intermediates/res/merged/debug/drawable_ic_alarm_white.xml.flat",
+        "source": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/res/drawable/ic_alarm_white.xml"
     },
     {
-        "merged": "/Users/jessicanguyen/Schleep/app/build/intermediates/res/merged/debug/raw_wii_music.mp3.flat",
-        "source": "/Users/jessicanguyen/Schleep/app/src/main/res/raw/wii_music.mp3"
+        "merged": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
-        "merged": "/Users/jessicanguyen/Schleep/app/build/intermediates/res/merged/debug/drawable_ic_alarm_white.xml.flat",
-        "source": "/Users/jessicanguyen/Schleep/app/src/main/res/drawable/ic_alarm_white.xml"
+        "merged": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/build/intermediates/res/merged/debug/layout_fragment_second.xml.flat",
+        "source": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/res/layout/fragment_second.xml"
     },
     {
-        "merged": "/Users/jessicanguyen/Schleep/app/build/intermediates/res/merged/debug/layout_activity_main.xml.flat",
-        "source": "/Users/jessicanguyen/Schleep/app/src/main/res/layout/activity_main.xml"
+        "merged": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/build/intermediates/res/merged/debug/layout_activity_main.xml.flat",
+        "source": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/res/layout/activity_main.xml"
     },
     {
-        "merged": "/Users/jessicanguyen/Schleep/app/build/intermediates/res/merged/debug/xml_root_preferences.xml.flat",
-        "source": "/Users/jessicanguyen/Schleep/app/src/main/res/xml/root_preferences.xml"
+        "merged": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/build/intermediates/res/merged/debug/drawable_alarm_background.jpg.flat",
+        "source": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/res/drawable/alarm_background.jpg"
     },
     {
-        "merged": "/Users/jessicanguyen/Schleep/app/build/intermediates/res/merged/debug/layout_bottom_sheet_snooze.xml.flat",
-        "source": "/Users/jessicanguyen/Schleep/app/src/main/res/layout/bottom_sheet_snooze.xml"
+        "merged": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
     },
     {
-        "merged": "/Users/jessicanguyen/Schleep/app/build/intermediates/res/merged/debug/drawable_rounded_edittext.xml.flat",
-        "source": "/Users/jessicanguyen/Schleep/app/src/main/res/drawable/rounded_edittext.xml"
+        "merged": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/build/intermediates/res/merged/debug/raw_morning_flower.mp3.flat",
+        "source": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/res/raw/morning_flower.mp3"
     },
     {
-        "merged": "/Users/jessicanguyen/Schleep/app/build/intermediates/res/merged/debug/drawable_ic_sheeps.png.flat",
-        "source": "/Users/jessicanguyen/Schleep/app/src/main/res/drawable/ic_sheeps.png"
+        "merged": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/build/intermediates/res/merged/debug/drawable_walk.png.flat",
+        "source": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/res/drawable/walk.png"
     },
     {
-        "merged": "/Users/jessicanguyen/Schleep/app/build/intermediates/res/merged/debug/layout_fragment_alarm_landing_page_writing.xml.flat",
-        "source": "/Users/jessicanguyen/Schleep/app/src/main/res/layout/fragment_alarm_landing_page_writing.xml"
+        "merged": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/build/intermediates/res/merged/debug/drawable_ic_delete_forever_white_24dp.png.flat",
+        "source": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/res/drawable/ic_delete_forever_white_24dp.png"
     },
     {
-        "merged": "/Users/jessicanguyen/Schleep/app/build/intermediates/res/merged/debug/layout_fragment_main.xml.flat",
-        "source": "/Users/jessicanguyen/Schleep/app/src/main/res/layout/fragment_main.xml"
+        "merged": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/build/intermediates/res/merged/debug/layout_fragment_alarm_landing_page.xml.flat",
+        "source": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/res/layout/fragment_alarm_landing_page.xml"
     },
     {
-        "merged": "/Users/jessicanguyen/Schleep/app/build/intermediates/res/merged/debug/drawable-v24_ic_launcher_foreground.xml.flat",
-        "source": "/Users/jessicanguyen/Schleep/app/src/main/res/drawable-v24/ic_launcher_foreground.xml"
+        "merged": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/build/intermediates/res/merged/debug/drawable_ic_launcher_foreground.xml.flat",
+        "source": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/res/drawable/ic_launcher_foreground.xml"
     },
     {
-        "merged": "/Users/jessicanguyen/Schleep/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher_round.png.flat",
-        "source": "/Users/jessicanguyen/Schleep/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
+        "merged": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/res/mipmap-mdpi/ic_launcher.png"
     },
     {
-        "merged": "/Users/jessicanguyen/Schleep/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "/Users/jessicanguyen/Schleep/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml"
+        "merged": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/build/intermediates/res/merged/debug/layout_activity_edit_alarm.xml.flat",
+        "source": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/res/layout/activity_edit_alarm.xml"
     },
     {
-        "merged": "/Users/jessicanguyen/Schleep/app/build/intermediates/res/merged/debug/drawable_ic_alarm_white_24dp.png.flat",
-        "source": "/Users/jessicanguyen/Schleep/app/src/main/res/drawable/ic_alarm_white_24dp.png"
+        "merged": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/build/intermediates/res/merged/debug/layout_createalarm_activity.xml.flat",
+        "source": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/res/layout/createalarm_activity.xml"
     },
     {
-        "merged": "/Users/jessicanguyen/Schleep/app/build/intermediates/res/merged/debug/drawable_key.png.flat",
-        "source": "/Users/jessicanguyen/Schleep/app/src/main/res/drawable/key.png"
+        "merged": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
     },
     {
-        "merged": "/Users/jessicanguyen/Schleep/app/build/intermediates/res/merged/debug/drawable_ic_notask.xml.flat",
-        "source": "/Users/jessicanguyen/Schleep/app/src/main/res/drawable/ic_notask.xml"
+        "merged": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/build/intermediates/res/merged/debug/drawable_buttonshape.xml.flat",
+        "source": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/res/drawable/buttonshape.xml"
     },
     {
-        "merged": "/Users/jessicanguyen/Schleep/app/build/intermediates/res/merged/debug/navigation_nav_graph.xml.flat",
-        "source": "/Users/jessicanguyen/Schleep/app/src/main/res/navigation/nav_graph.xml"
+        "merged": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/build/intermediates/res/merged/debug/drawable_ic_sheeps_old.xml.flat",
+        "source": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/res/drawable/ic_sheeps_old.xml"
     },
     {
-        "merged": "/Users/jessicanguyen/Schleep/app/build/intermediates/res/merged/debug/layout_fragment_second.xml.flat",
-        "source": "/Users/jessicanguyen/Schleep/app/src/main/res/layout/fragment_second.xml"
+        "merged": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/build/intermediates/res/merged/debug/menu_edit_alarm_menu.xml.flat",
+        "source": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/res/menu/edit_alarm_menu.xml"
     },
     {
-        "merged": "/Users/jessicanguyen/Schleep/app/build/intermediates/res/merged/debug/navigation_nav_graph2.xml.flat",
-        "source": "/Users/jessicanguyen/Schleep/app/src/main/res/navigation/nav_graph2.xml"
+        "merged": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/build/intermediates/res/merged/debug/layout_bottom_sheet_days.xml.flat",
+        "source": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/res/layout/bottom_sheet_days.xml"
     },
     {
+<<<<<<< HEAD
+        "merged": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/build/intermediates/res/merged/debug/raw_wii_music.mp3.flat",
+        "source": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/res/raw/wii_music.mp3"
+=======
         "merged": "/Users/jessicanguyen/Schleep/app/build/intermediates/res/merged/debug/layout_bottom_sheet_typing.xml.flat",
         "source": "/Users/jessicanguyen/Schleep/app/src/main/res/layout/bottom_sheet_typing.xml"
     },
     {
         "merged": "/Users/jessicanguyen/Schleep/app/build/intermediates/res/merged/debug/drawable_math.png.flat",
         "source": "/Users/jessicanguyen/Schleep/app/src/main/res/drawable/math.png"
+>>>>>>> f0e020cd7b3c319070f9d66ddbb677c71fbbcff4
     },
     {
-        "merged": "/Users/jessicanguyen/Schleep/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher.png.flat",
-        "source": "/Users/jessicanguyen/Schleep/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+        "merged": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/build/intermediates/res/merged/debug/drawable_ic_launcher_background.xml.flat",
+        "source": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/res/drawable/ic_launcher_background.xml"
     },
     {
-        "merged": "/Users/jessicanguyen/Schleep/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "/Users/jessicanguyen/Schleep/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+        "merged": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/build/intermediates/res/merged/debug/raw_rain.mp3.flat",
+        "source": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/res/raw/rain.mp3"
     },
     {
-        "merged": "/Users/jessicanguyen/Schleep/app/build/intermediates/res/merged/debug/font_chewy.ttf.flat",
-        "source": "/Users/jessicanguyen/Schleep/app/src/main/res/font/chewy.ttf"
+        "merged": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/build/intermediates/res/merged/debug/raw_cuckoo_clock.mp3.flat",
+        "source": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/res/raw/cuckoo_clock.mp3"
     },
     {
-        "merged": "/Users/jessicanguyen/Schleep/app/build/intermediates/res/merged/debug/drawable_ic_launcher_foreground.xml.flat",
-        "source": "/Users/jessicanguyen/Schleep/app/src/main/res/drawable/ic_launcher_foreground.xml"
+        "merged": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/build/intermediates/res/merged/debug/drawable_ic_alarm_white_24dp.png.flat",
+        "source": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/res/drawable/ic_alarm_white_24dp.png"
     },
     {
-        "merged": "/Users/jessicanguyen/Schleep/app/build/intermediates/res/merged/debug/drawable_ic_add_circle_outline_black_24dp.xml.flat",
-        "source": "/Users/jessicanguyen/Schleep/app/src/main/res/drawable/ic_add_circle_outline_black_24dp.xml"
+        "merged": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
     },
     {
-        "merged": "/Users/jessicanguyen/Schleep/app/build/intermediates/res/merged/debug/layout_activity_select_task.xml.flat",
-        "source": "/Users/jessicanguyen/Schleep/app/src/main/res/layout/activity_select_task.xml"
+        "merged": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/build/intermediates/res/merged/debug/drawable_rounded_edittext.xml.flat",
+        "source": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/res/drawable/rounded_edittext.xml"
     },
     {
-        "merged": "/Users/jessicanguyen/Schleep/app/build/intermediates/res/merged/debug/drawable_ic_sheeps_old.xml.flat",
-        "source": "/Users/jessicanguyen/Schleep/app/src/main/res/drawable/ic_sheeps_old.xml"
+        "merged": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png"
     },
     {
-        "merged": "/Users/jessicanguyen/Schleep/app/build/intermediates/res/merged/debug/drawable_underline.xml.flat",
-        "source": "/Users/jessicanguyen/Schleep/app/src/main/res/drawable/underline.xml"
+        "merged": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/build/intermediates/res/merged/debug/drawable_ic_notask.xml.flat",
+        "source": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/res/drawable/ic_notask.xml"
     },
     {
-        "merged": "/Users/jessicanguyen/Schleep/app/build/intermediates/res/merged/debug/drawable_shout.png.flat",
-        "source": "/Users/jessicanguyen/Schleep/app/src/main/res/drawable/shout.png"
+        "merged": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/build/intermediates/res/merged/debug/layout_activity_add_alarm.xml.flat",
+        "source": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/res/layout/activity_add_alarm.xml"
     },
     {
+<<<<<<< HEAD
+        "merged": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/build/intermediates/res/merged/debug/xml_root_preferences.xml.flat",
+        "source": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/res/xml/root_preferences.xml"
+=======
         "merged": "/Users/jessicanguyen/Schleep/app/build/intermediates/res/merged/debug/layout_bottom_sheet_math.xml.flat",
         "source": "/Users/jessicanguyen/Schleep/app/src/main/res/layout/bottom_sheet_math.xml"
     },
     {
         "merged": "/Users/jessicanguyen/Schleep/app/build/intermediates/res/merged/debug/layout_activity_main2.xml.flat",
         "source": "/Users/jessicanguyen/Schleep/app/src/main/res/layout/activity_main2.xml"
+>>>>>>> f0e020cd7b3c319070f9d66ddbb677c71fbbcff4
     },
     {
-        "merged": "/Users/jessicanguyen/Schleep/app/build/intermediates/res/merged/debug/layout_bottom_sheet_days.xml.flat",
-        "source": "/Users/jessicanguyen/Schleep/app/src/main/res/layout/bottom_sheet_days.xml"
+        "merged": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/res/mipmap-hdpi/ic_launcher.png"
     },
     {
-        "merged": "/Users/jessicanguyen/Schleep/app/build/intermediates/res/merged/debug/drawable_rounded_button.xml.flat",
-        "source": "/Users/jessicanguyen/Schleep/app/src/main/res/drawable/rounded_button.xml"
+        "merged": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/build/intermediates/res/merged/debug/drawable_divider.xml.flat",
+        "source": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/res/drawable/divider.xml"
     },
     {
-        "merged": "/Users/jessicanguyen/Schleep/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "/Users/jessicanguyen/Schleep/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml"
+        "merged": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/build/intermediates/res/merged/debug/layout_fragment_main.xml.flat",
+        "source": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/res/layout/fragment_main.xml"
     },
     {
-        "merged": "/Users/jessicanguyen/Schleep/app/build/intermediates/res/merged/debug/raw_man_screaming.mp3.flat",
-        "source": "/Users/jessicanguyen/Schleep/app/src/main/res/raw/man_screaming.mp3"
+        "merged": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/build/intermediates/res/merged/debug/layout_activity_alarm_landing_page.xml.flat",
+        "source": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/res/layout/activity_alarm_landing_page.xml"
     },
     {
-        "merged": "/Users/jessicanguyen/Schleep/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher.png.flat",
-        "source": "/Users/jessicanguyen/Schleep/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+        "merged": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
-        "merged": "/Users/jessicanguyen/Schleep/app/build/intermediates/res/merged/debug/raw_morning_flower.mp3.flat",
-        "source": "/Users/jessicanguyen/Schleep/app/src/main/res/raw/morning_flower.mp3"
+        "merged": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/build/intermediates/res/merged/debug/layout_content_select_task.xml.flat",
+        "source": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/res/layout/content_select_task.xml"
     },
     {
-        "merged": "/Users/jessicanguyen/Schleep/app/build/intermediates/res/merged/debug/layout_settings_activity.xml.flat",
-        "source": "/Users/jessicanguyen/Schleep/app/src/main/res/layout/settings_activity.xml"
+        "merged": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/build/intermediates/res/merged/debug/layout_fragment_first2.xml.flat",
+        "source": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/res/layout/fragment_first2.xml"
     },
     {
-        "merged": "/Users/jessicanguyen/Schleep/app/build/intermediates/res/merged/debug/drawable_ic_save_white_24dp.png.flat",
-        "source": "/Users/jessicanguyen/Schleep/app/src/main/res/drawable/ic_save_white_24dp.png"
+        "merged": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/build/intermediates/res/merged/debug/raw_man_screaming.mp3.flat",
+        "source": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/res/raw/man_screaming.mp3"
     },
     {
-        "merged": "/Users/jessicanguyen/Schleep/app/build/intermediates/res/merged/debug/drawable_ic_delete_forever_white_24dp.png.flat",
-        "source": "/Users/jessicanguyen/Schleep/app/src/main/res/drawable/ic_delete_forever_white_24dp.png"
+        "merged": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/build/intermediates/res/merged/debug/drawable_math.png.flat",
+        "source": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/res/drawable/math.png"
     },
     {
-        "merged": "/Users/jessicanguyen/Schleep/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher_round.png.flat",
-        "source": "/Users/jessicanguyen/Schleep/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"
+        "merged": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
     },
     {
-        "merged": "/Users/jessicanguyen/Schleep/app/build/intermediates/res/merged/debug/raw_rain.mp3.flat",
-        "source": "/Users/jessicanguyen/Schleep/app/src/main/res/raw/rain.mp3"
+        "merged": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/build/intermediates/res/merged/debug/drawable_ic_keyboard.xml.flat",
+        "source": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/res/drawable/ic_keyboard.xml"
     },
     {
-        "merged": "/Users/jessicanguyen/Schleep/app/build/intermediates/res/merged/debug/menu_edit_alarm_menu.xml.flat",
-        "source": "/Users/jessicanguyen/Schleep/app/src/main/res/menu/edit_alarm_menu.xml"
+        "merged": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/build/intermediates/res/merged/debug/navigation_nav_graph.xml.flat",
+        "source": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/res/navigation/nav_graph.xml"
     },
     {
-        "merged": "/Users/jessicanguyen/Schleep/app/build/intermediates/res/merged/debug/layout_fragment_alarm_landing_page.xml.flat",
-        "source": "/Users/jessicanguyen/Schleep/app/src/main/res/layout/fragment_alarm_landing_page.xml"
+        "merged": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/build/intermediates/res/merged/debug/drawable_shout.png.flat",
+        "source": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/res/drawable/shout.png"
     },
     {
-        "merged": "/Users/jessicanguyen/Schleep/app/build/intermediates/res/merged/debug/layout_content_select_task.xml.flat",
-        "source": "/Users/jessicanguyen/Schleep/app/src/main/res/layout/content_select_task.xml"
+        "merged": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/build/intermediates/res/merged/debug/drawable_ic_save_white_24dp.png.flat",
+        "source": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/res/drawable/ic_save_white_24dp.png"
     },
     {
-        "merged": "/Users/jessicanguyen/Schleep/app/build/intermediates/res/merged/debug/menu_main_menu.xml.flat",
-        "source": "/Users/jessicanguyen/Schleep/app/src/main/res/menu/main_menu.xml"
+        "merged": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/build/intermediates/res/merged/debug/drawable_ic_math.xml.flat",
+        "source": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/res/drawable/ic_math.xml"
     },
     {
-        "merged": "/Users/jessicanguyen/Schleep/app/build/intermediates/res/merged/debug/drawable_buttonshape.xml.flat",
-        "source": "/Users/jessicanguyen/Schleep/app/src/main/res/drawable/buttonshape.xml"
+        "merged": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/build/intermediates/res/merged/debug/drawable_ic_settings_black_24dp.xml.flat",
+        "source": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/res/drawable/ic_settings_black_24dp.xml"
     },
     {
-        "merged": "/Users/jessicanguyen/Schleep/app/build/intermediates/res/merged/debug/layout_fragment_alarm_landing_page_math.xml.flat",
-        "source": "/Users/jessicanguyen/Schleep/app/src/main/res/layout/fragment_alarm_landing_page_math.xml"
+        "merged": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
     },
     {
-        "merged": "/Users/jessicanguyen/Schleep/app/build/intermediates/res/merged/debug/layout_bottom_sheet_sounds.xml.flat",
-        "source": "/Users/jessicanguyen/Schleep/app/src/main/res/layout/bottom_sheet_sounds.xml"
+        "merged": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/build/intermediates/res/merged/debug/menu_main_menu.xml.flat",
+        "source": "/Users/noahpark/Documents/JHU/Sophomore Spring/UIMA/Schleep/app/src/main/res/menu/main_menu.xml"
     }
 ]

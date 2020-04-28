@@ -34,7 +34,7 @@
         android:scaleType="fitCenter"
         android:autoSizeTextType="uniform"
         android:scrollbars="vertical"
-        android:textColor="@color/colorPrimary"
+        android:textColor="@color/accent"
         android:background="@drawable/rounded_edittext"
 
         />

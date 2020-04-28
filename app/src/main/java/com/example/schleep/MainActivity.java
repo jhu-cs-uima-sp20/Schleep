@@ -23,7 +23,13 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main2);
         if (map == null) {
         map = new HashMap<>();
-    }
+        }
+        if (math_map_dif == null) {
+            math_map_dif = new HashMap<>();
+        }
+        if (math_map_ques == null) {
+            math_map_ques = new HashMap<>();
+        }
     }
 
 

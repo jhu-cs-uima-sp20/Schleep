@@ -36,6 +36,8 @@ public final class AlarmReceiver extends BroadcastReceiver {
     private static final String TAG = AlarmReceiver.class.getSimpleName();
     private static final String CHANNEL_ID = "alarm_channel";
     static String selected_task = "none";
+    static String math_diff = "easy";
+    static String math_ques = "1";
     private static final String BUNDLE_EXTRA = "bundle_extra";
     private static final String ALARM_KEY = "alarm_key";
 
@@ -213,6 +215,14 @@ public final class AlarmReceiver extends BroadcastReceiver {
         if(selected_task == null){
             selected_task = "none";
         }
+        math_diff = MainActivity.math_map_dif.getOrDefault(alarm.getId(), "easy");
+        if(math_diff == null){
+            math_diff  = "easy";
+        }
+        math_ques = MainActivity.math_map_ques.getOrDefault(alarm.getId(), "1");
+        if(math_ques == null){
+           math_ques = "1";
+        }
         return PendingIntent.getActivity(
                 ctx, alarm.notificationId(), launchIntent(ctx), FLAG_UPDATE_CURRENT
         );
@@ -238,6 +248,7 @@ public final class AlarmReceiver extends BroadcastReceiver {
             return new ScheduleAlarm(am, context);
         }
 
+        @RequiresApi(api = Build.VERSION_CODES.N)
         void schedule(Alarm alarm, PendingIntent pi) {
             if(SDK_INT > LOLLIPOP) {
                 am.setAlarmClock(new AlarmClockInfo(alarm.getTime(), launchAlarmLandingPage(ctx, alarm)), pi);

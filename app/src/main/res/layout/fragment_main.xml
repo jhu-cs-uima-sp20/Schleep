@@ -42,17 +42,17 @@
         android:id="@+id/recycler"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:paddingTop="65dp"
         android:clipToPadding="false"
+        android:paddingTop="65dp" />
 
-        />
-
-    <TextView
+    <ImageView
         android:id="@+id/empty_view"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:gravity="center"
-        android:text="" />
+        android:layout_width="271dp"
+        android:layout_height="978dp"
+        android:gravity="bottom"
+        app:layout_anchorGravity="bottom"
+        app:srcCompat="@drawable/ic_sheeps" />
+
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/fab"
         android:layout_width="wrap_content"
@@ -63,5 +63,7 @@
         android:layout_marginBottom="@dimen/fab_margin_default"
         app:srcCompat="@drawable/ic_alarm_white_24dp"
         app:fabSize="auto"/>
+
+
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

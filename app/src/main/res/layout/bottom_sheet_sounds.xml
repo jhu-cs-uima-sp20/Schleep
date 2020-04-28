@@ -7,7 +7,7 @@
     android:padding="16dp">
 
     <TextView
-        android:id="@+id/bs_sounds"
+        android:id="@+id/bs_typing"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center_horizontal"
@@ -20,19 +20,19 @@
     android:layout_height="wrap_content">
 
         <RadioButton
-            android:id="@+id/sounds_one"
+            android:id="@+id/typing_easy"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="None(Vibrate Only)" />
 
         <RadioButton
-            android:id="@+id/sounds_two"
+            android:id="@+id/typing_med"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Airhorn" />
 
         <RadioButton
-            android:id="@+id/sounds_three"
+            android:id="@+id/typing_hard"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Cuckoo" />
@@ -50,7 +50,7 @@
             android:text="Rain" />
 
         <RadioButton
-            android:id="@+id/sounds_six"
+            android:id="@+id/typing_pro"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Game Music" />

@@ -72,6 +72,10 @@
         "source": "/Users/jessicanguyen/Schleep/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
     },
     {
+        "merged": "/Users/jessicanguyen/Schleep/app/build/intermediates/res/merged/debug/drawable_walk2.png.flat",
+        "source": "/Users/jessicanguyen/Schleep/app/src/main/res/drawable/walk2.png"
+    },
+    {
         "merged": "/Users/jessicanguyen/Schleep/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher_round.png.flat",
         "source": "/Users/jessicanguyen/Schleep/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png"
     },
@@ -180,6 +184,10 @@
         "source": "/Users/jessicanguyen/Schleep/app/src/main/res/navigation/nav_graph2.xml"
     },
     {
+        "merged": "/Users/jessicanguyen/Schleep/app/build/intermediates/res/merged/debug/layout_bottom_sheet_typing.xml.flat",
+        "source": "/Users/jessicanguyen/Schleep/app/src/main/res/layout/bottom_sheet_typing.xml"
+    },
+    {
         "merged": "/Users/jessicanguyen/Schleep/app/build/intermediates/res/merged/debug/drawable_math.png.flat",
         "source": "/Users/jessicanguyen/Schleep/app/src/main/res/drawable/math.png"
     },
@@ -218,6 +226,10 @@
     {
         "merged": "/Users/jessicanguyen/Schleep/app/build/intermediates/res/merged/debug/drawable_shout.png.flat",
         "source": "/Users/jessicanguyen/Schleep/app/src/main/res/drawable/shout.png"
+    },
+    {
+        "merged": "/Users/jessicanguyen/Schleep/app/build/intermediates/res/merged/debug/layout_bottom_sheet_math.xml.flat",
+        "source": "/Users/jessicanguyen/Schleep/app/src/main/res/layout/bottom_sheet_math.xml"
     },
     {
         "merged": "/Users/jessicanguyen/Schleep/app/build/intermediates/res/merged/debug/layout_activity_main2.xml.flat",

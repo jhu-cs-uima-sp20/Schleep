@@ -18,6 +18,8 @@ public class SelectTask extends AppCompatActivity {
 
     /*Will check if a button is clicked or not*/
 
+    private static String task;
+    
     boolean noTaskSelected = true;
     boolean mathTaskSelected = false;
     boolean typingTaskSelected = false;
@@ -78,7 +80,7 @@ public class SelectTask extends AppCompatActivity {
 
 
 
-        saveButton = (Button)findViewById(R.id.save);
+     saveButton = (Button)findViewById(R.id.save);
         saveButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v)
@@ -86,37 +88,36 @@ public class SelectTask extends AppCompatActivity {
                 Toast.makeText(getApplicationContext(),"Task saved!",Toast.LENGTH_SHORT).show();
                 if(typingTaskSelected)
                 {
-                    //Bundle extras = intent.getExtras();
-                    Bundle bundle = new Bundle();
-                    bundle.putString("task", "Typing");
-                    //Intent intent = new Intent(getApplicationContext(), AddEditAlarmActivity.class);
-                    //intent.putExtras(bundle);
-                    //startActivity(intent);
+                    setVar("typing");
                 }
                 else if (mathTaskSelected)
                 {
-                    //something here
-                    Bundle bundle = new Bundle();
-                    bundle.putString("task", "Math");
-                    AddEditAlarmFragment fragobj = new AddEditAlarmFragment();
-                    fragobj.setArguments(bundle);
+                    setVar("math");
                 }
                 else {
-                    //notaskselected
-                    Bundle bundle = new Bundle();
-                    bundle.putString("task", "None");
-                    AddEditAlarmFragment fragobj = new AddEditAlarmFragment();
-                    fragobj.setArguments(bundle);
+                    setVar("none");
                 }
             }
         });
     }
 
+
+    public static String getVar() {
+        return task;
+    }
+
+    public void setVar(String task) {
+        this.task = task;
+    }
+
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         // handle arrow click here
-        if (item.getItemId() == android.R.id.home) {
-            finish(); // close this activity and return to preview activity (if there is any)
+         if (item.getItemId() == android.R.id.home) {
+            Intent i = new Intent();
+            i.putExtra("task", task);
+            setResult(RESULT_OK, i);
+            finish();
         }
 
         return super.onOptionsItemSelected(item);

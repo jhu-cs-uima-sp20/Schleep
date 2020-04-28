@@ -35,6 +35,7 @@ public final class AddEditAlarmFragment extends Fragment {
     private TextView repeat;
     private TextView Snooze;
     private TextView Sound;
+    private String task;
 
     /*Test*/
     private TextView Task;
@@ -108,14 +109,14 @@ public final class AddEditAlarmFragment extends Fragment {
     @Override
     public void onActivityCreated(Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
-/*
+        
         Task.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent selectTask = new Intent(getActivity(), SelectTask.class);
-                startActivity(selectTask);
+                getActivity().startActivityForResult(selectTask, 1);
             }
-        });*/
+        });
 
         repeat.setOnClickListener(new View.OnClickListener() {
             @Override
